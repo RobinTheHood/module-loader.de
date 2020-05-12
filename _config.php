@@ -1,0 +1,7 @@
+<?php
+
+$configuration = [
+    'users' => [
+        'username' => '' 
+    ]
+];

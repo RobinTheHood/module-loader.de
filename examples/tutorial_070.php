@@ -1,0 +1,6 @@
+<?php
+$configuration = [
+    // ...
+    'installMode' => 'link',
+    // ...
+];

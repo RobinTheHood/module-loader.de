@@ -1,0 +1,13 @@
+...
+├── moduleinfo.json
+└── new_files
+    ├── admin
+    |   └── includes
+    |       └── modules
+    |          └── system
+    |              └── mc_my_first_module.php
+    └── lang
+        └── german
+            └── modules
+                └── system
+                    └── mc_my_first_module.php

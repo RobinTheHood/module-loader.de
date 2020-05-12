@@ -1,0 +1,4 @@
+"require": {
+    "composer/autoload": "^1.1.0",
+    "robinthehood/modified-std-module": "^0.1.0"
+}

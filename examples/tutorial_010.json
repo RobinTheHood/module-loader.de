@@ -1,0 +1,10 @@
+{
+    "name": "Mein erstes Modul",
+    "archiveName": "mycompany/my-first-module",
+    "sourceDir": "new_files",
+    "version": "auto",
+        
+    "modifiedCompatibility": [
+        "2.0.4.2"
+    ]
+}

@@ -1,0 +1,4 @@
+# Verzeichnisstruktur
+└── Modules
+    └── mycompany
+        └── my-first-module

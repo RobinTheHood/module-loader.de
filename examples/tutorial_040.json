@@ -1,0 +1,15 @@
+{
+    "name": "Mein erstes Modul",
+    "archiveName": "mycompany/my-first-module",
+    "sourceDir": "new_files",
+    "version": "auto",
+    
+    "modifiedCompatibility": [
+        "2.0.4.2"
+    ],
+
+    "require": {
+        "composer/autoload": "^1.1.0",
+        "robinthehood/modified-std-module": "^0.1.0"
+    }
+}
