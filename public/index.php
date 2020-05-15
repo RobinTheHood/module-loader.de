@@ -36,7 +36,7 @@
             </a>
 
 
-            <h2>Der MMLC ist eine Software zur Verwalltung von Modulen in deinem modified eCommerce Shop.</h2>
+            <h2>Der MMLC ist eine Software zur Verwaltung von Modulen in deinem modified eCommerce Shop.</h2>
             <br>
 
             <p>
