@@ -116,11 +116,11 @@
             </p>
 
             <p>
-                Wenn du uns helfen möchtest, wird das bald möglich sein. Gerade sind wir noch dabei das Projekt für GitHub vorzubereiten, damit es dort bald als Open-Source-Projekt veröffentlicht werden kann. Hab' bitte noch etwas Geduld. In der Zwischenzeit kannst du uns bereits eine E-Mail an <a href="mailto:info@module-loader.de">info@module-loader.de</a> senden.
+                Den MMLC findest du als Open-Source-Projekt auf <a href="https://github.com/RobinTheHood/ModifiedModuleLoaderClient">GitHub</a>. Hier kannst du Wünsche und Fehler als Issues eintragen. Oder du machst einen Pull request, wenn du bereits konkrete Quellcodeverbesserungen einreichen möchtest. Wenn du Hilfe brauchst, kannst du uns auch gern eine E-Mail an <a href="mailto:info@module-loader.de">info@module-loader.de</a> senden.
             </p>
 
             <p>
-                Wenn du dich an dieser Webseite und der Dokumentation beteiligen möchtest, findest du den Quellcode hierfür bereits auf <a href="https://github.com/RobinTheHood/module-loader.de">GitHub</a>.
+                Wenn du dich an dieser Webseite und der Dokumentation beteiligen möchtest, findest du den Quellcode hierfür ebenfalls auf <a href="https://github.com/RobinTheHood/module-loader.de">GitHub</a>.
             </p>
         </div>
 
