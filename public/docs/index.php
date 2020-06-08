@@ -30,7 +30,7 @@
                 <li><a href="/docs/tutorial.php">Tutorial: Dein erstes Modul mit dem MMLC programmieren</a></li>
                 <li><a href="/docs/local_dev_environment.php">Tutorial: Lokale Entwicklungsumgebung einrichten</a></li>
                 <li><a href="/docs/create_module_script.php">Tutorial: Modul erstellen mit createModule.sh</a></li>
-                <li><a href="#">Tutorial: Dein erstes Modul veröffentlichen</a></li>
+                <li><a href="/docs/publish_module.php">Tutorial: Dein erstes Modul veröffentlichen</a></li>
             </ul>
 
             <h3>References and internals</h3>

@@ -14,6 +14,9 @@ body {
 
 img {
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 
@@ -93,7 +96,8 @@ code.block {
 }
 
 img.border {
-    border: 1px solid #cccccc;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
 }
 
 form.download {

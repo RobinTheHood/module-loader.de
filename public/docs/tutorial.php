@@ -210,7 +210,7 @@
             <section id="create_lang_file">
                 <h3>Sprachdatei für das System-Modul erstellen</h3>
 
-                <p>User System Modul benötigt noch eine Sprachdatei, damit der der User etwas angezeigt bekommt. Die Sprachdatei muss später in dem Verzeichnis <code>SHOP_ROOT/lang/german/modules/system</code> liegen. Damit der MMLC diese Datei in dieses Verzeichnis kopiert, müssen wir das Verzeichnis in <code>.../new_files</code> anlegen. Wir legen also die Verzeichnisstruktur <code>.../new_files/lang/german/modules/system/</code> an.</p>
+                <p>User System Modul benötigt noch eine Sprachdatei, damit der User etwas angezeigt bekommt. Die Sprachdatei muss später in dem Verzeichnis <code>SHOP_ROOT/lang/german/modules/system</code> liegen. Damit der MMLC diese Datei in dieses Verzeichnis kopiert, müssen wir das Verzeichnis in <code>.../new_files</code> anlegen. Wir legen also die Verzeichnisstruktur <code>.../new_files/lang/german/modules/system/</code> an.</p>
 
                 <img class="border" src="/images/tutorial_070.png">
 
