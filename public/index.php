@@ -16,7 +16,7 @@
         <div class="container">
             <div style="text-align: center">
                 <h1>MMLC - Modified Module Loader Client</h1>
-                <strong>Latest: 1.15.1</strong><br>
+                <strong>Latest: 1.16.1</strong><br>
             </div>
 
             <div class="notice danger">
