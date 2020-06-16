@@ -127,7 +127,25 @@
             <section id="tag_version">
                 <h3>Versionsnummer vergeben</h3>
 
-                <p><i>Dokumentation in Arbeit ...</i></p>
+                <p>
+                    Es ist wichtig, dass du deinem Modul eine oder mehrere Versionsnummern gibtst. Versionen werden über <strong>git tags</strong> verwaltet. Das Format deiner Versionsnummern muss der <strong>Semantic Versioning (SemVer) Spezifikation</strong> entsprechen. Informationen zu SemVer findest du unter <a href="https://semver.org/lang/de/">semver.org</a>.
+                </p>
+
+                <p>
+                    In der <strong>moduleinfo.json</strong> deines Moduls solltest du im Feld <code>version</code> den Wert <code>auto</code> eintragen. Diese Einstellung sorgt dafür, dass der MMLS sich an den Releases / Veröffentlichungen deines Git-Repositorys orientiert.
+                </p>
+
+                <p>
+                    Einen neuen Release / eine Veröffentlichung machst du, indem du einen Commit mit einer Versionsnummer taggst. Wenn du z. B. dein Modul in der Version <code>1.0.0</code> veröffentlichen möchtest, wählst du einen passenden Commit aus und taggst diesen mit <code>1.0.0</code>.
+                </p>
+
+                <p>
+                    Hier findest du ein <a href="https://github.com/RobinTheHood/modified-std-module/tags">Beispiel wie es beim Modul robinthehood/modified-std-module</a> gemacht wurde.
+                </p>
+
+                <div class="notice warning">
+                    <strong>Wichtig:</strong> Wenn du in deinem Git-Repository keine Versionsnummern vergibst, wird der MMLS keine Versionen finden, die er an den MMLC ausspielen kann.
+                </div>
             </section>
 
             <section id="create_mmls_account">
