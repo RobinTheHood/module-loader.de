@@ -128,7 +128,7 @@
                 <h3>Versionsnummer vergeben</h3>
 
                 <p>
-                    Es ist wichtig, dass du deinem Modul eine oder mehrere Versionsnummern gibtst. Versionen werden über <strong>git tags</strong> verwaltet. Das Format deiner Versionsnummern muss der <strong>Semantic Versioning (SemVer) Spezifikation</strong> entsprechen. Informationen zu SemVer findest du unter <a href="https://semver.org/lang/de/">semver.org</a>.
+                    Es ist wichtig, dass du deinem Modul eine oder mehrere Versionsnummern gibst. Versionen werden über <strong>git tags</strong> verwaltet. Das Format der Versionsnummer muss der <strong>Semantic Versioning (SemVer) Spezifikation</strong> entsprechen. Informationen zu SemVer findest du unter <a href="https://semver.org/lang/de/">semver.org</a>.
                 </p>
 
                 <p>
@@ -158,11 +158,11 @@
                 </p>
 
                 <p>
-                    Wir erstellen hierzu einen Account bei <a href="https://app.module-loader.de">app.module-loader.de</a>. Du musst beim Erstellen deines Accounts einen <code>vendorName</code> wählen. Dieser <code>vendorName</code> muss der Gleiche sein, den du für deine Module verwendest. Im Root-Verzeichnis deiner Module befindet sich jeweils die <code>moduleinfo.json</code>, die du erstellst hast. Hier gibt es einen Eintrag <code>archiveName</code>. Dieser Name ist zusammengesetzt aus <code>vendorName</code> / <code>moduleName</code>.
+                    Wir erstellen hierzu einen Account bei <a href="https://app.module-loader.de">app.module-loader.de</a>. Du musst beim Erstellen deines Accounts einen <code>vendorName</code> wählen. Dieser <code>vendorName</code> muss der Gleiche sein, den du für deine Module verwendest. Im Root-Verzeichnis deiner Module befindet sich jeweils die <code>moduleinfo.json</code> Datei, die du erstellst hast. Hier gibt es einen Eintrag <code>archiveName</code>. Dieser Name ist zusammengesetzt aus <code>vendorName</code> / <code>moduleName</code>.
                 </p>
 
                 <div class="notice warning">
-                    <strong>Wichtig:</strong> Du (oder dein Unternehmen) müsst den <code>vendorNamen</code> eurer Module verwenden. Weitere Informationen findest du unter <a href="/docs/naming_convention.php">Naming Convention</a>.
+                    <strong>Wichtig:</strong> Du (oder dein Unternehmen) musst den <code>vendorNamen</code> deiner Module verwenden. Weitere Informationen findest du unter <a href="/docs/naming_convention.php">Naming Convention</a>.
                 </div>
 
                 <br>
