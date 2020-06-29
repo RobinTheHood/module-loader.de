@@ -25,8 +25,11 @@
 
             <!-- <img src="../images/Intro_Developer.png"> -->
 
+            <h3>Community / Forum / Chat</h3>
+            Wenn du Hilfe benötigst oder Anregungen hast, stelle deine Frage sehr gerne auf <a href="https://discord.gg/9NqwJqP">Discord #mmlc</a>. Wir beantworten sie dir gerne. Wenn du dich fragst, wieso wir Discord verwenden, findest du hier die <a href="https://discord.com/open-source">Antwort auf deine Frage</a>.
+
             <h3>Video Tutorials</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VH4h3a8RCco?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/VH4h3a8RCco?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             <h3>HowTos</h3>
             <ul>
@@ -50,11 +53,11 @@
             </p>
 
             <p>
-                Den MMLC findest du als Open-Source-Projekt auf <a href="https://github.com/RobinTheHood/ModifiedModuleLoaderClient">GitHub</a>. Hier kannst du Wünsche und Fehler als Issues eintragen. Oder du machst einen Pull request, wenn du bereits konkrete Quellcodeverbesserungen einreichen möchtest. Wenn du Hilfe brauchst, kannst du uns auch gern eine E-Mail an <a href="mailto:info@module-loader.de">info@module-loader.de</a> senden.
+                Den MMLC findest du als Open-Source-Projekt auf <a target="_blank" href="https://github.com/RobinTheHood/ModifiedModuleLoaderClient">GitHub</a>. Hier kannst du Wünsche und Fehler als Issues eintragen. Oder du machst einen Pull request, wenn du bereits konkrete Quellcodeverbesserungen einreichen möchtest. Wenn du Hilfe brauchst, kannst du uns auch gerne bei <a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc</a> nach Rat fragen oder uns eine E-Mail an <a href="mailto:info@module-loader.de">info@module-loader.de</a> senden.
             </p>
 
             <p>
-                Wenn du dich an dieser Webseite und der Dokumentation beteiligen möchtest, findest du den Quellcode hierfür ebenfalls auf <a href="https://github.com/RobinTheHood/module-loader.de">GitHub</a>.
+                Wenn du dich an dieser Webseite und der Dokumentation beteiligen möchtest, findest du den Quellcode hierfür ebenfalls auf <a target="_blank" href="https://github.com/RobinTheHood/module-loader.de">GitHub</a>.
             </p>
         </div>
 

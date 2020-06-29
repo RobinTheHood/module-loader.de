@@ -19,6 +19,9 @@
 
             <p>Diese Anleitung beschreibt dir den Umgang mit dem ModifiedModuleLoderClient (MMLC). Beim MMLC handelt es sich um die Clientvariante des ModifiedModuleLoaders (MML), die du dir auf deinem Server in deinen Shop installierst. Die Clientvariante kommuniziert per API mit einer Servervariante des ModifiedModuleLoaders. Der MMLC erreicht diese API unter <code>app.module-loader.de</code>. Die Servervariante musst und kannst du nicht installieren.</p>
 
+            <h3>Community / Forum / Chat</h3>
+            Wenn du zusätzliche Hilfe benötigst, stelle deine Frage sehr gerne auf <a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc</a>. Wir beantworten sie dir gerne. Wenn du dich fragst, wieso wir Discord verwenden, findest du hier die <a target="_blank" href="https://discord.com/open-source">Antwort auf deine Frage</a>.
+
             <h3>Installation</h3>
 
             <p>In diesem Abschnitt wird beschrieben, wie du den MMLC in deinen Shop installierst. Die Installation ist ganz einfach. Folgende Schritte musst du durchführen:</p>
@@ -76,7 +79,7 @@
 
             <h4>Modulversionen</h4>
 
-            <p>Die Module des MMLCs können in unterschiedlichen Versionen vorliegen. Wird z. B. ein Programmfehler in einer Version entdeckt und korrigiert oder eine neue Funktion zu einem Modul hinzugefügt, wird dir das Modul in einer neuen Version zur Verfügung gestellt. Eine neue Version kannst du durch ein Update installieren. Schaue dir hierfür den <em>Abschnitt „Ein installiertes Modul aktualisieren“</em> an. Der MMLC verwendet für die Nummerierung der Versionen „Semantic Versioning“. Information hierzu findest du unter <a href="https://semver.org/lang/de/">https://semver.org/lang/de/</a></p>
+            <p>Die Module des MMLCs können in unterschiedlichen Versionen vorliegen. Wird z. B. ein Programmfehler in einer Version entdeckt und korrigiert oder eine neue Funktion zu einem Modul hinzugefügt, wird dir das Modul in einer neuen Version zur Verfügung gestellt. Eine neue Version kannst du durch ein Update installieren. Schaue dir hierfür den <em>Abschnitt „Ein installiertes Modul aktualisieren“</em> an. Der MMLC verwendet für die Nummerierung der Versionen „Semantic Versioning“. Information hierzu findest du unter <a target="_blank" href="https://semver.org/lang/de/">https://semver.org/lang/de/</a></p>
 
             <h4>Abhängigkeiten</h4>
 
@@ -115,7 +118,7 @@
             <h4>Tab - Übersicht</h4>
 
             <ul>
-                <li><strong>Version</strong> - Zeigt dir die ausgewählte Version des Moduls in Semver Konvention an. (<a href="https://semver.org/lang/de/">https://semver.org/lang/de/</a>)</li>
+                <li><strong>Version</strong> - Zeigt dir die ausgewählte Version des Moduls in Semver Konvention an. (<a target="_blank" href="https://semver.org/lang/de/">https://semver.org/lang/de/</a>)</li>
                 <li><strong>Preis</strong> - Zeigt dir den Kaufpreis bei kostenplfichtigen Modulen an.</li>
                 <li><strong>Kompatible mit Modified</strong> - Zeigt dir an, mit welchen Versionen des Shopsystems das Modul getestet wurde.</li>
                 <li><strong>Entwickler</strong> - Zeigt dir den Entwickler an, von dem das Modul hergestellt wurde.</li>
@@ -138,7 +141,7 @@
 
             <ul>
                 <li><strong>Archivname</strong> - Zeigt dir den technischen Namen des Moduls an. Er setzt sich aus <i>VENDOR-NAME/MODULE-NAME</i> zusammen.</li>
-                <li><strong>Version</strong> - Zeigt dir die ausgewählte Version des Moduls in Semver Konvention an. (<a href="https://semver.org/lang/de/">https://semver.org/lang/de/</a>)</li>
+                <li><strong>Version</strong> - Zeigt dir die ausgewählte Version des Moduls in Semver Konvention an. (<a target="_blank" href="https://semver.org/lang/de/">https://semver.org/lang/de/</a>)</li>
                 <li><strong>Kompatible mit Modified</strong> - Zeigt dir an, mit welchen Versionen des Shopsystems das Modul getestet wurde.</li>
                 <li><strong>Alle Versionen</strong> - Listet dir alle verfügbaren Versionen des Moduls auf. Klicke eine Version an um mehr Informationen zu erhalten.</li>
                 <li><strong>Benötigt</strong> - Listet dir alle Module auf, die das Modul benötigt um korrekt zu arbeiten.</li>
@@ -197,7 +200,7 @@
 
             <h3>Deinen MMLC aktualisieren</h3>
 
-            <p>Wir arbeiten ständig an dem MMLC, um Fehler zu beheben oder neue Funktionen hinzuzufügen. Wenn eine neue Version des MMLCs vorliegt, kannst du deinen MMLC einfach selbst mit einem Klick unter dem Menüpunkt <code>System</code> aktualisieren. Der MMLC verwendet für die Nummerierung seiner Versionen „Semantic Versioning“. Information hierzu findest du unter <a href="https://semver.org/lang/de/">https://semver.org/lang/de/</a></p>
+            <p>Wir arbeiten ständig an dem MMLC, um Fehler zu beheben oder neue Funktionen hinzuzufügen. Wenn eine neue Version des MMLCs vorliegt, kannst du deinen MMLC einfach selbst mit einem Klick unter dem Menüpunkt <code>System</code> aktualisieren. Der MMLC verwendet für die Nummerierung seiner Versionen „Semantic Versioning“. Information hierzu findest du unter <a target="_blank" href="https://semver.org/lang/de/">https://semver.org/lang/de/</a></p>
 
             <h3>Fehler und Patches</h3>
 
