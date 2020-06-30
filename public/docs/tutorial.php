@@ -17,7 +17,7 @@
 
 
             <div class="notice danger">
-                <strong>Hinweis:</strong> Das ist die erste Version dieses Tutorials. Mit deiner Hilfe können wir diese Seite weiter verbessern. Falls du Fehler entdeckst oder Fragen hast, schreibe uns eine E-Mail an <a href="mailto:info@module-loader.de">info@module-loader.de</a>.
+                <strong>Hinweis:</strong> Das ist die erste Version dieses Tutorials. Mit deiner Hilfe können wir diese Seite weiter verbessern. Falls du Fehler entdeckst oder Fragen hast, schreibe uns eine E-Mail an <a href="mailto:info@module-loader.de">info@module-loader.de</a> oder sprich auf unserem <a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc DE/EN</a> Server mit der Community</a>.
             </div>
 
             <section id="intro">
