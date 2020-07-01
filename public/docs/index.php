@@ -29,7 +29,7 @@
             Wenn du Hilfe benötigst oder Anregungen hast, stelle deine Frage sehr gerne auf <a href="https://discord.gg/9NqwJqP">Discord #mmlc</a>. Wir beantworten sie dir gerne. Wenn du dich fragst, wieso wir Discord verwenden, findest du hier die <a href="https://discord.com/open-source">Antwort auf deine Frage</a>.
 
             <h3>Video Tutorials</h3>
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/VH4h3a8RCco?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe style="box-shadow: 0px 5px 10px 5px #cccccc" width="800" height="450" src="https://www.youtube.com/embed/VH4h3a8RCco?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             <h3>HowTos</h3>
             <ul>
