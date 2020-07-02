@@ -15,7 +15,7 @@
 
             <p><i>Du bist Entwickler und möchtest Module entwickeln, dann schau dir die <a href="/docs/index.php">Information für Entwickler</a> an.</i></p>
 
-            <h2>ModifiedModuleLoaderClient Anleitung</h2>
+            <h2>Modified Module Loader Client Anleitung</h2>
 
             <p>Diese Anleitung beschreibt dir den Umgang mit dem ModifiedModuleLoderClient (MMLC). Beim MMLC handelt es sich um die Clientvariante des ModifiedModuleLoaders (MML), die du dir auf deinem Server in deinen Shop installierst. Die Clientvariante kommuniziert per API mit einer Servervariante des ModifiedModuleLoaders. Der MMLC erreicht diese API unter <code>app.module-loader.de</code>. Die Servervariante musst und kannst du nicht installieren.</p>
 
