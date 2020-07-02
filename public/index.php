@@ -35,6 +35,19 @@
                 Entwickler
             </a>
 
+            <section>
+                <h2>Installiere den MMLC</h2>
+                <p><i>In der folgenden Anleitung musst du <code>www.dein-shop.tld</code> durch deine Shop-Url ersetzen.</i></p>
+
+                <ol>
+                    <li>Lade dir die <strong>mmlc_installer.php</strong> Datei kostenlos herunter. <a href="/download.php">Download Link</a></li>
+                    <li>Kopiere die <strong>mmlc_installer.php</strong> Datei in das Root-Verzeichnis deines Shops. Z. B. mit einem FTP-Client.</li>
+                    <li>Rufe den Installer im Browser über <strong>www.dein-shop.tld/mmlc_installer.php</strong> auf.</li>
+                    <li>Nach der Installation erreichst du den MMLC unter <strong>www.dein-shop.tld/ModifiedModuleLoaderClient</strong></li>
+                </ol>
+
+                <p>Für mehr Informationen schaue dir die <a href="/documentation.php">Anleitung</a> an.</p>
+            </section>
 
             <h2>Der MMLC ist eine Software zur Verwaltung von Modulen in deinem modified eCommerce Shop.</h2>
             <p>
@@ -52,18 +65,6 @@
             
 
             <img src="/images/Modul_Detail_Seite.png">
-
-            <h2>Installiere den MMLC</h2>
-            <p><i>In der folgenden Anleitung musst du <code>www.dein-shop.tld</code> durch deine Shop-Url ersetzen.</i></p>
-
-            <ol>
-                <li>Lade dir die <strong>mmlc_installer.php</strong> Datei kostenlos herunter. <a href="/download.php">Download Link</a></li>
-                <li>Kopiere die <strong>mmlc_installer.php</strong> Datei in das Root-Verzeichnis deines Shops. Z. B. mit einem FTP-Client.</li>
-                <li>Rufe den Installer im Browser über <strong>www.dein-shop.tld/mmlc_installer.php</strong> auf.</li>
-                <li>Nach der Installation erreichst du den MMLC unter <strong>www.dein-shop.tld/ModifiedModuleLoaderClient</strong></li>
-            </ol>
-
-            <p>Für mehr Informationen schaue dir die <a href="/documentation.php">Anleitung</a> an.</p>
 
             <h2>Was macht der MMLC?</h2>
             <p>
@@ -94,7 +95,7 @@
                 <li><a href="https://www.shopbetreuung.com">Fishnet Services</a></li>
             </ul>
 
-            <p>Schreib uns eine E-Mail an <a href="mailto:info@module-loader.de">info@module-loader.de</a>, wenn du deine Module auch über den MMLC verfügbar machen oder mit in die Liste hier aufgenommen werden möchtest.</p>
+            <p>Wenn du deine Module auch über den MMLC verfügbar machen willst oder mit in die Liste hier aufgenommen werden möchtest, findest du hierzu Information unter dem Menüpunkt <a href="/docs/index.php">Entwickler</a>. Bei Fragen schreib uns auf unserem <a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc DE/EN</a> Community Server oder sende uns eine E-Mail an <a href="mailto:info@module-loader.de">info@module-loader.de</a>.</p>
 
             <h2>Müssen Anpassung an meinem Template gemacht werden?</h2>
             <p>
