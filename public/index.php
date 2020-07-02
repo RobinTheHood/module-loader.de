@@ -91,6 +91,7 @@
             <ul>
                 <li><a href="https://www.first-web.de/modified-e-commerce-module.html">First-Web GmbH</a></li>
                 <li><a href="https://www.sumw.de">SUMW - Software & Multimedia Wieschendorf</a></li>
+                <li><a href="https://www.shopbetreuung.com">Fishnet Services</a></li>
             </ul>
 
             <p>Schreib uns eine E-Mail an <a href="mailto:info@module-loader.de">info@module-loader.de</a>, wenn du deine Module auch über den MMLC verfügbar machen oder mit in die Liste hier aufgenommen werden möchtest.</p>
