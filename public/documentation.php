@@ -17,10 +17,10 @@
 
             <h2>Modified Module Loader Client Anleitung</h2>
 
-            <p>Diese Anleitung beschreibt dir den Umgang mit dem ModifiedModuleLoderClient (MMLC). Beim MMLC handelt es sich um die Clientvariante des ModifiedModuleLoaders (MML), die du dir auf deinem Server in deinen Shop installierst. Die Clientvariante kommuniziert per API mit einer Servervariante des ModifiedModuleLoaders. Der MMLC erreicht diese API unter <code>app.module-loader.de</code>. Die Servervariante musst und kannst du nicht installieren.</p>
+            <p>Diese Anleitung beschreibt dir den Umgang mit dem Modified Module Loader Client (MMLC). Beim MMLC handelt es sich um die Clientvariante des Modified Module Loaders (MML), die du dir auf deinem Server in deinen Shop installierst. Die Clientvariante kommuniziert per API mit einer Servervariante (MMLS) des Modified Module Loaders. Der MMLC erreicht diese API unter <code>app.module-loader.de</code>. Die Servervariante (MMLS) musst und kannst du nicht installieren.</p>
 
             <h3>Community / Forum / Chat</h3>
-            Wenn du zusätzliche Hilfe benötigst, stelle deine Frage sehr gerne auf <a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc</a>. Wir beantworten sie dir gerne. Wenn du dich fragst, wieso wir Discord verwenden, findest du hier die <a target="_blank" href="https://discord.com/open-source">Antwort auf deine Frage</a>.
+            Auf unserem <strong><a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc DE/EN</a></strong> Community Server beantworten wir dir deine Fragen sehr gerne, wenn du zusätzliche Hilfe benötigst. Auf Discord kannst du dich auch mit anderen Entwickelrn und Usern austauschen. Wenn du dich fragst, wieso wir Discord verwenden, findest du <a target="_blank" href="https://discord.com/open-source">hier die Antwort</a> auf deine Frage.
 
             <h3>Installation</h3>
 
@@ -38,7 +38,7 @@
 
             <h3>Deinstallation</h3>
 
-            <p>Bereits installierte Module funktionieren auch nach der Deinstallation des MMLCs, falls du diese Module nicht vorher deinstallierst. Für eine komplette Deinstallation solltest du zuerst alle Module, die du mit dem MMLC installiert hast deinstallieren. Dieser Schritt ist optional, wird aber empfohlen, wenn du dein Shopsystem in den Zustand vor der Installation des MMLCs bringen möchtest. Danach kannst du einfach das Verzeichnis <code>/ModifiedModuleLoderClient</code> im Root-Verzeichnis deines Shops löschen. In diesem Verzeichnis befinden sich sämtliche Dateien zum MMLC.</p>
+            <p>Bereits installierte Module funktionieren auch nach der Deinstallation des MMLCs, falls du diese Module nicht vorher deinstallierst. Für eine komplette Deinstallation solltest du zuerst alle Module, die du mit dem MMLC installiert hast deinstallieren. Dieser Schritt ist optional, wird aber empfohlen, wenn du dein Shopsystem in den Zustand vor der Installation des MMLCs bringen möchtest. Danach kannst du einfach das Verzeichnis <code>/ModifiedModuleLoaderClient</code> im Root-Verzeichnis deines Shops löschen. In diesem Verzeichnis befinden sich sämtliche Dateien zum MMLC.</p>
 
             <p><i>Tipp: In dem Root-Verzeichnis deines Shops, kann je nachdem welche Module du installiert hast, dass Verzeichnis <code>vendor-no-composer</code> installiert worden sein. Wenn du alle Module deinstalliert hast, sollte dieses Verzeichnis leer sein. Möchtest du den MMLC und all deine Module komplett entfernen, bietet es sich an zu kontrollieren, ob das Verzeichnis <code>vendor-no-composer</code> leer ist.</i></p>
 
@@ -48,7 +48,7 @@
 
             <h4>Verzeichnisstruktur</h4>
 
-            <p>In diesem Abschnitt erfährst, du wie die Verzeichnisstruktur unter <code>/ModifiedModuleLoderClient</code> aufgebaut ist und wozu diese dienen.</p>
+            <p>In diesem Abschnitt erfährst, du wie die Verzeichnisstruktur unter <code>/ModifiedModuleLoaderClient</code> aufgebaut ist und wozu diese dienen.</p>
 
             <ul>
                 <li><strong>Archives</strong> - Beinhaltet die geladenen Module als gepackte <code>.tar</code> Dateien.</li>
@@ -63,7 +63,7 @@
 
             <h4>Woher kommen die Module?</h4>
 
-            <p>Die Module werden von unterschiedlichen Entwicklern für den MMLC programmiert. Die Servervariante des ModifiedModuleLoaders unter app.module-loader.de weiß, wo diese Entwickler ihre Module für den ModifiedModuleLoader bereitgestellt haben. Rufst du deinen MMLC auf deinem Server auf, fordert dein MMLC über eine API die Servervariante unter app.module-loader.de dazu auf, ihm Informationen über diese Module zu liefern. Wenn du ein Modul installierst, lädt dein MMLC das entsprechende Modul von app.module-loader.de und speichert es auf deinem Server in dem Verzeichnis <code>/ModifiedModuleLoderClient/Modules</code> ab.</p>
+            <p>Die Module werden von unterschiedlichen Entwicklern für den MMLC programmiert. Die Servervariante des Modified Module Loaders unter app.module-loader.de weiß, wo diese Entwickler ihre Module für den ModifiedModuleLoader bereitgestellt haben. Rufst du deinen MMLC auf deinem Server auf, fordert dein MMLC über eine API die Servervariante unter app.module-loader.de dazu auf, ihm Informationen über diese Module zu liefern. Wenn du ein Modul installierst, lädt dein MMLC das entsprechende Modul von app.module-loader.de und speichert es auf deinem Server in dem Verzeichnis <code>/ModifiedModuleLoaderClient/Modules</code> ab.</p>
 
             <h4>Modulstatus</h4>
 
@@ -71,7 +71,7 @@
 
             <ul>
                 <li><strong>Nicht geladen</strong> - Das Modul befindet sich nicht auf deinem Server.</li>
-                <li><strong>Geladen</strong> - Das Modul befindet sich auf deinem Server unter <code>/ModifiedModuleLoderClient/Modules</code> ist aber nicht installiert.</li>
+                <li><strong>Geladen</strong> - Das Modul befindet sich auf deinem Server unter <code>/ModifiedModuleLoaderClient/Modules</code> ist aber nicht installiert.</li>
                 <li><strong>Installiert</strong> - Das Modul befindet sich auf deinem Server und ist installiert.</li>
                 <li><strong>Bearbeitet</strong> - Das Modul befindet sich auf deinem Server, ist installiert und du hast Moduldateien bearbeitet.</li>
             </ul>
@@ -182,7 +182,7 @@
 
             <h3>AccessToken</h3>
 
-            <p>Damit du im MMLC kostenpflichtige Module laden kannst, musst du ein AccessToken in der Konfigurationsdatei deines MMLCs hinterlegen. Mit diesem Token kann dein MMLC sich bei der Servervariante des ModifiedModuleLoaders unter app.module-loader.de identifizieren und die Servervariante weiß anhand deines AccessTokens, welche Module du laden darfst und welche nicht. Zudem gibt es auch Module, die z. B. speziell für einen bestimmten Kunden oder speziell nur für dich gedacht sind. Diese Module soll kein anderer Nutzer des MMLCs sehen können. Durch deinen AccessToken weiß die Servervariante, welche Module er dir anzeigen und bereitstellen darf und welche nicht.</p>
+            <p>Damit du im MMLC kostenpflichtige Module laden kannst, musst du ein AccessToken in der Konfigurationsdatei deines MMLCs hinterlegen. Mit diesem Token kann dein MMLC sich bei der Servervariante des Modified Module Loaders unter app.module-loader.de identifizieren und die Servervariante weiß anhand deines AccessTokens, welche Module du laden darfst und welche nicht. Zudem gibt es auch Module, die z. B. speziell für einen bestimmten Kunden oder speziell nur für dich gedacht sind. Diese Module soll kein anderer Nutzer des MMLCs sehen können. Durch deinen AccessToken weiß die Servervariante, welche Module er dir anzeigen und bereitstellen darf und welche nicht.</p>
 
             <p>Ein AccessToken kann je nach Version deines MMLCs automatisch generiert werden oder es wird dir ein neuer AccessToken vom Modul-Entwickler beim Kauf eines Moduls mitgeteilt. Wie du diesen AccessToken in die Konfigurationsdatei einträgst beschreibt der nächste <em>Abschnitt „AccessToken einrichten“</em>.</p>
 
