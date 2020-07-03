@@ -51,7 +51,7 @@
 
             <h2>Der MMLC ist eine Software zur Verwaltung von Modulen in deinem modified eCommerce Shop.</h2>
             <p>
-                <iframe style="box-shadow: 0px 5px 10px 5px #cccccc" width="800" height="450" src="https://www.youtube.com/embed/mKlB27Vq9Uk?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a style="display: block; margin: 30px 0px 30px 0px; box-shadow: 0px 5px 10px 5px #cccccc; width=100%" target="_blank" href="https://youtu.be/mKlB27Vq9Uk"><img src="/images/youtube_overview.jpg"></a>
             </p>
 
             <p>

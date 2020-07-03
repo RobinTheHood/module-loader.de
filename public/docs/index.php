@@ -29,7 +29,9 @@
             Auf unserem <strong><a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc DE/EN</a></strong> Community Server beantworten wir dir deine Fragen sehr gerne, wenn du zusätzliche Hilfe benötigst. Auf Discord kannst du dich auch mit anderen Entwickelrn und Usern austauschen. Wenn du dich fragst, wieso wir Discord verwenden, findest du <a target="_blank" href="https://discord.com/open-source">hier die Antwort</a> auf deine Frage.
 
             <h3>Video Tutorials</h3>
-            <iframe style="box-shadow: 0px 5px 10px 5px #cccccc" width="800" height="450" src="https://www.youtube.com/embed/VH4h3a8RCco?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>
+                <a style="display: block; margin: 30px 0px 30px 0px; box-shadow: 0px 5px 10px 5px #cccccc; width=100%" target="_blank" href="https://youtu.be/VH4h3a8RCco"><img src="/images/youtube_tutorial.jpg"></a>
+            </p>
 
             <h3>HowTos</h3>
             <ul>
