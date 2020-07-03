@@ -22,9 +22,8 @@ if (checkDownloadAccess()) {
             <a href="/">zurück zur Startseite</a>
 
             <div class="notice danger">
-                <strong>Hinweis:</strong> Aktuell können nur <strong>Beta-Tester</strong> den MMLC herunterladen.
+                <strong>Hinweis:</strong> Aktuell können nur <strong>Beta-Tester</strong> den MMLC herunterladen. Wenn du auch Beta-Tester werden möchtest freuen wir uns über eine Nachricht unter <a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc DE/EN</a> oder unter <a href="mailto:info@module-loader.de">info@module-loader.de</a>.
             </div>
-
         
             <form class="download" action="" method="post">
                 <h2>MMLC Installer Download</h2>

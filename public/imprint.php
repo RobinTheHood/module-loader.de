@@ -26,7 +26,7 @@
                 
 
                 <div class="notice info">
-                    <strong>Info:</strong> Fragen zum MMLC bitte an <a href="https://www.robinwieschendorf.de">info@module-loader.de</a>
+                    <strong>Info:</strong> Fragen zum MMLC bitte an <a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc DE/EN</a> oder <a href="https://www.robinwieschendorf.de">info@module-loader.de</a>
                 </div>
 
                 

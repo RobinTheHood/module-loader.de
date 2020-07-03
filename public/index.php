@@ -20,7 +20,7 @@
             </div>
 
             <div class="notice danger">
-                <strong>Achtung:</strong> Der MMLC befindet sich noch in der <strong>closed beta</strong> Testphase. Diese Webseite bietet dir bereits jetzt erste Einblicke. Ausgewählte <strong>Beta-Tester</strong> bekommen die Möglichkeit das System auszuprobieren. Solltest du Fehler entdecken oder dich für den MMLC interessieren, würden wir uns über eine E-Mail an <a href="mailto:info@module-loader.de">info@module-loader.de</a> freuen.
+                <strong>Achtung:</strong> Der MMLC befindet sich noch in der <strong>closed beta</strong> Testphase. Diese Webseite bietet dir bereits jetzt erste Einblicke. Ausgewählte <strong>Beta-Tester</strong> bekommen die Möglichkeit das System auszuprobieren. Solltest du Fehler entdecken oder dich für den MMLC interessieren, freuen wir uns über eine Nachricht unter <a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc DE/EN</a> oder unter <a href="mailto:info@module-loader.de">info@module-loader.de</a>.
             </div>
 
             <a class="button" href="/download.php">
