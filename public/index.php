@@ -55,7 +55,7 @@
 
             <h2>Der MMLC ist eine Software zur Verwaltung von Modulen in deinem modified eCommerce Shop.</h2>
             <p>
-                <a style="display: block; margin: 30px 0px 30px 0px; box-shadow: 0px 5px 10px 5px #cccccc; width=100%" target="_blank" href="https://youtu.be/mKlB27Vq9Uk"><img src="/images/youtube_overview.jpg"></a>
+                <a target="_blank" href="https://youtu.be/mKlB27Vq9Uk"><img src="/images/youtube_overview.jpg" class="imagePreview"></a>
             </p>
 
             <p>
@@ -67,14 +67,14 @@
             </p>
             <br>
 
-            <img src="/images/Modul_Detail_Seite.png">
+            <img src="/images/Modul_Detail_Seite.png" class="imagePreview">
 
             <h2>Was macht der MMLC?</h2>
             <p>
                 Der MMLC listet dir kostenlose und kostenpflichtige Module auf, die du mit einem Klick laden und installieren kannst. Klickst du auf installieren, lädt der MMLC alle nötigen Dateien zu dem Modul auf deinen Server und installiert das Modul in deinen Shop. Dabei merkt sich der MMLC welche Dateien er installiert hat und kann diese Dateien bei einer Deinstallation wieder entfernen. Das ist ohne den MMLC nur aufwändig möglich.
             </p>
 
-            <img src="/images/Modul_Uebersichtsseite.png">
+            <img src="/images/Modul_Uebersichtsseite.png" class="imagePreview">
 
             <h2>Was sind die Vorteile?</h2>
             <p>
@@ -85,7 +85,7 @@
                 Da alle Module im MMLC updatefähig programmiert werden, müssen keine Core-Dateien manuell bearbeitet werden. Solltest du doch einmal Anpassungen an einem Modul gemacht haben, zeigt dir der MMLC an, was du geändert hast und warnt dich, dass bei einem Update diese Änderungen verloren gehen könnten. Oder du kannst all deine individuellen Änderungen im Bedarfsfall mit nur einem Klick bewusst rückgängig machen und das original Modul wieder herstellen.
             </p>
 
-            <img src="/images/Modul_Aenderungen.png">
+            <img src="/images/Modul_Aenderungen.png" class="imagePreview">
 
             <h2>Von wem stammen die Module?</h2>
             <p>
