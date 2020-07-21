@@ -22,6 +22,14 @@
             <h3>Community / Forum / Chat</h3>
             Auf unserem <strong><a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc DE/EN</a></strong> Community Server beantworten wir dir deine Fragen sehr gerne, wenn du zusätzliche Hilfe benötigst. Auf Discord kannst du dich auch mit anderen Entwickelrn und Usern austauschen. Wenn du dich fragst, wieso wir Discord verwenden, findest du <a target="_blank" href="https://discord.com/open-source">hier die Antwort</a> auf deine Frage.
 
+            <h3>Systemvoraussetzungen</h3>
+            <ul>
+                <li>PHP <strong>7.2</strong> oder höher</li>
+                <li>modified eCommerce Shopsoftware <strong>2.0.3.0</strong> oder höher</li>
+                <li><strong>allow_url_fopen</strong> muss aktiviert sein</li>
+                <li><strong>admin</strong> Verzeichnis darf nicht umbenannt sein</li>
+            </ul>
+
             <h3>Installation</h3>
 
             <p>In diesem Abschnitt wird beschrieben, wie du den MMLC in deinen Shop installierst. Die Installation ist ganz einfach. Folgende Schritte musst du durchführen:</p>
