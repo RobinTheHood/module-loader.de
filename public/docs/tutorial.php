@@ -212,7 +212,7 @@
 
                 <p>User System Modul benötigt noch eine Sprachdatei, damit der User etwas angezeigt bekommt. Die Sprachdatei muss später in dem Verzeichnis <code>SHOP_ROOT/lang/german/modules/system</code> liegen. Damit der MMLC diese Datei in dieses Verzeichnis kopiert, müssen wir das Verzeichnis in <code>.../new_files</code> anlegen. Wir legen also die Verzeichnisstruktur <code>.../new_files/lang/german/modules/system/</code> an.</p>
 
-                <img class="border" src="/images/tutorial_070.png">
+                <img src="/images/tutorial_070.png" class="imagePreview">
 
                 <p>Die Sprachdatei bennen wir wieder nach der HookFileName Convention <code>mc_my_first_module.php</code> und speichern diese in das eben erstellte Verzeichnis <code>.../new_files/lang/german/modules/system/</code>. Jetzt sollte deine Verzeichnisstruktur folgendermaßen aussehen:</p>
 
