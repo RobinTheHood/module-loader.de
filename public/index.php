@@ -5,11 +5,12 @@
     <!-- möchtest, dann melde dich bei uns. -->
     <head>
         <meta charset="utf-8">
-        <title>MMLC - Modified Module Loader Client</title>
         <meta name="description" content="Der MMLC ist eine Software zur Verwalltung von Modulen in deinem modified eCommerce Shop.">
         <meta name="author" content="Robin Wieschendorf">
-        
         <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <title>MMLC - Modified Module Loader Client</title>
+
         <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
@@ -23,21 +24,24 @@
                 <strong>Achtung:</strong> Der MMLC befindet sich noch in der <strong>closed beta</strong> Testphase. Diese Webseite bietet dir bereits jetzt erste Einblicke. Ausgewählte <strong>Beta-Tester</strong> bekommen die Möglichkeit das System auszuprobieren. Solltest du Fehler entdecken oder dich für den MMLC interessieren, freuen wir uns über eine Nachricht unter <a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc DE/EN</a> oder unter <a href="mailto:info@module-loader.de">info@module-loader.de</a>.
             </div>
 
-            <a class="button" href="/download.php">
-                Download
-            </a>
+            <div class="row">
+                <a class="button" href="/download.php">
+                    Download
+                </a>
 
-            <a class="button" href="/documentation.php">
-                Dokumentation
-            </a>
+                <a class="button" href="/documentation.php">
+                    Dokumentation
+                </a>
 
-            <a class="button" href="/docs/index.php">
-                Entwickler
-            </a>
+                <a class="button" href="/docs/index.php">
+                    Entwickler
+                </a>
+            </div>
 
             <section>
                 <h2>Installiere den MMLC</h2>
                 <p><i>In der folgenden Anleitung musst du <code>www.dein-shop.tld</code> durch deine Shop-Url ersetzen.</i></p>
+
 
                 <ol>
                     <li>Lade dir die <strong>mmlc_installer.php</strong> Datei kostenlos herunter. <a href="/download.php">Download Link</a></li>
@@ -57,12 +61,11 @@
             <p>
                 Installiere dir <strong>kostenlos</strong> den MMLC und entdecke ein breites Angebot an Modulen. Mit dem MMLC kannst du Module für die modified eCommerce Shopsoftware kinderleicht mit einem Klick installieren und wieder deinstallieren.
             </p>
-                
+
             <p>
                 Du bist Entwickler? Auch für Entwickler wird das <a href="/docs/index.php">Entwickeln neuer Module mit dem MMLC</a> einfacher und mehr Spaß machen.
             </p>
             <br>
-            
 
             <img src="/images/Modul_Detail_Seite.png">
 

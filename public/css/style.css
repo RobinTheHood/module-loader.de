@@ -55,6 +55,12 @@ code {
     border-radius: 4px;
 }
 
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
 .break {
     word-break: break-all;
 }
@@ -68,7 +74,6 @@ code.block {
     font-size: 16px;
     line-height: 1.6;
 }
-
 
 .notice {
     margin: 50px 0px 50px 0px;
@@ -133,7 +138,6 @@ form.download {
 }
 
 .button {
-    width: 100%;
     font-size: 18px;
     padding: 10px;
     cursor: pointer;
@@ -144,9 +148,7 @@ form.download {
     border-radius: 5px;
     text-align: center;
 
-    width: 30%;
     display: inline-block;
-    margin: 10px;
     box-sizing: border-box;
     text-decoration: none;
 }
@@ -169,4 +171,10 @@ tr {
 td {
     border: 1px solid #cccccc;
     padding: 3px 10px 3px 10px;
+}
+
+@media (max-width: 512px) {
+    .row {
+        grid-template-columns: 1fr;
+    }
 }
