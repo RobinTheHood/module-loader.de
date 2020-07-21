@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <title>Lokale Entwicklungsumgebung - Developer - MMLC - Modified Module Loader Client</title>
         <meta name="author" content="Robin Wieschendorf">
-        
+
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="/css/style.css">
     </head>
@@ -39,6 +39,8 @@
 
             <p>Starte MAMP und stelle in den Einstellungen unter dem Tab „Ports“ den <code>Apache-Port auf 80</code> und den <code>MySQL-Port auf 3306</code>.</p>
 
+            <!-- To do: Schatten im Bild entfernen -->
+            <!-- Anschließend ersetzen: <img src="/images/MAMP_Ports.png" class="imagePreview"> -->
             <img src="/images/MAMP_Ports.png">
 
             <p>Unter dem Tab „PHP“ solltest du die neuste Version von PHP auswählen, die dir zur Auswahl steht. Hier solltest du mindestens PHP 7.2 auswählen.</p>
