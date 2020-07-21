@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <title>Developer - MMLC - Modified Module Loader Client</title>
         <meta name="author" content="Robin Wieschendorf">
-        
+
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="/css/style.css">
     </head>
@@ -30,7 +30,7 @@
 
             <h3>Video Tutorials</h3>
             <p>
-                <a style="display: block; margin: 30px 0px 30px 0px; box-shadow: 0px 5px 10px 5px #cccccc; width=100%" target="_blank" href="https://youtu.be/VH4h3a8RCco"><img src="/images/youtube_tutorial.jpg"></a>
+                <a href="https://youtu.be/VH4h3a8RCco"><img src="/images/youtube_tutorial.jpg" class="imagePreview"></a>
             </p>
 
             <h3>HowTos</h3>

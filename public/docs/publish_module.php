@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <title>Modul veröffentlichen - Developer - MMLC - Modified Module Loader Client</title>
         <meta name="author" content="Robin Wieschendorf">
-        
+
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="/css/style.css">
     </head>
@@ -100,7 +100,7 @@
                     Bei den Optionen reicht es aus, wenn du lediglich einen Haken bei <code>repo (Full control of private repositories)</code>setzt.
                 </p>
 
-                <img style="width: 100%" class="border" src="/images/Github_Private_Repository_Settings.png">
+                <img class="imagePreview" src="/images/Github_Private_Repository_Settings.png">
 
                 <p>
                     Jetzt kannst du auf dein Repository zugreifen, indem du vor <code>github.com/...</code> deinen GitHub <code>USER_NAME</code>, gefolgt von einem <strong>Doppelpunkt</strong>, gefolgt von deinem neuen <code>TOKEN</code>, gefolgt von einem <strong>@-Zeichen</strong> schreibst.
@@ -149,7 +149,7 @@
 
             <section id="create_mmls_account">
                 <h3>MMLS Accout erstellen</h3>
-                
+
                 <p>Account erstellen auf <a href="https://app.module-loader.de">app.module-loader.de</a></p>
 
                 <p>
@@ -166,8 +166,8 @@
 
                 <br>
 
-                <img style="width: 75%" class="border" src="/images/Create_MMLS_Account.png">
-                
+                <img src="/images/Create_MMLS_Account.png" class="imagePreview">
+
             </section>
 
             <section id="create_mmls_entry">
