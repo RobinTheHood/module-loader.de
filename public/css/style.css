@@ -185,6 +185,23 @@ td {
 
 
 /**
+ * Misc
+ */
+a.link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.at:before {
+    content: '@';
+}
+
+.dot:before {
+    content: '.';
+}
+
+/**
  * Responsive
  */
 @media (max-width: 512px) {
