@@ -27,7 +27,7 @@
                     <!-- oder die URL <code class="break">http://YOUR_DOMAIN/ModifiedModuleLoaderClient/?action=createModule&vendorPrefix=mc&vendorName=mycompany&moduleName=my-first-module</code> aufrufen, wenn du im MMLC eingeloggt bist. !-->
             </div>
 
-            <p>Für das Erstellen von Modulen solltest du dir eine lokale Entwicklungsumgebung einrichten, das bedeutet, dass du erst einmal keinen externen Server benötigst, auf dem du ein modified eCommerce Shop installieren musst. Eine lokale Entwicklungsumgebung hat viele Vorteile und erleichtert dir deutlich die Arbeit. (TODO: Einige Gründe aufzählen, wieso eine lokle Entwicklungsumgebung besser ist.)
+            <p>Für das Erstellen von Modulen solltest du dir eine lokale Entwicklungsumgebung einrichten, das bedeutet, dass du erst einmal keinen externen Server benötigst, auf dem du ein modified eCommerce Shop installieren musst. Eine lokale Entwicklungsumgebung hat viele Vorteile und erleichtert dir deutlich die Arbeit. (TODO: Einige Gründe aufzählen, wieso eine lokale Entwicklungsumgebung besser ist.)
 
             <h4>Lokale Entwicklungsumgebung unter Mac (MAMP)</h4>
 
@@ -41,7 +41,7 @@
 
             <!-- To do: Schatten im Bild entfernen -->
             <!-- Anschließend ersetzen: <img src="/images/MAMP_Ports.png" class="imagePreview"> -->
-            <img src="/images/MAMP_Ports.png">
+            <img src="/images/MAMP_Ports.png" class="imagePreview">
 
             <p>Unter dem Tab „PHP“ solltest du die neuste Version von PHP auswählen, die dir zur Auswahl steht. Hier solltest du mindestens PHP 7.2 auswählen.</p>
 
