@@ -116,7 +116,7 @@ img.imagePreview {
 }
 
 form.download {
-    width: 50%;
+    max-width: 512px;
     margin-left: auto;
     margin-right: auto;
 }
