@@ -3,41 +3,53 @@
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
     <head>
-        <meta charset="utf-8">
-        <title>Modul veröffentlichen - Developer - MMLC - Modified Module Loader Client</title>
-        <meta name="author" content="Robin Wieschendorf">
+        <?php
+        require_once '../inc/head.php';
+        ?>
 
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="/css/style.css">
+        <title>Modul veröffentlichen - Developer - MMLC - Modified Module Loader Client</title>
     </head>
     <body>
-        <div class="container">
-            <h1>MMLC - Modified Module Loader Client</h1>
-            <a href="/docs/index.php">zurück zur Themenübersicht</a>
+        <div class="pageWrapper">
+            <header>
+                <?php
+                require_once '../inc/pageTitle.php';
+                ?>
 
-            <div class="notice danger">
-                <strong>Hinweis:</strong> Das ist die erste Version dieses Tutorials. Mit deiner Hilfe können wir diese Seite weiter verbessern. Falls du Fehler entdeckst oder Fragen hast, schreibe uns eine E-Mail an <a href="mailto:info@module-loader.de">info@module-loader.de</a> oder sprich auf unserem <a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc DE/EN</a> Server mit der Community</a>.
-            </div>
+                <nav>
+                    <?php
+                    require_once '../inc/navigation.php';
+                    ?>
+                </nav>
+            </header>
 
-            <section id="intro">
+            <aside>
+                <div class="notice danger">
+                    <p><strong>Hinweis:</strong> Das ist die erste Version dieses Tutorials. Mit deiner Hilfe können wir diese Seite weiter verbessern. Falls du Fehler entdeckst oder Fragen hast, schreibe uns eine E-Mail an <a class="electronicMessage" data-href="aW5mb0Btb2R1bGUtbG9hZGVyLmRl" tabindex="0">info<span class="at"></span>module-loader<span class="dot"></span>de</a> oder sprich auf unserem <a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc DE/EN</a> Server mit der Community</a>.</p>
+                </div>
+            </aside>
+
+            <main>
+
+            </main>
+
+            <section>
                 <h2>Tutorial: Dein erstes Modul veröffentlichen</h2>
                 <p><strong>Bearbeitungszeit: ca. 25 min.</strong></p>
 
                 <p>In diesem Tutorial lernst du, wie du dein Modul veröffentlichst. Durch eine Veröffentlichung steht allen MMLC-Nutzern dein Modul zum Download über den MMLC zur Verfügung.</p>
 
                 <div class="notice info">
-                    <strong>Info:</strong> Natürlich kannst du festlegen, ob ein Modul nur für bestimmte Nutzer sichtbar ist oder ob dein Modul kostenpflichtig erworben werden muss. Was du hierfür zusätzlich machen musst, erfährst du unter <a href="#">XXX</a>.
+                    <p><strong>Info:</strong> Natürlich kannst du festlegen, ob ein Modul nur für bestimmte Nutzer sichtbar ist oder ob dein Modul kostenpflichtig erworben werden muss. Was du hierfür zusätzlich machen musst, erfährst du unter <a href="#">XXX</a>.</p>
                 </div>
-            </section>
 
-            <section id="content">
                 <h3>Inhalt</h3>
 
                 <ol>
                     <li><a href="#preconditions">Vorbedingungen</a></li>
                     <li><a href="#lets_go">Los gehts</a></li>
                     <li>
-                        <a href="git_plattform">Wähle deine Plattform</a>
+                        <a href="#git_plattform">Wähle deine Plattform</a>
                         <ul>
                             <li><a href="#git">Eigener Git Server</a></li>
                             <li><a href="#github_public_repository">GitHub - Öffentliches Repository</a></li>
@@ -49,48 +61,38 @@
                     <li><a href="#tag_version">Versionsnummer vergeben</a></li>
                     <li><a href="#create_mmls_account">MMLS Accout erstellen</a></li>
                     <li><a href="#create_mmls_entry">MMLS Eintrag erstellen</a></li>
-                    <li><a href="#update_mmls_entry">MMLS Eintrag aktuallisieren</a></li>
+                    <li><a href="#update_mmls_entry">MMLS Eintrag aktualisieren</a></li>
                 </ol>
-            </section>
 
-            <!-- <section id="preconditions">
-                <h3>Vorbedingungen</h3>
+                <h3 id="preconditions">Vorbedingungen</h3>
 
-                <ul>
-                    <li>Du hast eine <a href="/docs/local_dev_environment.php">lokale Enwicklungsumgebung</a> aufgesetzt.</li>
-                    <li>Du hast eine modified-shop Version 2.0.3.0 oder höher installiert.</li>
-                    <li>Du hast den MMLC 1.15.0 oder höher installiert und kannst Module installieren.</li>
-                    <li>Du hast einen Code Editor wie VS Code, Atom etc.</li>
-                    <li>(Optional aber empfohlen) Du hast git installiert und kannst die einfachen Basics.</li>
-                </ul>
-            </section> -->
+                <div class="notice info">
+                    <p>Dokumentation in Arbeit ...</p>
+                </div>
 
-            <section id="lets_go">
-                <h3>Los gehts</h3>
+                <h3 id="lets_go">Los gehts</h3>
 
                 <p>Stelle dir vor du hast eine Firma mit dem Namen "My Company" und diese Firma möchte ihr neues Modul mit dem Namen "Mein erstes Modul" veröffentlichen. Wenn du noch kein Modul mit dem MMLC entwickelt hast, erfährst du hierzu mehr unter: <a href="/docs/tutorial.php">Tutorial: Dein erstes Modul mit dem MMLC programmieren</a></p>
-            </section>
 
-            <section id="git_plattform">
-                <h3>Wähle deine Plattform</h3>
+                <h3 id="git_plattform">Wähle deine Plattform</h3>
 
-                <p><i>Dokumentation in Arbeit ...</i></p>
-            </section>
+                <div class="notice info">
+                    <p>Dokumentation in Arbeit ...</p>
+                </div>
 
-            <section id="git">
-                <h4>Git</h4>
+                <h4 id="git">Git</h4>
 
-                <p><i>Dokumentation in Arbeit ...</i></p>
-            </section>
+                <div class="notice info">
+                    <p>Dokumentation in Arbeit ...</p>
+                </div>
 
-            <section id="github_public_repository">
-                <h4>GitHub - Öffentliches Repository</h4>
+                <h4 id="github_public_repository">GitHub - Öffentliches Repository</h4>
 
-                <p><i>Dokumentation in Arbeit ...</i></p>
-            </section>
+                <div class="notice info">
+                    <p>Dokumentation in Arbeit ...</p>
+                </div>
 
-            <section id="github_private_repository">
-                <h4>GitHub - Privates Repository</h4>
+                <h4 id="github_private_repository">GitHub - Privates Repository</h4>
 
                 <p>
                     Bei privaten GitHub Repositories musst du einen AccessKey erstellen, damit der MMLS Zugriff auf deine Repositories erhält. Einer Anleitung, wie du einen AccessKey auf GitHub erstellst erfährst du unter: <a href="https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line">https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line</a>.
@@ -100,7 +102,7 @@
                     Bei den Optionen reicht es aus, wenn du lediglich einen Haken bei <code>repo (Full control of private repositories)</code>setzt.
                 </p>
 
-                <img class="imagePreview" src="/images/Github_Private_Repository_Settings.png">
+                <p><img class="imagePreview" src="/images/Github_Private_Repository_Settings.png" alt="GitHub privates Repository"></p>
 
                 <p>
                     Jetzt kannst du auf dein Repository zugreifen, indem du vor <code>github.com/...</code> deinen GitHub <code>USER_NAME</code>, gefolgt von einem <strong>Doppelpunkt</strong>, gefolgt von deinem neuen <code>TOKEN</code>, gefolgt von einem <strong>@-Zeichen</strong> schreibst.
@@ -109,22 +111,20 @@
                 <p>
                     Hier ein Beispiel: <strong>https://<code>USER_NAME</code>:<code>TOKEN</code>@github.com/mycompany/my-first-module.git</strong>
                 </p>
-            </section>
 
-            <section id="gitlab_public_repository">
-                <h4>GitLab - Öffentliches Repository</h4>
+                <h4 id="gitlab_public_repository">GitLab - Öffentliches Repository</h4>
 
-                <p><i>Dokumentation in Arbeit ...</i></p>
-            </section>
+                <div class="notice info">
+                    <p>Dokumentation in Arbeit ...</p>
+                </div>
 
-            <section id="gitlab_private_repository">
-                <h4>GitLab - Privates Repository</h4>
+                <h4 id="gitlab_private_repository">GitLab - Privates Repository</h4>
 
-                <p><i>Dokumentation in Arbeit ...</i></p>
-            </section>
+                <div class="notice info">
+                    <p>Dokumentation in Arbeit ...</p>
+                </div>
 
-            <section id="tag_version">
-                <h3>Versionsnummer vergeben</h3>
+                <h3 id="tag_version">Versionsnummer vergeben</h3>
 
                 <p>
                     Es ist wichtig, dass du deinem Modul eine oder mehrere Versionsnummern gibst. Versionen werden über <strong>git tags</strong> verwaltet. Das Format der Versionsnummer muss der <strong>Semantic Versioning (SemVer) Spezifikation</strong> entsprechen. Informationen zu SemVer findest du unter <a href="https://semver.org/lang/de/">semver.org</a>.
@@ -145,10 +145,8 @@
                 <div class="notice warning">
                     <strong>Wichtig:</strong> Wenn du in deinem Git-Repository keine Versionsnummern vergibst, wird der MMLS keine Versionen finden, die er an den MMLC ausspielen kann.
                 </div>
-            </section>
 
-            <section id="create_mmls_account">
-                <h3>MMLS Accout erstellen</h3>
+                <h3 id="create_mmls_account">MMLS Accout erstellen</h3>
 
                 <p>Account erstellen auf <a href="https://app.module-loader.de">app.module-loader.de</a></p>
 
@@ -164,23 +162,32 @@
                     <strong>Wichtig:</strong> Du (oder dein Unternehmen) musst den <code>vendorNamen</code> deiner Module verwenden. Weitere Informationen findest du unter <a href="/docs/naming_convention.php">Naming Convention</a>.
                 </div>
 
-                <br>
+                <p><img src="/images/Create_MMLS_Account.png" class="imagePreview" alt"MMLS Account erstellen"></p>
 
-                <img src="/images/Create_MMLS_Account.png" class="imagePreview">
+                <h3 id="create_mmls_entry">MMLS Eintrag erstellen</h3>
 
+                <div class="notice info">
+                    <p>Dokumentation in Arbeit ...</p>
+                </div>
+
+                <h3 id="update_mmls_entry">MMLS Eintrag aktualisieren</h3>
+
+                <div class="notice info">
+                    <p>Dokumentation in Arbeit ...</p>
+                </div>
             </section>
 
-            <section id="create_mmls_entry">
-                <h3>MMLS Eintrag erstellen</h3>
+            <!-- <section id="preconditions">
+                <h3>Vorbedingungen</h3>
 
-                <p><i>Dokumentation in Arbeit ...</i></p>
-            </section>
-
-            <section id="update_mmls_entry">
-                <h3>MMLS Eintrag aktuallisieren</h3>
-
-                <p><i>Dokumentation in Arbeit ...</i></p>
-            </section>
+                <ul>
+                    <li>Du hast eine <a href="/docs/local_dev_environment.php">lokale Enwicklungsumgebung</a> aufgesetzt.</li>
+                    <li>Du hast eine modified-shop Version 2.0.3.0 oder höher installiert.</li>
+                    <li>Du hast den MMLC 1.15.0 oder höher installiert und kannst Module installieren.</li>
+                    <li>Du hast einen Code Editor wie VS Code, Atom etc.</li>
+                    <li>(Optional aber empfohlen) Du hast git installiert und kannst die einfachen Basics.</li>
+                </ul>
+            </section> -->
         </div>
 
         <?php include '../../views/footer.php'; ?>

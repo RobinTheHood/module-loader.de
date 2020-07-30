@@ -1,176 +1,50 @@
 :root {
-  --shadowDefault: 0 1px 1px rgba(100,100,100,0.33),
-                   0 2px 2px rgba(100,100,100,0.33),
-                   0 4px 4px rgba(100,100,100,0.33),
-                   0 8px 8px rgba(100,100,100,0.33),
-                   0 16px 16px rgba(100,100,100,0.33);
+    --shadowDefault: 0 1px 1px rgba(100,100,100,0.33),
+                     0 2px 2px rgba(100,100,100,0.33),
+                     0 4px 4px rgba(100,100,100,0.33),
+                     0 8px 8px rgba(100,100,100,0.33),
+                     0 16px 16px rgba(100,100,100,0.33);
 }
 
+.pageWrapper {
+    max-width: 800px;
+    margin: 60px auto auto;
+}
+
+
+/**
+ * General
+ */
 body {
+    margin: 0;
+
     font-family: "-apple-system", "BlinkMacSystemFont", "Helvetica Neue", "Roboto", sans-serif;
     line-height: 28px;
     color: #333;
 }
 
-.container {
-    margin-top: 50px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+section {
+    margin-top: 6em;
 }
 
 img {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+  max-width: 100%;
 }
 
-h2 {
-    margin-top: 75px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 1em 0;
 }
 
-h3 {
-    margin-top: 75px;
-}
-
-h4 {
-    margin-top: 35px;
-}
-
-ol li {
-    margin-bottom: 10px;
-}
-
-ul li {
-    margin-bottom: 10px;
-}
-
-footer {
-    font-size: 12px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-code {
-    font-size: 14px;
-    padding: 5px;
-    color: #c0341d;
-    background-color: #fbe5e1;
-    border-radius: 5px;
-}
-
-code.block {
-    padding: 25px;
-    display: block;
-    white-space: pre-wrap;
-    background-color: #282c34;
-    color: #abb2bf;
-    font-size: 16px;
-    line-height: 1.6;
-    box-shadow: var(--shadowDefault);
-}
-
-.row {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-}
-
-.break {
-    word-break: break-all;
-}
-
-.center {
-    text-align: center;
-}
-
-.notice {
-    margin: 50px 0px 50px 0px;
-    padding: 20px;
-    border-radius: 5px;
-    border: 1px solid transparent;
-}
-
-.notice.danger {
-    color: #721c24;
-    background-color: #f8d7da;
-    border-color: #f5c6cb;
-}
-
-.notice.warning {
-    color: #856404;
-    background-color: #fff3cd;
-    border-color: #ffeeba;
-}
-
-.notice.info {
-    color: #0c5460;
-    background-color: #d1ecf1;
-    border-color: #bee5eb;
-}
-
-img.imagePreview {
-    display: block;
-    margin: 2em 0;
-
-    box-shadow: var(--shadowDefault);
-    border-radius: 5px;
-}
-
-form.download {
-    max-width: 512px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.download input {
-    width: 100%;
-    height: 35px;
-    padding: 5px;
-    box-sizing: border-box;
-    font-size: 14px;
-}
-
-.download button {
-    width: 100%;
-    font-size: 14px;
-    padding: 10px;
-    cursor: pointer;
-
-    background-color: #ffffff;
-    color: #007bff;
-    border: 1px solid #007bff;
-    border-radius: 5px;
-}
-
-.download button:hover {
-    background-color: #007bff;
-    color: #ffffff;
-    border: 1px solid #007bff;
-}
-
-.button {
-    font-size: 18px;
-    padding: 10px;
-    cursor: pointer;
-
-    background-color: #ffffff;
-    color: #007bff;
-    border: 1px solid #007bff;
-    border-radius: 5px;
-    text-align: center;
-
-    display: inline-block;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-
-.button:hover {
-    background-color: #007bff;
-    color: #ffffff;
-    border: 1px solid #007bff;
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 2em;
 }
 
 table {
@@ -187,12 +61,192 @@ td {
     padding: 3px 10px 3px 10px;
 }
 
+a {
+    color: #007bff;
+}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+ul,
+ol {
+    margin: 0 0 2em 0;
+}
+
+ul li,
+ol li {
+    margin: 0 0 0.4em 0;
+}
+
 
 /**
- * Misc
+ * Code
  */
-a.link {
-    color: blue;
+code {
+    font-size: 14px;
+    padding: 4px;
+    color: #c0341d;
+    background-color: #fbe5e1;
+    border-radius: 4px;
+}
+
+code.block {
+    display: block;
+    padding: 25px;
+    margin-bottom: 1em;
+
+    font-size: 16px;
+    line-height: 1.6;
+
+    white-space: pre-wrap;
+    color: #abb2bf;
+    background-color: #282c34;
+    border: 1px solid #333;
+}
+
+
+/**
+ * Navigation
+ */
+nav {
+    margin: 2em 0;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li.button a {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+
+    font-size: 18px;
+
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav ul li.button.active a,
+nav ul li.button a:hover {
+    background-color: #007bff;
+    color: #ffffff;
+    border: 1px solid #007bff;
+}
+
+
+/**
+ * Notice
+ */
+.notice {
+    margin-bottom: 1em;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+.notice.info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+.notice.warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.notice.danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.notice p:last-of-type {
+  margin-bottom: 0;
+}
+
+
+/**
+ * Previews / Screenshots
+ */
+img.imagePreview {
+    width: 100%;
+
+    box-shadow: var(--shadowDefault);
+    border-radius: 4px;
+}
+
+/**
+ * Download form
+ */
+form.download {
+    max-width: 512px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form.download input {
+    width: 100%;
+    height: 35px;
+    padding: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+form.download button {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    cursor: pointer;
+
+    background-color: #ffffff;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+}
+
+form.download button:hover {
+    background-color: #007bff;
+    color: #ffffff;
+    border: 1px solid #007bff;
+}
+
+
+/**
+ * Miscellaneous
+ */
+.break {
+    word-break: break-all;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.center {
+    text-align: center;
+}
+
+.link {
+    color: #007bff;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -204,6 +258,18 @@ a.link {
 .dot:before {
     content: '.';
 }
+
+
+/**
+ * Footer
+ */
+footer {
+    font-size: 12px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
 
 /**
  * Responsive
