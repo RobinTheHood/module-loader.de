@@ -24,24 +24,26 @@ function checkDownloadAccess()
 {
     require '../config.php';
 
-    foreach ($configuration['users'] as $userName => $password) {
-        if ($_POST['user'] == '') {
-            continue;
-        }
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+        foreach ($configuration['users'] as $userName => $password) {
+            if ($_POST['user'] == '') {
+                continue;
+            }
 
-        if ($_POST['password'] == '') {
-            continue;
-        }
+            if ($_POST['password'] == '') {
+                continue;
+            }
 
-        if ($_POST['user'] != $userName) {
-            continue;
-        }
+            if ($_POST['user'] != $userName) {
+                continue;
+            }
 
-        if ($_POST['password'] != $password) {
-            continue;
-        }
+            if ($_POST['password'] != $password) {
+                continue;
+            }
 
-        return true;
+            return true;
+        }
     }
 
     return false;
