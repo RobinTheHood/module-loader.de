@@ -3,25 +3,41 @@
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
     <head>
-        <meta charset="utf-8">
+        <?php
+        require_once '../inc/head.php';
+        ?>
+
         <title>createModule.sh - Developer - MMLC - Modified Module Loader Client</title>
-        <meta name="author" content="Robin Wieschendorf">
-        
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
-        <div class="container">
-            <h1>MMLC - Modified Module Loader Client</h1>
-            <a href="/docs/index.php">zurück zur Themenübersicht</a>
+        <div class="pageWrapper">
+            <header>
+                <?php
+                require_once '../inc/pageTitle.php';
+                ?>
 
-            <div class="notice danger">
-                <strong>Hinweis:</strong> Diese Dokumentation ist noch nicht vollständig.
-            </div>
+                <nav>
+                    <?php
+                    require_once '../inc/navigation.php';
+                    ?>
+                </nav>
+            </header>
 
-            <h2>Modul erstellen mit dem createModule.sh</h2>
+            <aside>
+                <div class="notice danger">
+                    <p><strong>Hinweis:</strong> Diese Dokumentation ist noch unvollständig.</p>
+                </div>
+            </aside>
 
-            <p><i>Dokumentation in Arbeit ...</i></p>
+            <main>
+                <section>
+                    <h2>Modul erstellen mit dem createModule.sh</h2>
+
+                    <div class="notice info">
+                        <p>Dokumentation in Arbeit ...</p>
+                    </div>
+                </section>
+            </main>
         </div>
 
         <?php include '../../views/footer.php'; ?>

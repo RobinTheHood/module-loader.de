@@ -6,33 +6,50 @@
         <meta charset="utf-8">
         <title>Verzeichnisstruktur - Developer - MMLC - Modified Module Loader Client</title>
         <meta name="author" content="Robin Wieschendorf">
-        
+
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
-        <div class="container">
-            <h1>MMLC - Modified Module Loader Client</h1>
-            <a href="/docs/index.php">zurück zur Themenübersicht</a>
-            
-            <div class="notice danger">
-                <strong>Hinweis:</strong> Diese Dokumentation ist noch nicht vollständig.
-            </div>
+        <div class="pageWrapper">
+            <header>
+                <?php
+                require_once '../inc/pageTitle.php';
+                ?>
 
-            <h2>Verzeichnistruktur eines Moduls</h2>
+                <nav>
+                    <?php
+                    require_once '../inc/navigation.php';
+                    ?>
+                </nav>
+            </header>
 
-            <ul>
-                <li>moduleinfo.json: </li>
-                <li>modulehash.json: </li>
-                <li>changelog.md: </li>
-                <li>icon.png / icon.jpeg: </li>
-                <li>new_files: </li>
-                <li>docs/install.md: </li>
-                <li>docs/usage.md: </li>
-                <li>images: </li>
-            </ul>
+            <aside>
+                <div class="notice danger">
+                    <p><strong>Hinweis:</strong> Diese Dokumentation ist noch unvollständig.</p>
+                </div>
+            </aside>
 
-            <p><i>Dokumentation in Arbeit ...</i></p>
+            <main>
+                <section>
+                    <h2>Verzeichnistruktur eines Moduls</h2>
+
+                    <ul>
+                        <li>moduleinfo.json: </li>
+                        <li>modulehash.json: </li>
+                        <li>changelog.md: </li>
+                        <li>icon.png / icon.jpeg: </li>
+                        <li>new_files: </li>
+                        <li>docs/install.md: </li>
+                        <li>docs/usage.md: </li>
+                        <li>images: </li>
+                    </ul>
+
+                    <div class="notice info">
+                        <p>Dokumentation in Arbeit ...</p>
+                    </div>
+                </section>
+            </main>
         </div>
 
         <?php include '../../views/footer.php'; ?>
