@@ -4,18 +4,16 @@
     <!-- Wenn du programmieren kannst und Module mit dem MMLC programmieren -->
     <!-- möchtest, dann melde dich bei uns. -->
     <head>
-        <meta charset="utf-8">
+        <?php
+        require_once 'inc/head.php';
+        ?>
         <meta name="description" content="Der MMLC ist eine Software zur Verwalltung von Modulen in deinem modified eCommerce Shop.">
-        <meta name="author" content="Robin Wieschendorf">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-
+        
         <title>MMLC - Modified Module Loader Client</title>
-
-        <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
         <div class="container">
-            <div style="text-align: center">
+            <div class="center">
                 <h1>MMLC - Modified Module Loader Client</h1>
                 <strong>Latest: 1.17.0</strong><br>
             </div>

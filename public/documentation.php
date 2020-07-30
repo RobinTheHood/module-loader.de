@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
     <head>
-        <meta charset="utf-8">
+        <?php
+        require_once 'inc/head.php';
+        ?>
+
         <title>Dokumentation / Anleitung - MMLC - Modified Module Loader Client</title>
-        <meta name="author" content="Robin Wieschendorf">
-        
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
         <div class="container">
@@ -180,8 +179,8 @@
 
             <h3>Ein Modul reparieren</h3>
 
-            <p>Wenn du Änderungen an den Programmcodedateien eines Moduls vorgenommen oder welche gelöscht hast, kannst du das Modul reparieren. Auf der Modul-Detailseite wird dir dann der Button „Änderungen verwerfen“ angezeigt. Klickst du auf den Button „Änderungen verwerfen“ werden alle Änderungen an dem Modul, die du vorgenommen hast rückgängig gemacht. Änderungen an Templatedaten werden hierduch nicht rückgängig gemacht. Ausgenommen hiervon sind die Templatedateien im Template <code>tpl_modified</code>.</p> 
-                
+            <p>Wenn du Änderungen an den Programmcodedateien eines Moduls vorgenommen oder welche gelöscht hast, kannst du das Modul reparieren. Auf der Modul-Detailseite wird dir dann der Button „Änderungen verwerfen“ angezeigt. Klickst du auf den Button „Änderungen verwerfen“ werden alle Änderungen an dem Modul, die du vorgenommen hast rückgängig gemacht. Änderungen an Templatedaten werden hierduch nicht rückgängig gemacht. Ausgenommen hiervon sind die Templatedateien im Template <code>tpl_modified</code>.</p>
+
             <p><strong>ACHTUNG:</strong> Nachdem du „Änderungen verwerfen“ durchgeführt hast und das Modul wieder im Urzustand ist, kann der MMLC deine Änderungen nicht wieder herstellen. Du musst eine seperate Sicherung deiner Änderungen durchführen, falls du diese behalten möchtest. Du kannst dir vorher im Tab „Geänderte Dateien“ die Dateien ansehen, die durch dich geändert wurden und diese im Bedarfsfall sichern.</p>
 
             <h3>Ein Modul deinstalieren</h3>

@@ -9,12 +9,11 @@ if (checkDownloadAccess()) {
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
     <head>
-        <meta charset="utf-8">
-        <title>Download - MMLC - Modified Module Loader Client</title>
-        <meta name="author" content="Robin Wieschendorf">
+        <?php
+        require_once 'inc/head.php';
+        ?>
 
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="/css/style.css">
+        <title>Download - MMLC - Modified Module Loader Client</title>
     </head>
     <body>
         <div class="container">
@@ -24,7 +23,7 @@ if (checkDownloadAccess()) {
             <div class="notice danger">
                 <strong>Hinweis:</strong> Aktuell können nur <strong>Beta-Tester</strong> den MMLC herunterladen. Wenn du auch Beta-Tester werden möchtest freuen wir uns über eine Nachricht unter <a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc DE/EN</a> oder unter <a href="mailto:info@module-loader.de">info@module-loader.de</a>.
             </div>
-        
+
             <form class="download" action="" method="post">
                 <h2>MMLC Installer Download</h2>
 
@@ -38,7 +37,7 @@ if (checkDownloadAccess()) {
 
                 <button type="submit">Start download</button>
             </form>
-           
+
         </div>
 
         <?php include '../views/footer.php'; ?>

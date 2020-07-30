@@ -71,6 +71,10 @@ code {
     word-break: break-all;
 }
 
+.center {
+    text-align: center;
+}
+
 code.block {
     padding: 25px;
     display: block;

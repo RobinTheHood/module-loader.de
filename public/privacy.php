@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
     <head>
-        <meta charset="utf-8">
-        <title>Datenschutz - MMLC - Modified Module Loader Client</title>
+        <?php
+        require_once 'inc/head.php';
+        ?>
 
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="/css/style.css">
+        <script defer src="/js/default.js"></script>
+        <title>Datenschutz - MMLC - Modified Module Loader Client</title>
     </head>
     <body>
         <div class="container">
@@ -24,11 +25,11 @@
             <p>
                 Verantwortliche Stelle für die Erhebung, Verarbeitung und Nutzung Ihrer personenbezogenen Daten im Sinne der DSGVO ist:
                 <br><br>
-                
+
                 Robin Wieschendorf<br>
                 Sagehorner Dorfstraße 35b<br>
                 28876 Oyten<br>
-                mail@robinwieschendorf.de
+                <a class="electronicMessage" data-href="bWFpbEByb2JpbndpZXNjaGVuZG9yZi5kZQ==" tabindex="0">mail<span class="at"></span>robinwieschendorf<span class="dot"></span>de</a>
             <p/>
 
             <p>Sofern Sie der Erhebung, Verarbeitung oder Nutzung Ihrer Daten durch uns nach Maßgabe dieser Datenschutzbestimmungen insgesamt oder für einzelne Maßnahmen widersprechen wollen, können Sie Ihren Widerspruch an oben genannte verantwortliche Stelle richten.<p/>
