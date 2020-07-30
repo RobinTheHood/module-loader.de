@@ -55,10 +55,21 @@ footer {
 
 code {
     font-size: 14px;
-    padding: 2px 4px;
+    padding: 5px;
     color: #c0341d;
     background-color: #fbe5e1;
     border-radius: 5px;
+}
+
+code.block {
+    padding: 25px;
+    display: block;
+    white-space: pre-wrap;
+    background-color: #282c34;
+    color: #abb2bf;
+    font-size: 16px;
+    line-height: 1.6;
+    box-shadow: var(--shadowDefault);
 }
 
 .row {
@@ -73,17 +84,6 @@ code {
 
 .center {
     text-align: center;
-}
-
-code.block {
-    padding: 25px;
-    display: block;
-    white-space: pre-wrap;
-    background-color: #282c34;
-    color: #abb2bf;
-    font-size: 16px;
-    line-height: 1.6;
-    box-shadow: var(--shadowDefault);
 }
 
 .notice {
