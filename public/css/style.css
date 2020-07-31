@@ -9,6 +9,7 @@
 .pageWrapper {
     max-width: 800px;
     margin: 60px auto auto;
+    padding: 8px;
 }
 
 
@@ -275,7 +276,15 @@ footer {
  * Responsive
  */
 @media (max-width: 512px) {
-    .row {
+    * {
+      word-wrap: anywhere;
+    }
+
+    nav ul {
         grid-template-columns: 1fr;
+    }
+
+    .nowrap {
+        white-space: inherit;
     }
 }
