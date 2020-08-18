@@ -1,11 +1,9 @@
 :root {
     --gutterDefault: 10px;
 
-    --colourPrimaryLight: #b84bdaff;
-    --colourPrimaryDark: #b821daff;
-
-    --colourMetallicBlueLight: #5e5861ff;
-    --colourMetallicBlueDark: #241c2fff;
+    --colourLight: #fff;
+    --colourDark: #333;
+    --colourBlue: #007bff;
 
     --radiusDefault: 4px;
 
@@ -31,7 +29,8 @@ body {
 
     font-family: "-apple-system", "BlinkMacSystemFont", "Helvetica Neue", "Roboto", sans-serif;
     line-height: 28px;
-    color: var(--colourMetallicBlueDark);
+    color: var(--colourDark);
+    background-color: var(--colourLight);
 }
 
 section {
@@ -99,17 +98,17 @@ td {
  * Links
  */
 a {
-    color: var(--colourPrimaryDark);
+    color: var(--colourBlue);
 }
 
 .link {
-    color: var(--colourPrimaryDark);
+    color: var(--colourBlue);
     text-decoration: underline;
     cursor: pointer;
 }
 
 a:hover {
-    color: var(--colourPrimaryLight);
+    color: var(--colourBlue);
     text-decoration: none;
 }
 
@@ -133,7 +132,7 @@ input[type="password"] {
     width: 100%;
     padding: 10px;
 
-    border: 1px solid var(--colourMetallicBlueDark);
+    border: 1px solid var(--colourDark);
     border-radius: var(--radiusDefault);
 
     box-sizing: border-box;
@@ -141,7 +140,7 @@ input[type="password"] {
 
 input[type="text"]:focus,
 input[type="password"]:focus {
-    border: 1px solid var(--colourPrimaryDark);
+    border: 1px solid var(--colourDark);
 }
 
 
@@ -152,7 +151,7 @@ code {
     font-size: 14px;
     padding: 4px;
     color: #fff;
-    background-color: var(--colourMetallicBlueLight);
+    background-color: var(--colourDark);
     border-radius: var(--radiusDefault);
 }
 
@@ -166,7 +165,7 @@ code.block {
 
     white-space: pre-wrap;
     color: #fff;
-    background-color: var(--colourMetallicBlueDark);
+    background-color: var(--colourDark);
     border: 1px solid #333;
 }
 
@@ -179,7 +178,7 @@ code.block {
 }
 
 header .m {
-    color: var(--colourPrimaryDark);
+    color: var(--colourDark);
 }
 
 
@@ -213,9 +212,9 @@ nav ul li.button a {
     font-size: inherit;
 
     cursor: pointer;
-    color: var(--colourPrimaryDark);
-    background-color: #fff;
-    border: 1px solid var(--colourPrimaryDark);
+    color: var(--colourBlue);
+    background-color: var(--colourLight);
+    border: 1px solid var(--colourBlue);
     border-radius: var(--radiusDefault);
     text-align: center;
     box-sizing: border-box;
@@ -226,8 +225,7 @@ button:hover,
 nav ul li.button.active a,
 nav ul li.button a:hover {
     color: #ffffff;
-    background-color: var(--colourPrimaryLight);
-    border: 1px solid var(--colourPrimaryDark);
+    background-color: var(--colourBlue);
 }
 
 
