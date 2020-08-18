@@ -37,16 +37,20 @@ if (checkDownloadAccess()) {
 
             <main>
                 <section>
-                    <form class="download" action="" method="post">
-                        <h2>MMLC Installer Download</h2>
+                    <h2>MMLC Installer Download</h2>
 
+                    <form class="download" action="" method="post">
                         <input type="hidden" name="action" value="download">
 
-                        <label for="user">Username</label><br>
-                        <input type="text" name="user" value=""><br><br>
+                        <fieldset>
+                            <label for="user">Username</label>
+                            <input type="text" name="user" value="">
+                        </fieldset>
 
-                        <label for="password">Password</label><br>
-                        <input type="password" name="password" value=""><br><br>
+                        <fieldset>
+                            <label for="password">Password</label>
+                            <input type="password" name="password" value="">
+                        </fieldset>
 
                         <button type="submit">Start download</button>
                     </form>

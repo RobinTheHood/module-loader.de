@@ -1,4 +1,12 @@
 :root {
+    --gutterDefault: 10px;
+
+    --colourLight: #fff;
+    --colourDark: #333;
+    --colourBlue: #007bff;
+
+    --radiusDefault: 4px;
+
     --shadowDefault: 0 1px 1px rgba(100,100,100,0.33),
                      0 2px 2px rgba(100,100,100,0.33),
                      0 4px 4px rgba(100,100,100,0.33),
@@ -21,7 +29,8 @@ body {
 
     font-family: "-apple-system", "BlinkMacSystemFont", "Helvetica Neue", "Roboto", sans-serif;
     line-height: 28px;
-    color: #333;
+    color: var(--colourDark);
+    background-color: var(--colourLight);
 }
 
 section {
@@ -29,45 +38,11 @@ section {
 }
 
 img {
-  max-width: 100%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0 0 1em 0;
-}
-
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 2em;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-tr {
-    border: 1px solid #cccccc;
-}
-
-td {
-    border: 1px solid #cccccc;
-    padding: 3px 10px 3px 10px;
-}
-
-a {
-    color: #007bff;
+    max-width: 100%;
 }
 
 p {
-  margin: 0 0 1em 0;
+    margin: 0 0 1em 0;
 }
 
 ul,
@@ -82,14 +57,102 @@ ol li {
 
 
 /**
+ * Headings
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 1em 0;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 2em;
+}
+
+
+/**
+ * Tables
+ */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border: 1px solid #cccccc;
+}
+
+td {
+    border: 1px solid #cccccc;
+    padding: 3px 10px 3px 10px;
+}
+
+
+/**
+ * Links
+ */
+a {
+    color: var(--colourBlue);
+}
+
+.link {
+    color: var(--colourBlue);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:hover {
+    color: var(--colourBlue);
+    text-decoration: none;
+}
+
+
+/**
+ * Fieldset
+ */
+fieldset {
+    padding: unset;
+    margin: unset;
+
+    border: unset;
+}
+
+
+/**
+ * Input
+ */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+
+    border: 1px solid var(--colourDark);
+    border-radius: var(--radiusDefault);
+
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border: 1px solid var(--colourDark);
+}
+
+
+/**
  * Code
  */
 code {
     font-size: 14px;
     padding: 4px;
-    color: #c0341d;
-    background-color: #fbe5e1;
-    border-radius: 4px;
+    color: #fff;
+    background-color: var(--colourDark);
+    border-radius: var(--radiusDefault);
 }
 
 code.block {
@@ -101,10 +164,11 @@ code.block {
     line-height: 1.6;
 
     white-space: pre-wrap;
-    color: #abb2bf;
-    background-color: #282c34;
+    color: #fff;
+    background-color: var(--colourDark);
     border: 1px solid #333;
 }
+
 
 /**
  * Titel / Head
@@ -112,6 +176,11 @@ code.block {
 .logo {
     margin-bottom: 20px;
 }
+
+header .m {
+    color: var(--colourDark);
+}
+
 
 /**
  * Navigation
@@ -123,7 +192,7 @@ nav {
 nav ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+    grid-gap: var(--gutterDefault);
 
     margin: 0;
     padding: 0;
@@ -134,27 +203,29 @@ nav ul li {
     margin: 0;
 }
 
+button,
 nav ul li.button a {
     display: inline-block;
     width: 100%;
     padding: 10px;
 
-    font-size: 18px;
+    font-size: inherit;
 
     cursor: pointer;
-    background-color: #fff;
-    border: 1px solid #007bff;
-    border-radius: 4px;
+    color: var(--colourBlue);
+    background-color: var(--colourLight);
+    border: 1px solid var(--colourBlue);
+    border-radius: var(--radiusDefault);
     text-align: center;
     box-sizing: border-box;
     text-decoration: none;
 }
 
+button:hover,
 nav ul li.button.active a,
 nav ul li.button a:hover {
-    background-color: #007bff;
     color: #ffffff;
-    border: 1px solid #007bff;
+    background-color: var(--colourBlue);
 }
 
 
@@ -164,22 +235,31 @@ nav ul li.button a:hover {
 .notice {
     margin-bottom: 1em;
     padding: 20px;
-    border-radius: 4px;
+    border-radius: var(--radiusDefault);
     border: 1px solid transparent;
 }
 
+/*
+ * To do: change colour because it does not work with the purple
+ */
 .notice.info {
     color: #0c5460;
     background-color: #d1ecf1;
     border-color: #bee5eb;
 }
 
+/*
+ * To do: change colour because it does not work with the purple
+ */
 .notice.warning {
     color: #856404;
     background-color: #fff3cd;
     border-color: #ffeeba;
 }
 
+/*
+ * To do: change colour because it does not work with the purple
+ */
 .notice.danger {
     color: #721c24;
     background-color: #f8d7da;
@@ -198,42 +278,21 @@ img.imagePreview {
     width: 100%;
 
     box-shadow: var(--shadowDefault);
-    border-radius: 4px;
+    border-radius: var(--radiusDefault);
 }
+
 
 /**
  * Download form
  */
-form.download {
+.download {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, max-content);
+
     max-width: 512px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-form.download input {
-    width: 100%;
-    height: 35px;
-    padding: 4px;
-    box-sizing: border-box;
-    font-size: 14px;
-}
-
-form.download button {
-    width: 100%;
-    font-size: 14px;
-    padding: 10px;
-    cursor: pointer;
-
-    background-color: #ffffff;
-    color: #007bff;
-    border: 1px solid #007bff;
-    border-radius: 4px;
-}
-
-form.download button:hover {
-    background-color: #007bff;
-    color: #ffffff;
-    border: 1px solid #007bff;
+    margin: auto;
 }
 
 
@@ -250,12 +309,6 @@ form.download button:hover {
 
 .center {
     text-align: center;
-}
-
-.link {
-    color: #007bff;
-    text-decoration: underline;
-    cursor: pointer;
 }
 
 .at:before {
