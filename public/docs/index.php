@@ -58,6 +58,7 @@
                         <li><a href="/docs/module_structure.php">Die Modul Verzeichnisstruktur</a></li>
                         <li><a href="/docs/moduleinfo.php">Die moduleinfo.json Datei</a></li>
                         <li><a href="/docs/naming_convention.php">Naming Convention</a></li>
+                        <li><a href="/docs/config_config.php">Konfiguration | config/config.php</a></li>
                     </ul>
                 </section>
 
