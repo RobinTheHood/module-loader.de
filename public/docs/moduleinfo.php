@@ -33,10 +33,10 @@
                 <section>
                     <h2>Die moduleinfo.json</h2>
 
-                    <p>Jedes Modul, das mit dem MMLC funktionieren soll brauch eine <code>moduleinfo.json</code> Datei. In dieser Datei werden die wichtigsten Angaben und Einstellungen für den MMLC zum Modul konfiguriert. In diesem Abschnitt werden die Felder und dessen Funktionen in der <code>moduleinfo.json</code> beschrieben.
+                    <p>Jedes Modul, das mit dem MMLC funktionieren soll brauch eine <code>moduleinfo.json</code> Datei. In dieser Datei werden die wichtigsten Angaben und Einstellungen für den MMLC zum Modul konfiguriert. In diesem Abschnitt werden die Felder und dessen Funktionen in der <code>moduleinfo.json</code> beschrieben.</p>
 
                     <h3>Der Aufbau</h3>
-                    <p>Bei der <code>moduleinfo.json</code> handelt es sich um eine Datei im JSON Format. Die Datei hat Ähnlichkeit mit einer <code>composer.json</code> Datei.
+                    <p>Bei der <code>moduleinfo.json</code> handelt es sich um eine Datei im JSON Format. Die Datei hat Ähnlichkeit mit einer <code>composer.json</code> Datei.</p>
 
                     <h3>Die Felder</h3>
 
