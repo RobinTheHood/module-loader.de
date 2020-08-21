@@ -113,6 +113,11 @@
                     <p>Hier ein Beispiel für ein Modul, das 29,90 € anzeigen soll:</p>
                     <code class="block">"price": "29.00"</code>
 
+                    <h4>tags (ab Version 1.18.0)</h4>
+                    <div class="notice info">
+                        <p>Dokumentation in Arbeit ...</p>
+                    </div>
+
                     <h4>require</h4>
                     <div class="notice info">
                         <p>Dokumentation in Arbeit ...</p>
