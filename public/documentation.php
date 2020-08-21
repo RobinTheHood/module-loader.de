@@ -60,6 +60,8 @@
                         <li>Nach der Installation erreichst du den MMLC unter <strong class="nowrap">www.dein-shop.tld/ModifiedModuleLoaderClient</strong>.</li>
                     </ol>
 
+                    <p><code>Tipp:</code> Installiere dir mit dem MMLC das Modul <strong>MMLC im Admin</strong>, dann kannst du den MMLC in Zukunft direkt aus dem Admin deines Shops aufrufen, statt die URL in deinen Browser eingeben zu müssen.</p>
+
                     <h3>Deinstallation</h3>
 
                     <p>Bereits installierte Module funktionieren auch nach der Deinstallation des MMLCs, falls du diese Module nicht vorher deinstallierst. Für eine komplette Deinstallation solltest du zuerst alle Module, die du mit dem MMLC installiert hast deinstallieren. Dieser Schritt ist optional, wird aber empfohlen, wenn du dein Shopsystem in den Zustand vor der Installation des MMLCs bringen möchtest. Danach kannst du einfach das Verzeichnis <code>/ModifiedModuleLoaderClient</code> im Root-Verzeichnis deines Shops löschen. In diesem Verzeichnis befinden sich sämtliche Dateien zum MMLC.</p>
