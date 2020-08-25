@@ -41,7 +41,7 @@
                         <li>PHP <strong>7.2</strong> oder höher</li>
                         <li>modified eCommerce Shopsoftware <strong>2.0.3.0</strong> oder höher</li>
                         <li><strong>allow_url_fopen</strong> muss aktiviert sein</li>
-                        <li><strong>admin</strong> Verzeichnis darf nicht umbenannt sein</li>
+                        <li>Bis einschließlich <i>MMLC 1.18.0</i> darf das <strong>admin</strong> Verzeichnis des Shops nicht umbenannt sein, ab <i>MMLC 1.19.0</i> kannst du das Adminverzeichnis in der <a href="/docs/config_config.php#adminDir">config/conifg.php</a> anpassen.</li>
                     </ul>
 
                     <h3>Installation</h3>

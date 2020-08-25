@@ -166,6 +166,18 @@
                         <p>Hier ein Beispiel:</p>
                         <code class="block">'exceptionMonitorMail' => 'info@module-loader.de'</code>
                     </section>
+
+                    <section>
+                        <h4 id="adminDir">adminDir (ab Version 1.19.0)</h4>
+                        <div class="notice info">
+                            <p>Dokumentation in Arbeit ...</p>
+                        </div>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic enim cum quidem quaerat quisquam aliquid, animi delectus officia inventore exercitationem! Deserunt consequuntur molestiae veritatis vel perspiciatis ipsam dolores est placeat?</p>
+
+                        <p>Hier ein Beispiel:</p>
+                        <code class="block">'adminDir' => 'admin_123456'</code>
+                    </section>
                 <section>  
             </main>
         </div>
