@@ -95,6 +95,7 @@
 
                     <ul>
                         <li><code>import/export</code> für <strong>Import/Export</strong></li>
+                        <li><code>language</code> für <strong>Sprachpaket</strong></li>
                         <li><code>persistance</code> für <strong>Datenbank Module</strong></li>
                         <li><code>productivity</code> für <strong>Produktivität</strong></li>
                         <li><code>promotion/marketing</code> für <strong>Promotion & Marketing</strong></li>
