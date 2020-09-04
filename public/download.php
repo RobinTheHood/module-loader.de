@@ -55,6 +55,11 @@ if (checkDownloadAccess()) {
                         <button type="submit">Start download</button>
                     </form>
                 </section>
+
+                <section>
+                    <p>Nach der Installation solltest du folgende Seite sehen:</p>
+                    <img src="/images/MMLC_Anmeldung.png" class="imagePreview" alt="Am MMLC anmelden">
+                </section>
             </main>
         </div>
 
