@@ -35,7 +35,7 @@
 
                     <p><code>Tipp:</code> Installiere dir mit dem MMLC das Modul <strong>MMLC im Admin</strong>, dann kannst du den MMLC in Zukunft direkt aus dem Admin deines Shops aufrufen, statt die URL in deinen Browser eingeben zu müssen.</p>
 
-                    <p>Für mehr Informationen schaue dir die <a href="/documentation.php">Anleitung</a> an.</p>
+                    <p>Für mehr Informationen schaue dir die <a href="/documentation.php#system-requirements">Anleitung</a> an.</p>
                 </section>
 
                 <section>
