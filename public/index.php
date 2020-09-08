@@ -4,9 +4,7 @@
     <!-- Wenn du programmieren kannst und Module mit dem MMLC programmieren -->
     <!-- möchtest, dann melde dich bei uns. -->
     <head>
-        <?php
-        require_once 'inc/head.php';
-        ?>
+        <?php require_once 'inc/head.php'; ?>
         <meta name="description" content="Der MMLC ist eine Software zur Verwalltung von Modulen in deinem modified eCommerce Shop.">
 
         <title>MMLC - Modified Module Loader Client</title>
@@ -14,22 +12,14 @@
     <body>
         <div class="pageWrapper">
             <header>
-                <?php
-                require_once 'inc/pageTitle.php';
-                ?>
+                <?php require_once 'inc/pageTitle.php'; ?>
 
                 <nav>
-                    <?php
-                    require_once 'inc/navigation.php';
-                    ?>
+                    <?php require_once 'inc/navigation.php'; ?>
                 </nav>
             </header>
 
-            <aside>
-              <div class="notice danger">
-                  <p><strong>Achtung:</strong> Der MMLC befindet sich noch in der <strong>closed beta</strong> Testphase. Diese Webseite bietet dir bereits jetzt erste Einblicke. Ausgewählte <strong>Beta-Tester</strong> bekommen die Möglichkeit das System auszuprobieren. Solltest du Fehler entdecken oder dich für den MMLC interessieren, freuen wir uns über eine Nachricht unter <a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc DE/EN</a> oder unter <a class="electronicMessage" data-href="aW5mb0Btb2R1bGUtbG9hZGVyLmRl" tabindex="0">info<span class="at"></span>module-loader<span class="dot"></span>de</a>.</p>
-              </div>
-            </aside>
+            <?php require_once 'inc/beta_info.php'; ?>
 
             <main>
                 <section>

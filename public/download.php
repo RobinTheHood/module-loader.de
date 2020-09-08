@@ -9,31 +9,21 @@ if (checkDownloadAccess()) {
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
     <head>
-        <?php
-        require_once 'inc/head.php';
-        ?>
+        <?php require_once 'inc/head.php'; ?>
 
         <title>Download - MMLC - Modified Module Loader Client</title>
     </head>
     <body>
         <div class="pageWrapper">
             <header>
-                <?php
-                require_once 'inc/pageTitle.php';
-                ?>
+                <?php require_once 'inc/pageTitle.php'; ?>
 
                 <nav>
-                    <?php
-                    require_once 'inc/navigation.php';
-                    ?>
+                    <?php require_once 'inc/navigation.php'; ?>
                 </nav>
             </header>
 
-            <aside>
-                <div class="notice danger">
-                    <p><strong>Hinweis:</strong> Aktuell können nur <strong>Beta-Tester</strong> den MMLC herunterladen. Wenn du auch Beta-Tester werden möchtest freuen wir uns über eine Nachricht unter <a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc DE/EN</a> oder unter <a href="mailto:info@module-loader.de">info@module-loader.de</a>.</p>
-                </div>
-            </aside>
+            <?php require_once 'inc/beta_info.php'; ?>
 
             <main>
                 <section>

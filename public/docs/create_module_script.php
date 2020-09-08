@@ -3,31 +3,21 @@
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
     <head>
-        <?php
-        require_once '../inc/head.php';
-        ?>
+        <?php require_once '../inc/head.php'; ?>
 
         <title>createModule.sh - Developer - MMLC - Modified Module Loader Client</title>
     </head>
     <body>
         <div class="pageWrapper">
             <header>
-                <?php
-                require_once '../inc/pageTitle.php';
-                ?>
+                <?php require_once '../inc/pageTitle.php'; ?>
 
                 <nav>
-                    <?php
-                    require_once '../inc/navigation.php';
-                    ?>
+                    <?php require_once '../inc/navigation.php'; ?>
                 </nav>
             </header>
 
-            <aside>
-                <div class="notice danger">
-                    <p><strong>Hinweis:</strong> Diese Dokumentation ist noch unvollständig.</p>
-                </div>
-            </aside>
+            <?php require_once '../inc/contribute_info.php'; ?>
 
             <main>
                 <section>

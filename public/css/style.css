@@ -112,6 +112,11 @@ a:hover {
     text-decoration: none;
 }
 
+a.anchor {
+    color: #cccccc;
+    text-decoration: none;
+}
+
 
 /**
  * Fieldset

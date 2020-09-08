@@ -3,31 +3,21 @@
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
     <head>
-        <?php
-        require_once '../inc/head.php';
-        ?>
+        <?php require_once '../inc/head.php'; ?>
 
         <title>Modul veröffentlichen - Developer - MMLC - Modified Module Loader Client</title>
     </head>
     <body>
         <div class="pageWrapper">
             <header>
-                <?php
-                require_once '../inc/pageTitle.php';
-                ?>
+                <?php require_once '../inc/pageTitle.php'; ?>
 
                 <nav>
-                    <?php
-                    require_once '../inc/navigation.php';
-                    ?>
+                    <?php require_once '../inc/navigation.php'; ?>
                 </nav>
             </header>
 
-            <aside>
-                <div class="notice danger">
-                    <p><strong>Hinweis:</strong> Das ist die erste Version dieses Tutorials. Mit deiner Hilfe können wir diese Seite weiter verbessern. Falls du Fehler entdeckst oder Fragen hast, schreibe uns eine E-Mail an <a class="electronicMessage" data-href="aW5mb0Btb2R1bGUtbG9hZGVyLmRl" tabindex="0">info<span class="at"></span>module-loader<span class="dot"></span>de</a> oder sprich auf unserem <a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc DE/EN</a> Server mit der Community</a>.</p>
-                </div>
-            </aside>
+            <?php require_once '../inc/contribute_info.php'; ?>
 
             <main>
 

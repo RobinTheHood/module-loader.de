@@ -3,31 +3,21 @@
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
     <head>
-        <?php
-        require_once '../inc/head.php';
-        ?>
+        <?php require_once '../inc/head.php'; ?>
 
         <title>config.php - Developer - MMLC - Modified Module Loader Client</title>
     </head>
     <body>
         <div class="pageWrapper">
             <header>
-                <?php
-                require_once '../inc/pageTitle.php';
-                ?>
+                <?php require_once '../inc/pageTitle.php'; ?>
 
                 <nav>
-                    <?php
-                    require_once '../inc/navigation.php';
-                    ?>
+                    <?php require_once '../inc/navigation.php'; ?>
                 </nav>
             </header>
 
-            <aside>
-                <div class="notice danger">
-                    <p><strong>Hinweis:</strong> Diese Dokumentation ist noch unvollständig.</p>
-                </div>
-            </aside>
+            <?php require_once '../inc/contribute_info.php'; ?>
 
             <main>
                 <section>
@@ -54,14 +44,22 @@
                     </section>
 
                     <section>
-                        <h3 id="structure">Der Aufbau</h3>
+                        <h3 id="structure">
+                            Der Aufbau
+                            <a href="#structure" class="anchor">#</a>
+                        </h3>
+                        
                         <p>Bei der <code>config.php</code> Datei handelt es sich um eine normale PHP. Die Einstellungen werden in einem Array vorgenommen. Du kannst in dieser Datei auch PHP-Kommentare verwenden.</p>
                     <section>
 
                     <h3>Die Felder</h3>
 
                     <section>
-                        <h4 id="username">username</h4>
+                        <h4 id="username">
+                            username
+                            <a href="#username" class="anchor">#</a>
+                        </h4>
+                        
                         <p>In diesem Feld kannst du den Namen des Useres eintragen, der sich am MMLC einloggen kann, wenn du den MMLC direkt über <code>/ModifiedModuleLoaderClient</code> aufrufst. Bei der Installation über <code>mmlc_installer.php</code> musst du bereits einen Username festlegen. Diesen Usernamen trägt der Installer automatisch für dich hier ein.</p>
 
                         <p>Hier ein Beispiel:</p>
@@ -69,7 +67,11 @@
                     </section>
 
                     <section>
-                        <h4 id="password">password</h4>
+                        <h4 id="password">
+                            password
+                            <a href="#password" class="anchor">#</a>
+                        </h4>
+                        
                         <p>In diesem Feld kannst du das <strong>Passwort als Hash</strong> des Useres eintragen, der sich am MMLC einloggen kann, wenn du den MMLC direkt über <code>/ModifiedModuleLoaderClient</code> aufrufst. Bei der Installation über <code>mmlc_installer.php</code> musst du bereits ein Password festlegen. Dieses Passwort trägt der Installer automatisch für dich hier ein.</p>
 
                         <p>Wenn du das Passwort ändern möchtest, kannst du das seit Version 1.19.0 auch direkt über die Einstellungen im MMLC machen. Wenn deine Version älter ist, musst du dein Passwort manuell ändern. Wie das geht, beschreibt der folgende Abschnitt.</p>
@@ -82,7 +84,10 @@
                     </section>
 
                     <section>
-                        <h4 id="accessToken">accessToken</h4>
+                        <h4 id="accessToken">
+                            accessToken
+                            <a href="#accessToken" class="anchor">#</a>
+                        </h4>
                         
                         <p>Mit dem <a href="/documentation.php#accessToken">AccessToken kann sich der MMLC direkt beim MMLS authentifizieren</a>. Pass auf, dass du deinen AccessToken nicht verlierst in dem du ihn überschreibst. Bei der Installation über <code>mmlc_installer.php</code> wird für deinen MMLC automatisch ein AccessToken erzeugt.</p>
 
@@ -91,7 +96,10 @@
                     </section>
 
                     <section>
-                        <h4 id="modulesLocalDir">modulesLocalDir</h4>
+                        <h4 id="modulesLocalDir">
+                            modulesLocalDir
+                            <a href="#modulesLocalDir" class="anchor">#</a>
+                        </h4>
 
                         <p>In diesem Ordner lädt der MMLC die Module vom MMLS hinuter. In der Regel musst du das Verzeichnis nicht ändern.</p>
 
@@ -100,7 +108,10 @@
                     </section>
 
                     <section>
-                        <h4 id="remoteAddress">remoteAddress</h4>
+                        <h4 id="remoteAddress">
+                            remoteAddress
+                            <a href="#remoteAddress" class="anchor">#</a>
+                        </h4>
 
                         <p>Hierbei handelt es sich um die Adresse, unter der dein MMLC den MMLS erreichen kann. In der Regel musst du das Verzeichnis nicht ändern.</p>
 
@@ -109,7 +120,10 @@
                     </section>
 
                     <section>
-                        <h4 id="installMode">installMode</h4>
+                        <h4 id="installMode">
+                            installMode
+                            <a href="#installMode" class="anchor">#</a>
+                        </h4>
 
                         <p>Es gibt zwei Möglichkeiten, wie der MMLC Module in deinen Shop installieren kann. Bei der <code>copy</code> Variante werden alle Moduldateien in deinen Shop kopiert. Bei der <code>link</code> Variante, werden die Moduldateien nicht kopiert, sondern es werden symbolische Links auf die Moduldateien in deinen Shop erzeugt. Die <code>copy</code> Variante solltest du in deinem Live-Shop verweden. Die <code>link</code> Variante solltest du nur verwenden, wenn du mit dem MMLC Module entwickelst und auch mal etwas schiefgehen darf.</p>
 
@@ -123,7 +137,10 @@
                     </section>
 
                     <section>
-                        <h4 id="selfUpdate">selfUpdate (ab Version 1.17.0)</h4>
+                        <h4 id="selfUpdate">
+                            selfUpdate (ab Version 1.17.0)
+                            <a href="#selfUpdate" class="anchor">#</a>
+                        </h4>
 
                         <p>Mit dieser Option kannst du festlegen, welche Versionen vom MMLC dir bei einem Update zur Verfügung stehen. Bei <code>stable</code> werden dir nur MMLC Version zum Update vorgeschlagen, die wir ausführlich getestet haben. Wählst du hier den Wert <code>latest</code> aus, werden dir auch die neusten <code>alpha</code> und <code>beta</code>Versionen des MMLCs zum Update angeboten. Um Fehler zu vermeiden, empfehlen wir dir die <code>stable</code> Einstellung.</p>
 
@@ -137,7 +154,11 @@
                     </section>
 
                     <section>
-                        <h4 id="exceptionMonitorIp">exceptionMonitorIp (ab Version 1.18.0)</h4>
+                        <h4 id="exceptionMonitorIp">
+                            exceptionMonitorIp (ab Version 1.18.0)
+                            <a href="#exceptionMonitorIp" class="anchor">#</a>
+                        </h4>
+                        
                         <div class="notice info">
                             <p>Dokumentation in Arbeit ...</p>
                         </div>
@@ -149,7 +170,11 @@
                     </section>
 
                     <section>
-                        <h4 id="exceptionMonitorDomain">exceptionMonitorDomain (ab Version 1.18.0)</h4>
+                        <h4 id="exceptionMonitorDomain">
+                            exceptionMonitorDomain (ab Version 1.18.0)
+                            <a href="#exceptionMonitorDomain" class="anchor">#</a>
+                        </h4>
+
                         <div class="notice info">
                             <p>Dokumentation in Arbeit ...</p>
                         </div>
@@ -161,7 +186,11 @@
                     </section>
 
                     <section>
-                        <h4 id="exceptionMonitorMail">exceptionMonitorMail (ab Version 1.18.0)</h4>
+                        <h4 id="exceptionMonitorMail">
+                            exceptionMonitorMail (ab Version 1.18.0)
+                            <a href="#exceptionMonitorMail" class="anchor">#</a>
+                        </h4>
+                        
                         <div class="notice info">
                             <p>Dokumentation in Arbeit ...</p>
                         </div>
@@ -173,7 +202,10 @@
                     </section>
 
                     <section>
-                        <h4 id="adminDir">adminDir (ab Version 1.19.0)</h4>
+                        <h4 id="adminDir">
+                            adminDir (ab Version 1.19.0)
+                            <a href="#adminDir" class="anchor">#</a>
+                        </h4>
 
                         <p>Der MMLC versucht automatisch deinen Admin-Ordner zu erkennen, falls du diesen umbenannt hast. Wenn du möchtest, kannst du dem MMLC auch direkt mitteilen, wie dein Admin-Ordner heißt, dass kann unter Umständen deinen MMLC etwas beschleunigen.</p>
 

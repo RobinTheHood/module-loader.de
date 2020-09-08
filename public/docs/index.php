@@ -3,31 +3,21 @@
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
     <head>
-        <?php
-        require_once '../inc/head.php';
-        ?>
+        <?php require_once '../inc/head.php'; ?>
 
         <title>Developer - MMLC - Modified Module Loader Client</title>
     </head>
     <body>
         <div class="pageWrapper">
             <header>
-                <?php
-                require_once '../inc/pageTitle.php';
-                ?>
+                <?php require_once '../inc/pageTitle.php'; ?>
 
                 <nav>
-                    <?php
-                    require_once '../inc/navigation.php';
-                    ?>
+                    <?php require_once '../inc/navigation.php'; ?>
                 </nav>
             </header>
 
-            <aside>
-                <div class="notice danger">
-                    <p><strong>Hinweis:</strong> Diese Dokumentation ist noch unvollständig.</p>
-                </div>
-            </aside>
+            <?php require_once '../inc/contribute_info.php'; ?>
 
             <main>
                 <section>
@@ -55,10 +45,10 @@
 
                     <h3>References and internals</h3>
                     <ul>
-                        <li><a href="/docs/module_structure.php">Die Modul Verzeichnisstruktur</a></li>
-                        <li><a href="/docs/moduleinfo.php">Die moduleinfo.json Datei</a></li>
-                        <li><a href="/docs/naming_convention.php">Naming Convention</a></li>
                         <li><a href="/docs/config_config.php">Konfiguration | config/config.php</a></li>
+                        <li><a href="/docs/moduleinfo.php">Die moduleinfo.json Datei</a></li>
+                        <li><a href="/docs/module_structure.php">Die Modul Verzeichnisstruktur</a></li>
+                        <li><a href="/docs/naming_convention.php">Naming Convention</a></li>
                     </ul>
                 </section>
 
