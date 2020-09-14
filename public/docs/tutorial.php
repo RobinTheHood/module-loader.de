@@ -32,7 +32,10 @@
                         <!-- oder die URL <code class="break">http://YOUR_DOMAIN/ModifiedModuleLoaderClient/?action=createModule&vendorPrefix=mc&vendorName=mycompany&moduleName=my-first-module</code> aufrufen, wenn du im MMLC eingeloggt bist. !-->
                     </div>
 
-                    <h3 id="content">Inhalt</h3>
+                    <h3 id="content">
+                        Inhalt
+                        <a href="#content" class="anchor">#</a>
+                    </h3>
 
                     <ol>
                         <li><a href="#preconditions">Vorbedingungen</a></li>
@@ -49,7 +52,10 @@
                         <li><a href="#install_module_at_shop">Modul im Shopbackend installieren</a></li>
                     </ol>
 
-                    <h3 id="preconditions">Vorbedingungen</h3>
+                    <h3 id="preconditions">
+                        Vorbedingungen
+                        <a href="#preconditions" class="anchor">#</a>
+                    </h3>
 
                     <ul>
                         <li>Du hast eine <a href="/docs/local_dev_environment.php">lokale Enwicklungsumgebung</a> aufgesetzt.</li>
@@ -59,11 +65,17 @@
                         <li>(Optional aber empfohlen) Du hast git installiert und kannst die einfachen Basics.</li>
                     </ul>
 
-                    <h3 id="lets_go">Los gehts</h3>
+                    <h3 id="lets_go">
+                        Los gehts
+                        <a href="#lets_go" class="anchor">#</a>
+                    </h3>
 
                     <p>Stelle dir vor du hast eine Firma mit dem Namen "My Company" und diese Firma möchte ein neues Modul mit dem Namen "Mein erstes Modul" entwickeln.</p>
 
-                    <h3 id="create_structure">Verzeichnisstruktur erstellen</h3>
+                    <h3 id="create_structure">
+                        Verzeichnisstruktur erstellen
+                        <a href="#create_structure" class="anchor">#</a>
+                    </h3>
 
                     <div class="notice warning">
                         <p><strong>Wichtig:</strong> Wenn in diesem Tutorial das Root-Verzeichnis von deinem Modified Shop gemeint ist, schreiben wir <code>SHOP_ROOT</code>. In dem Root-Verzeichnis liegt dein <code>ModifiedModuleLoaderClient</code>. Wenn nichts anderes erwähnt wird, werden alle Pfadangaben in diesem Tutorial relativ zu dem Verzeichnis <code>ModifiedModuleLoaderClient</code> angegeben.</p>
@@ -96,7 +108,10 @@
 
                     <?php echo loadExample('/tutorial_005.txt'); ?>
 
-                    <h3 id="create_moduleinfo">moduleinfo.json erstellen</h3>
+                    <h3 id="create_moduleinfo">
+                        moduleinfo.json erstellen
+                        <a href="#create_moduleinfo" class="anchor">#</a>
+                    </h3>
 
                     <p>Nun erstellen wir in dem neuen Modul-Ordner die <code>moduleinfo.json</code> Datei.</p>
 
@@ -125,7 +140,10 @@
                     </div>
                 </section>
 
-                <h3 id="create_git_repository">Git Repository erstellen (optional aber empfohlen)</h3>
+                <h3 id="create_git_repository">
+                    Git Repository erstellen (optional aber empfohlen)
+                    <a href="#create_git_repository" class="anchor">#</a>
+                </h3>
 
                 <p>Wenn bis hierhin alles geklappt hat, ist es eine gute Gelegenheit den aktuellen Zwischenstand mit git zu speichern. Erstelle im Verzeichnis <code>./Modules/mycompany/my-first-module</code> ein neues git-Repository. Das kannst du z. B. über die Konsole machen oder mit einem git-Tool wie SourceTree. Hier das Beispiel mit der Konsole:</p>
 
@@ -135,7 +153,10 @@
                     <p><strong>Tipp: </strong> Schau mal auf <a href="https://www.conventionalcommits.org/" target="_blank">https://www.conventionalcommits.org/</a> vorbei. Hier wird dir beschrieben, wie du gute Commit-Messages schreiben kannst. Die Seite erklärt dir auch, wieso wir das Kürzel <code>feat:</code> vor unserer Commit-Message verwendet haben.</p>
                 </div>
 
-                <h3 id="create_system_files">Dateien für ein System Modul erstellen</h3>
+                <h3 id="create_system_files">
+                    Dateien für ein System Modul erstellen
+                    <a href="#create_system_files" class="anchor">#</a>
+                </h3>
 
                 <p>Wenn du es bis hier geschafft hast, können wir uns an die Arbeit machen, alle nötigen Dateien zu erstellen, die ein Modified Shop für ein System Modul benötigt.</p>
 
@@ -165,7 +186,10 @@
 
                 <?php echo loadExample('/tutorial_025.txt'); ?>
 
-                <h3 id="std_class">Die StdModule Klasse</h3>
+                <h3 id="std_class">
+                    Die StdModule Klasse
+                    <a href="#std_class" class="anchor">#</a>
+                </h3>
 
                 <p>In die Datei <code>mc_my_first_module.php</code> schreiben wir folgenden PHP Code:</p>
 
@@ -179,7 +203,10 @@
                     <p><strong>Wichtig:</strong> Beschreiben, wie sich die Konstante <code>MODULE_MC_MY_FIRST_MODULE</code> zusammen setzt. <i>Dokumentation in Arbeit ...</i></p>
                 </div>
 
-                <h3 id="add_dependencies">Abhängige Module in die moduleinfo.json hinzufügen</h3>
+                <h3 id="add_dependencies">
+                    Abhängige Module in die moduleinfo.json hinzufügen
+                    <a href="#add_dependencies" class="anchor">#</a>
+                </h3>
 
                 <p>Damit wir das Modul <code>Standard Modul für Modified</code> verwenden können, müssen wir es als Abhängigkeit in unserer <code>moduleinfo.json</code> hinzufügen. Auch brauchen wir das <code>Composer Autoload</code> Library Modul. Beide Module fügen wir durch das <code>require</code> Array in unserer <code>moduleinfo.json</code> hinzu.</p>
 
@@ -189,7 +216,10 @@
 
                 <?php echo loadExample('/tutorial_040.json'); ?>
 
-                <h3 id="create_lang_file">Sprachdatei für das System-Modul erstellen</h3>
+                <h3 id="create_lang_file">
+                    Sprachdatei für das System-Modul erstellen
+                    <a href="#create_lang_file" class="anchor">#</a>
+                </h3>
 
                 <p>User System Modul benötigt noch eine Sprachdatei, damit der User etwas angezeigt bekommt. Die Sprachdatei muss später in dem Verzeichnis <code>SHOP_ROOT/lang/german/modules/system</code> liegen. Damit der MMLC diese Datei in dieses Verzeichnis kopiert, müssen wir das Verzeichnis in <code>.../new_files</code> anlegen. Wir legen also die Verzeichnisstruktur <code>.../new_files/lang/german/modules/system/</code> an.</p>
 
@@ -203,7 +233,10 @@
 
                 <?php echo loadExample('/tutorial_060.php'); ?>
 
-                <h3 id="link_configuration">MMLC config.php von copy auf link umstellen</h3>
+                <h3 id="link_configuration">
+                    MMLC config.php von copy auf link umstellen
+                    <a href="#link_configuration" class="anchor">#</a>
+                </h3>
 
                 <p>Wenn du es bis hier geschafft hast, könnten wir jetzt bereits unser neues Modul mit dem MMLC installieren. Das Problem ist nur, dass wir bei jeder Änderung, die wir an einer Datei in unserem Ordner <code>new_files</code> machen würden, wieder erneut auf "Installieren" im MMLC klicken müssten. Das macht auf Dauer keinen Spaß.</p>
 
@@ -215,7 +248,11 @@
 
                 <?php echo loadExample('/tutorial_070.php'); ?>
 
-                <h3 id="install_module_at_mmlc">Modul im MMLC installieren</h3>
+                <h3 id="install_module_at_mmlc">
+                    Modul im MMLC installieren
+                    <a href="#install_module_at_mmlc" class="anchor">#</a>
+                </h3>
+
                 <p>Nach dem wir alle Dateien für unser Systemmodul erstellt haben und die nötigen Einstellungen im MMLC gemacht haben, können wir unser Modul installieren. Dazu rufen wir wieder den MMLC auf, suchen in der Suche unser Moduel "Mein erstes Modul" und klicken es an. Jetzt können wir auf der Moduldetailseite unser Modul installieren.</p>
 
                 <!--
@@ -224,7 +261,11 @@
                 <p><i>Dokumentation in Arbeit ...</i></p>
                 !-->
 
-                <h3 id="install_module_at_shop">Modul im Shopbackend installieren</h3>
+                <h3 id="install_module_at_shop">
+                    Modul im Shopbackend installieren
+                    <a href="#install_module_at_shop" class="anchor">#</a>
+                </h3>
+
                 <p>Damit wir das Modul nutzen können, müssen wir unser Modul ebenfalls im Shopbackend installieren. Das Modul befindet sich unter <i>Admin > Module > System Module</i>. <i>(Dein Modul erscheint möglicherweise etwas weiter unten in der Liste.)</i></p>
 
                 <p><img src="/images/tutorial_090.png" class="imagePreview" alt=""></p>
