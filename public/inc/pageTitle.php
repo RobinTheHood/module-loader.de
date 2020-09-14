@@ -8,5 +8,5 @@
     <img class="logo" src="/images/mmlc-logo-transparent.png">
 
     <h1><span class="m">M</span>MLC - Modified Module Loader Client</h1>
-    <strong>Latest: 1.19.0</strong>
+    <strong>Latest: 1.19.1</strong>
 </div>
