@@ -223,9 +223,13 @@
                             <a href="#require" class="anchor">#</a>
                         </h4>
 
-                        <div class="notice info">
-                            <p>Dokumentation in Arbeit ...</p>
-                        </div>
+                        <p>Hier kann eingetragen werden von welchen Modulen das Modul abhängt. Die abhängigen Module werden automatisch mitinstalliert, wenn das Modul installiert wird.<p>
+
+                        <p>Hier ein Beispiel von einem Modul, das von den Modulen <code>composer/autoload ab Version 1.1.0</code> und <code>robinthehood/modified-std-module ab Version 0.1.0</code> abhängig ist.</p>
+<code class="block">"require": {
+    "composer/autoload": "^1.1.0",
+    "robinthehood/modified-std-module": "^0.1.0"
+}</code>
                     </section>
                     
                     <section>
@@ -239,7 +243,7 @@
                         </div>
 
                         <p>Hier ein Beispiel:</p>
-<code class="block">modifiedCompatibility": [
+<code class="block">"modifiedCompatibility": [
     "2.0.3.0",
     "2.0.4.0",
     "2.0.4.1",
