@@ -15,11 +15,11 @@
 ?>
 
 <ul>
+    <li><img src="/images/mmlc-logo-transparent.png"></li>
+
     <?php
         foreach ($menuItems as $href => $value) {
-            $menuItemsClasses = array(
-                'button',
-            );
+            $menuItemsClasses = [];
 
             /**
              * Make menu item active if it's current document
