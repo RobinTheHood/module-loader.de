@@ -8,26 +8,26 @@
         <title>createModule.sh - Developer - MMLC - Modified Module Loader Client</title>
     </head>
     <body>
+        <header>
+            <nav>
+                <?php require_once '../inc/navigation.php'; ?>
+            </nav>
+        </header>
+
         <div class="pageWrapper">
-            <header>
-                <?php require_once '../inc/pageTitle.php'; ?>
+            <div class="content">
+                <?php require_once '../inc/contribute_info.php'; ?>
 
-                <nav>
-                    <?php require_once '../inc/navigation.php'; ?>
-                </nav>
-            </header>
+                <main>
+                    <section>
+                        <h2>Modul erstellen mit dem createModule.sh</h2>
 
-            <?php require_once '../inc/contribute_info.php'; ?>
-
-            <main>
-                <section>
-                    <h2>Modul erstellen mit dem createModule.sh</h2>
-
-                    <div class="notice info">
-                        <p>Dokumentation in Arbeit ...</p>
-                    </div>
-                </section>
-            </main>
+                        <div class="notice info">
+                            <p>Dokumentation in Arbeit ...</p>
+                        </div>
+                    </section>
+                </main>
+            </div>
         </div>
 
         <?php include '../../views/footer.php'; ?>

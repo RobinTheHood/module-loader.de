@@ -11,37 +11,37 @@
         <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
+        <header>
+            <nav>
+                <?php require_once '../inc/navigation.php'; ?>
+            </nav>
+        </header>
+
         <div class="pageWrapper">
-            <header>
-                <?php require_once '../inc/pageTitle.php'; ?>
+            <div class="content">
+                <?php require_once '../inc/contribute_info.php'; ?>
 
-                <nav>
-                    <?php require_once '../inc/navigation.php'; ?>
-                </nav>
-            </header>
+                <main>
+                    <section>
+                        <h2>Verzeichnistruktur eines Moduls</h2>
 
-            <?php require_once '../inc/contribute_info.php'; ?>
+                        <ul>
+                            <li>moduleinfo.json: </li>
+                            <li>modulehash.json: </li>
+                            <li>changelog.md: </li>
+                            <li>icon.png / icon.jpeg: </li>
+                            <li>new_files: </li>
+                            <li>docs/install.md: </li>
+                            <li>docs/usage.md: </li>
+                            <li>images: </li>
+                        </ul>
 
-            <main>
-                <section>
-                    <h2>Verzeichnistruktur eines Moduls</h2>
-
-                    <ul>
-                        <li>moduleinfo.json: </li>
-                        <li>modulehash.json: </li>
-                        <li>changelog.md: </li>
-                        <li>icon.png / icon.jpeg: </li>
-                        <li>new_files: </li>
-                        <li>docs/install.md: </li>
-                        <li>docs/usage.md: </li>
-                        <li>images: </li>
-                    </ul>
-
-                    <div class="notice info">
-                        <p>Dokumentation in Arbeit ...</p>
-                    </div>
-                </section>
-            </main>
+                        <div class="notice info">
+                            <p>Dokumentation in Arbeit ...</p>
+                        </div>
+                    </section>
+                </main>
+            </div>
         </div>
 
         <?php include '../../views/footer.php'; ?>
