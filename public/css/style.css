@@ -232,6 +232,7 @@ header nav ul li a {
     color: #fff;
 
     font-weight: bolder;
+    opacity: 0.6;
 
     text-decoration: none;
 }
@@ -240,7 +241,7 @@ header nav ul li:hover a,
 header nav ul li.active a {
     color: #fff;
 
-    text-decoration: 0.1em solid underline;
+    opacity: 1;
 }
 
 
