@@ -17,7 +17,7 @@
         </header>
 
         <div class="pageWrapper">
-            <div class="content">                
+            <div class="content">
                 <?php require_once 'inc/beta_info.php'; ?>
 
                 <main>
