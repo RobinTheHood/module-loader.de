@@ -241,7 +241,7 @@ header nav ul li i {
     vertical-align: middle;
     font-size: 0.8em;
 
-	transform: rotateZ(-90deg);
+    transform: rotateZ(-90deg);
 }
 
 header nav ul li img {
@@ -251,7 +251,7 @@ header nav ul li img {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: var(--colourLight);
 
     font-weight: bolder;
     opacity: 0.6;
@@ -261,7 +261,7 @@ header nav ul li a {
 
 header nav ul li:hover > a,
 header nav ul li.active > a {
-    color: #fff;
+    color: var(--colourLight);
 
     opacity: 1;
 }
@@ -275,14 +275,13 @@ header nav ul li ul {
     border-radius: var(--radiusDefault);
     box-shadow: var(--shadowDefault);
 
-    background-color: var(--colourPrimary);
+    color: var(--colourLight);
+    background-color: var(--colourLight);
 }
 
 header nav ul li ul li {
     display: none;
     margin: 0;
-
-    padding: 8px var(--paddingLi);
 }
 
 header nav ul li:hover ul li {
@@ -291,6 +290,17 @@ header nav ul li:hover ul li {
 
 header nav ul li:hover i {
     transform: rotateZ(0deg);
+}
+
+header nav ul li ul li a {
+    display: block;
+    padding: 8px var(--paddingLi);
+
+    color: var(--colourDark);
+}
+
+header nav ul li ul li:hover a {
+    color: var(--colourDark);
 }
 
 
