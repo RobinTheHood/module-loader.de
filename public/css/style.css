@@ -21,6 +21,12 @@
 /**
  * General
  */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
 body {
     margin: 0;
 
@@ -189,6 +195,10 @@ header .m {
  * Navigation
  */
 header nav {
+    --paddingLi: 16px;
+
+    position: sticky;
+    top: 0;
     max-height: 64px;
     padding: 0.4em;
 
@@ -206,6 +216,7 @@ header nav ul {
 }
 
 header nav ul li {
+    position: relative;
     display: inline-block;
     max-height: inherit;
 
@@ -220,6 +231,17 @@ header nav ul li:first-of-type {
 
 header nav ul li:last-of-type {
     margin-right: 0;
+}
+
+header nav ul li i {
+    transition: transform 0.2s ease;
+
+    margin-left: var(--paddingLi);
+
+    vertical-align: middle;
+    font-size: 0.8em;
+
+	transform: rotateZ(-90deg);
 }
 
 header nav ul li img {
@@ -237,11 +259,38 @@ header nav ul li a {
     text-decoration: none;
 }
 
-header nav ul li:hover a,
-header nav ul li.active a {
+header nav ul li:hover > a,
+header nav ul li.active > a {
     color: #fff;
 
     opacity: 1;
+}
+
+header nav ul li ul {
+    position: absolute;
+    width: auto;
+    max-height: unset;
+    left: calc(var(--paddingLi) * -1);
+
+    border-radius: var(--radiusDefault);
+    box-shadow: var(--shadowDefault);
+
+    background-color: var(--colourPrimary);
+}
+
+header nav ul li ul li {
+    display: none;
+    margin: 0;
+
+    padding: 8px var(--paddingLi);
+}
+
+header nav ul li:hover ul li {
+    display: block;
+}
+
+header nav ul li:hover i {
+    transform: rotateZ(0deg);
 }
 
 
@@ -249,9 +298,11 @@ header nav ul li.active a {
  * Sidebar
  */
 aside.sidebar {
+    --navHeight: 77px;
+
     position: sticky;
-    top: 0;
-    height: 100vh;
+    top: var(--navHeight);
+    height: calc(100vh - var(--navHeight));
 
     overflow: auto;
 }
