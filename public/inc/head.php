@@ -6,3 +6,14 @@
 <link rel="stylesheet" href="/css/font-awesome-5-14-0.css">
 
 <script defer src="/js/default.js"></script>
+
+<style type="text/css">
+/**
+ * Critical CSS
+ * to avoid elements moving around while page is loading
+ */
+header nav ul li img {
+    height: 64px;
+    width: 57px;
+}
+</style>
