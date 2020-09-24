@@ -234,17 +234,19 @@ header nav ul li:last-of-type {
 }
 
 header nav ul li i {
-    transition: transform 0.2s ease;
-
-    margin-left: var(--paddingLi);
+    margin-left: 8px;
 
     vertical-align: middle;
     font-size: 0.8em;
-
-    transform: rotateZ(-90deg);
 }
 
+/**
+ * Overwrite the critical inline CSS
+ */
 header nav ul li img {
+    width: auto !important;
+    height: auto !important;
+
     max-height: inherit;
 
     margin: 0;
@@ -286,10 +288,6 @@ header nav ul li ul li {
 
 header nav ul li:hover ul li {
     display: block;
-}
-
-header nav ul li:hover i {
-    transform: rotateZ(0deg);
 }
 
 header nav ul li ul li a {

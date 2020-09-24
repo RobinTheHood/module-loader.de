@@ -1,7 +1,6 @@
 <?php
 /**
  * To do:
- * add support for sub menus
  * add breadcrumbs
  */
 $menuItems = [
@@ -38,6 +37,7 @@ function createMenu(array $menuItems) {
 
     foreach ($menuItems as $href => $value) {
         $li = '';
+        $liClass = [];
 
         /**
          * Determine if the item has a sub menu
@@ -46,11 +46,16 @@ function createMenu(array $menuItems) {
          * @var string $href the current item has no sub items
          */
         if (is_array($value)) {
-            $valueFirst = array_slice($value, 0, 1)[array_key_first($value)]; // required php 7.3
+            $valueHref = array_key_first($value);
+            $valueFirst = array_slice($value, 0, 1)[$valueHref]; // required php 7.3
             $valueRest = array_slice($value, 1);
 
-            echo '<li>';
-            echo '<a href="' . array_key_first($value) . '">' . $valueFirst . '<i class="fas fa-chevron-down"></i></a>';
+            if ($valueHref === $_SERVER['SCRIPT_NAME']) {
+                $liClass[] = 'active';
+            }
+
+            echo '<li class="' . implode(' ', $liClass) . '">';
+            echo '<a href="' . $valueHref . '">' . $valueFirst . '<i class="fas fa-chevron-down"></i></a>';
             createMenu($valueRest);
             echo '</li>';
         }
@@ -58,21 +63,19 @@ function createMenu(array $menuItems) {
             /**
              * Make menu item active if it's current document
              */
-            $menuItemsClasses = [];
-
             if (empty($href)) {
                 $li = '<li>';
-                $li = str_replace('li', 'li class="' . implode(' ', $menuItemsClasses) . '"', $li);
+                $li = str_replace('li', 'li class="' . implode(' ', $liClass) . '"', $li);
                 $li .= $value;
                 $li .= '</li>';
             }
             else {
                 if ($href === $_SERVER['SCRIPT_NAME']) {
-                    $menuItemsClasses[] = 'active';
+                    $liClass[] = 'active';
                 }
 
                 $li = '<li>';
-                $li = str_replace('li', 'li class="' . implode(' ', $menuItemsClasses) . '"', $li);
+                $li = str_replace('li', 'li class="' . implode(' ', $liClass) . '"', $li);
                 $li .= '<a href="' . $href . '">' . $value . '</a>';
                 $li .= '</li>';
             }
