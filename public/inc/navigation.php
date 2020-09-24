@@ -63,22 +63,21 @@ function createMenu(array $menuItems) {
             /**
              * Make menu item active if it's current document
              */
+            $li = '<li>';
+            $li = str_replace('li', 'li class="' . implode(' ', $liClass) . '"', $li);
+
             if (empty($href)) {
-                $li = '<li>';
-                $li = str_replace('li', 'li class="' . implode(' ', $liClass) . '"', $li);
                 $li .= $value;
-                $li .= '</li>';
             }
             else {
                 if ($href === $_SERVER['SCRIPT_NAME']) {
                     $liClass[] = 'active';
                 }
 
-                $li = '<li>';
-                $li = str_replace('li', 'li class="' . implode(' ', $liClass) . '"', $li);
                 $li .= '<a href="' . $href . '">' . $value . '</a>';
-                $li .= '</li>';
             }
+
+            $li .= '</li>';
         }
 
         echo $li;
