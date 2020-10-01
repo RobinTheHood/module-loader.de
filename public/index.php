@@ -5,7 +5,7 @@
     <!-- möchtest, dann melde dich bei uns. -->
     <head>
         <?php require_once 'inc/head.php'; ?>
-        <meta name="description" content="Der MMLC ist eine Software zur Verwalltung von Modulen in deinem modified eCommerce Shop.">
+        <meta name="description" content="Der MMLC ist eine Software zur Verwaltung von Modulen in deinem modified eCommerce Shop.">
 
         <title>MMLC - Modified Module Loader Client</title>
     </head>
