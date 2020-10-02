@@ -28,6 +28,12 @@ $menuItems = [
 
 createMenu($menuItems);
 
+function ourArrayKeyFirst(array $arr) {
+    foreach($arr as $key => $unused) {
+        return $key;
+    }
+    return NULL;
+}
 
 /**
  * createMenu
@@ -46,7 +52,7 @@ function createMenu(array $menuItems) {
          * @var string $href the current item has no sub items
          */
         if (is_array($value)) {
-            $valueHref = array_key_first($value);
+            $valueHref = ourArrayKeyFirst($value); // if we use 7.3, than we kann use 'array_key_first(...)'
             $valueFirst = array_slice($value, 0, 1)[$valueHref]; // required php 7.3
             $valueRest = array_slice($value, 1);
 
@@ -58,8 +64,7 @@ function createMenu(array $menuItems) {
             echo '<a href="' . $valueHref . '">' . $valueFirst . '<i class="fas fa-chevron-down"></i></a>';
             createMenu($valueRest);
             echo '</li>';
-        }
-        else {
+        } else {
             /**
              * Make menu item active if it's current document
              */
