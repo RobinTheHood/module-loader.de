@@ -19,6 +19,16 @@
 
 
 /**
+ * To do:
+ * Add this to an extra stylesheet and load it last
+ */
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../fonts/quicksand.ttf') format('truetype');
+}
+
+
+/**
  * General
  */
 header {
@@ -30,7 +40,7 @@ header {
 body {
     margin: 0;
 
-    font-family: "-apple-system", "BlinkMacSystemFont", "Helvetica Neue", "Roboto", sans-serif;
+    font-family: 'Quicksand', sans-serif;
     line-height: 28px;
     color: var(--colourDark);
     background-color: var(--colourLight);
@@ -207,12 +217,17 @@ header nav {
 }
 
 header nav ul {
-    max-height: inherit;
-    width: var(--pageWidth);
-
     padding: 0;
     margin: 0 auto;
     list-style: none;
+}
+
+header nav > ul {
+    display: flex;
+    align-items: center;
+
+    max-height: inherit;
+    width: var(--pageWidth);
 }
 
 header nav ul li {
@@ -255,8 +270,8 @@ header nav ul li img {
 header nav ul li a {
     color: var(--colourLight);
 
-    font-weight: bolder;
-    opacity: 0.6;
+    font-weight: 550;
+    opacity: 0.8;
 
     text-decoration: none;
 }
