@@ -1,3 +1,14 @@
+/**
+ * To do:
+ * Add this to an extra stylesheet and load it last
+ */
+@font-face {
+  font-family: 'Quicksand';
+  font-display: swap;
+  src: url('../fonts/quicksand.ttf') format('truetype');
+}
+
+
 :root {
     --pageWidth: 1100px;
     --contentWidth: 80ch;
@@ -19,16 +30,6 @@
 
 
 /**
- * To do:
- * Add this to an extra stylesheet and load it last
- */
-@font-face {
-  font-family: 'Quicksand';
-  src: url('../fonts/quicksand.ttf') format('truetype');
-}
-
-
-/**
  * General
  */
 header {
@@ -45,6 +46,7 @@ body {
     color: var(--colourDark);
     background-color: var(--colourLight);
 
+    font-kerning: normal;
     text-rendering: geometricPrecision;
 }
 
