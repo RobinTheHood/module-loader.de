@@ -14,67 +14,67 @@ if (checkDownloadAccess()) {
         <title>Download - MMLC - Modified Module Loader Client</title>
     </head>
     <body>
+        <header>
+            <nav>
+                <?php require_once 'inc/navigation.php'; ?>
+            </nav>
+        </header>
+
         <div class="pageWrapper">
-            <header>
-                <?php require_once 'inc/pageTitle.php'; ?>
+            <div class="content">
+                <?php require_once 'inc/beta_info.php'; ?>
 
-                <nav>
-                    <?php require_once 'inc/navigation.php'; ?>
-                </nav>
-            </header>
+                <main>
+                    <section>
+                        <h2>MMLC Installer Download</h2>
 
-            <?php require_once 'inc/beta_info.php'; ?>
+                        <form class="" action="" method="post">
+                            <input type="hidden" name="action" value="download">
+                            <input type="hidden" name="user" value="beta-user">
+                            <input type="hidden" name="password" value="beta-password">
 
-            <main>
-                <section>
-                    <h2>MMLC Installer Download</h2>
+                            <button type="submit">Download mmlc_installer.php (Version 0.6.0 | 11 kB)</button>
+                            <small>Info: Die mmlc_installer.php Datei Version 0.6.0 kann alle MMLC Versionen ab 1.14.0 installieren. Zur <a href="/documentation.php#system-requirements">Installationsanleitung</a>.</small>
+                        </form>
 
-                    <form class="" action="" method="post">
-                        <input type="hidden" name="action" value="download">
-                        <input type="hidden" name="user" value="beta-user">
-                        <input type="hidden" name="password" value="beta-password">
+                        <!--
+                        <form class="download" action="" method="post">
+                            <input type="hidden" name="action" value="download">
 
-                        <button type="submit">Download mmlc_installer.php (Version 0.6.0 | 11 kB)</button>
-                        <small>Info: Die mmlc_installer.php Datei Version 0.6.0 kann alle MMLC Versionen ab 1.14.0 installieren. Zur <a href="/documentation.php#system-requirements">Installationsanleitung</a>.</small>
-                    </form>
+                            <fieldset>
+                                <label for="user">E-Mail (optional)</label>
+                                <input type="text" name="mail" value="">
+                            </fieldset>
 
-                    <!--
-                    <form class="download" action="" method="post">
-                        <input type="hidden" name="action" value="download">
-
-                        <fieldset>
-                            <label for="user">E-Mail (optional)</label>
-                            <input type="text" name="mail" value="">
-                        </fieldset>
-
-                        <fieldset>
-                            <label for="user">Username</label>
-                            <input type="text" name="user" value="">
-                        </fieldset>
+                            <fieldset>
+                                <label for="user">Username</label>
+                                <input type="text" name="user" value="">
+                            </fieldset>
 
 
-                        <fieldset>
-                            <label for="user">Username</label>
-                            <input type="text" name="user" value="">
-                        </fieldset>
+                            <fieldset>
+                                <label for="user">Username</label>
+                                <input type="text" name="user" value="">
+                            </fieldset>
 
-                        <fieldset>
-                            <label for="password">Password</label>
-                            <input type="password" name="password" value="">
-                        </fieldset>
-                        
+                            <fieldset>
+                                <label for="password">Password</label>
+                                <input type="password" name="password" value="">
+                            </fieldset>
 
-                        <button type="submit">Start Download </button>
-                    </form>
-                    -->
 
-                </section>
+                            <button type="submit">Start Download </button>
+                        </form>
+                        -->
 
-                <section>
-                    <p>Nach der Installation solltest du folgende Seite sehen:</p>
-                    <img src="/images/MMLC_Anmeldung.png" class="imagePreview" alt="Am MMLC anmelden">
-                </section>
-            </main>
+                    </section>
+
+                    <section>
+                        <p>Nach der Installation solltest du folgende Seite sehen:</p>
+                        <img src="/images/MMLC_Anmeldung.png" class="imagePreview" alt="Am MMLC anmelden">
+                    </section>
+                </main>
+            </div>
         </div>
 
         <?php include '../views/footer.php'; ?>
