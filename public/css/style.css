@@ -30,6 +30,16 @@
 
 
 /**
+ * To do:
+ * Add this to an extra stylesheet and load it last
+ */
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../fonts/quicksand.ttf') format('truetype');
+}
+
+
+/**
  * General
  */
 header {
@@ -540,7 +550,7 @@ footer {
     }
 
     header nav ul li img {
-      display: block;
+        display: block;
         max-height: 3em;
     }
 
