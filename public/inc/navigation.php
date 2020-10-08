@@ -69,7 +69,6 @@ function createMenu(array $menuItems) {
              * Make menu item active if it's current document
              */
             $li = '<li>';
-            $li = str_replace('li', 'li class="' . implode(' ', $liClass) . '"', $li);
 
             if (empty($href)) {
                 $li .= $value;
@@ -82,6 +81,7 @@ function createMenu(array $menuItems) {
                 $li .= '<a href="' . $href . '">' . $value . '</a>';
             }
 
+            $li = str_replace('<li>', '<li class="' . implode(' ', $liClass) . '">', $li);
             $li .= '</li>';
         }
 
