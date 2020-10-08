@@ -44,6 +44,8 @@ body {
     line-height: 28px;
     color: var(--colourDark);
     background-color: var(--colourLight);
+
+    text-rendering: geometricPrecision;
 }
 
 section {
@@ -70,6 +72,11 @@ ol {
 ul li,
 ol li {
     margin: 0 0 0.4em 0;
+}
+
+b,
+strong {
+    font-weight: 680;
 }
 
 
