@@ -207,8 +207,6 @@ header .m {
 header nav {
     --paddingLi: 16px;
 
-    position: sticky;
-    top: 0;
     max-height: 64px;
     padding: 0.4em;
 
@@ -494,13 +492,78 @@ footer {
 /**
  * Responsive
  */
+@media (max-width: 1140px) {
+    header nav {
+    	padding: 8px 40px;
+    }
+
+    .pageWrapper {
+    	margin: 0;
+    	padding: 40px;
+    }
+
+    .pageWrapper.withSidebar {
+    	grid-template-columns: 1fr 2fr;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        position: static;
+    }
+
+    header nav {
+        padding: 8px 20px;
+
+    	max-height: unset;
+    }
+
+    header nav > ul {
+    	flex-flow: column;
+        align-items: flex-start;
+    	width: auto;
+    }
+
+    header nav ul li {
+        width: 100%;
+
+        margin: 0;
+    }
+
+    header nav ul li img {
+        max-height: 3em;
+    }
+
+    header nav ul li a {
+        width: 100%;
+    }
+
+    header nav ul li ul {
+        position: static;
+    }
+
+    .pageWrapper {
+    	padding: 20px;
+    }
+
+    .pageWrapper.withSidebar {
+    	grid-template-columns: auto;
+        grid-template-rows: 40vh auto;
+    }
+
+    aside.sidebar {
+    	position: static;
+    	height: inherit;
+    }
+
+    #logo {
+    	margin: 0 auto 20px auto;
+    }
+}
+
 @media (max-width: 512px) {
     * {
       word-wrap: anywhere;
-    }
-
-    nav ul {
-        grid-template-columns: 1fr;
     }
 
     .nowrap {
