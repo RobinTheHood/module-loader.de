@@ -454,6 +454,11 @@ img.imagePreview {
     margin: 0 auto;
 }
 
+#logo {
+    display: block;
+    margin: -20px auto 20px auto;
+}
+
 .break {
     word-break: break-all;
 }
