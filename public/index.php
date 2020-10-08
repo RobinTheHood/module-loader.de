@@ -18,6 +18,8 @@
 
         <div class="pageWrapper">
             <div class="content">
+                <img id="logo" src="/images/mmlc-logo-transparent.png">
+
                 <?php require_once 'inc/beta_info.php'; ?>
 
                 <main>
