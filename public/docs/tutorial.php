@@ -36,7 +36,7 @@
                     <li><a href="#install_module_at_shop">Modul im Shopbackend installieren</a></li>
                 </ol>
             </aside>
-            
+
             <div class="content">
                 <?php require_once '../inc/contribute_info.php'; ?>
 

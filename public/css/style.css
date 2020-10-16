@@ -1,3 +1,14 @@
+/**
+ * To do:
+ * Add this to an extra stylesheet and load it last
+ */
+@font-face {
+  font-family: 'Quicksand';
+  font-display: swap;
+  src: url('../fonts/quicksand.ttf') format('truetype');
+}
+
+
 :root {
     --pageWidth: 1100px;
     --contentWidth: 80ch;
@@ -44,6 +55,9 @@ body {
     line-height: 28px;
     color: var(--colourDark);
     background-color: var(--colourLight);
+
+    font-kerning: normal;
+    text-rendering: geometricPrecision;
 }
 
 section {
@@ -70,6 +84,11 @@ ol {
 ul li,
 ol li {
     margin: 0 0 0.4em 0;
+}
+
+b,
+strong {
+    font-weight: 680;
 }
 
 
@@ -531,6 +550,7 @@ footer {
     }
 
     header nav ul li img {
+        display: block;
         max-height: 3em;
     }
 
