@@ -243,7 +243,7 @@
 
                     <p>Aus diesem Grund können wir bei der Entwicklung von Modulen den MMLC so konfigurieren, dass er die Dateien aus dem <code>new_files</code> Ordner nicht in den <code>SHOPT_ROOT</code> kopiert, sondern die Dateien nur verlinkt. Das hat den großen Vorteil, dass jede Änderung, die wir an einer Datei im Ordner <code>new_files</code> machen auch direkt in der entsprechenden Datei in <code>SHOP_ROOT</code> verfügbar wird. Lediglich, wenn wir eine neue Datei im Ornder <code>new_files</code> hinzufügen, müssen wir einmal auf "Installieren" oder auf "Änderungen verwerfen" im MMLC klicken, damit der MMLC auch diese neue Datei in den <code>SHOPT_ROOT</code> verlinkt.</p>
 
-                    <p>Die Konfiguration hierfür können wir in der <code>/conifg/config.php</code>  deines MMLCs vornehmen. Ändere das Feld <code>installMode</code> auf den Wert <code>link</code>. Jetzt verlinkt der MMLC deine Dateien, anstatt die Dateien zu kopieren.</p>
+                    <p>Die Konfiguration hierfür können wir in der <code>/config/config.php</code>  deines MMLCs vornehmen. Ändere das Feld <code>installMode</code> auf den Wert <code>link</code>. Jetzt verlinkt der MMLC deine Dateien, anstatt die Dateien zu kopieren.</p>
 
                     <p>Deine <code>config.php</code> sollte wie folgt aussehen:</p>
 
