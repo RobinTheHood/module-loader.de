@@ -8,21 +8,22 @@ $menuItems = [
     '/index.php' => 'Home',
     '/modules' => 'Module',
     '/download.php' => 'Download',
-    [
-        '/documentation.php' => 'Dokumentation',
-        '/documentation.php#system-requirements' => 'Systemvoraussetzungen',
-        '/documentation.php#installation' => 'Installation',
-        '/documentation.php#deinstallation' => 'Deinstallation',
-        '/documentation.php#general' => 'Allgemein',
-        '/documentation.php#module-overview-page' => 'Modulinformationen auf der Modul-Detailseite',
-        '/documentation.php#module-informations' => 'Ein neues Modul installieren',
-        '/documentation.php#update-a-module' => 'Ein installiertes Modul aktualisieren / update',
-        '/documentation.php#repair-a-module' => 'Ein Modul reparieren',
-        '/documentation.php#uninstall-a-module' => 'Ein Modul deinstalieren',
-        '/documentation.php#accessToken' => 'AccessToken',
-        '/documentation.php#update-mmlc' => 'Deinen MMLC aktualisieren',
-        '/documentation.php#known-issues' => 'Fehler und Patches',
-    ],
+    '/documentation.php' => 'Dokumentation',
+    // [
+    //     '/documentation.php' => 'Dokumentation',
+    //     '/documentation.php#system-requirements' => 'Systemvoraussetzungen',
+    //     '/documentation.php#installation' => 'Installation',
+    //     '/documentation.php#deinstallation' => 'Deinstallation',
+    //     '/documentation.php#general' => 'Allgemein',
+    //     '/documentation.php#module-overview-page' => 'Modulinformationen auf der Modul-Detailseite',
+    //     '/documentation.php#module-informations' => 'Ein neues Modul installieren',
+    //     '/documentation.php#update-a-module' => 'Ein installiertes Modul aktualisieren / update',
+    //     '/documentation.php#repair-a-module' => 'Ein Modul reparieren',
+    //     '/documentation.php#uninstall-a-module' => 'Ein Modul deinstalieren',
+    //     '/documentation.php#accessToken' => 'AccessToken',
+    //     '/documentation.php#update-mmlc' => 'Deinen MMLC aktualisieren',
+    //     '/documentation.php#known-issues' => 'Fehler und Patches',
+    // ],
     '/docs/index.php' => 'Entwickler',
 ];
 
@@ -72,8 +73,7 @@ function createMenu(array $menuItems) {
 
             if (empty($href)) {
                 $li .= $value;
-            }
-            else {
+            } else {
                 if ($href === $_SERVER['SCRIPT_NAME']) {
                     $liClass[] = 'active';
                 }
