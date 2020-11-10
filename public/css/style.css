@@ -94,7 +94,7 @@ img {
 }
 
 p {
-    margin: 0 0 1em 0;
+    margin: 0 0 2em 0;
 }
 
 ul,
@@ -116,20 +116,16 @@ strong {
 /**
  * Headings
  */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 {
     margin: 0 0 1em 0;
 }
 
-h3,
-h4,
-h5,
-h6 {
-    margin-top: 2em;
+h2 {
+    margin: 70px 0 1em 0;
+}
+
+h3 {
+    margin: 70px 0 1em 0;
 }
 
 
@@ -221,7 +217,7 @@ code {
 code.block {
     display: block;
     padding: 25px;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 
     font-size: 16px;
     line-height: 1.6;
@@ -359,17 +355,26 @@ header nav ul li ul li:hover a {
  * Sidebar
  */
 aside.sidebar {
-    --navHeight: 77px;
+    --navHeight: 130px;
 
     position: sticky;
     top: var(--navHeight);
     height: calc(100vh - var(--navHeight));
 
     overflow: auto;
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+aside.sidebar::-webkit-scrollbar {
+    display: none;
 }
 
 aside.sidebar h3 {
-    margin-top: 1em;
+    margin-top: 0em;
 }
 
 aside.sidebar ul {
@@ -377,6 +382,9 @@ aside.sidebar ul {
 	margin: 2em 0;
 }
 
+aside.sidebar li a {
+    text-decoration: none;
+}
 
 /**
  * Button
@@ -408,7 +416,7 @@ aside.sidebar ul {
  * Notice
  */
 .notice {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     padding: var(--gutterDefault);
     border-radius: var(--radiusDefault);
     border: 1px solid transparent;
@@ -523,9 +531,10 @@ img.imagePreview {
  */
 footer {
     font-size: 12px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    padding: 50px;
     text-align: center;
+    background-color: #eeeeee;
 }
 
 
