@@ -32,15 +32,6 @@
                             </tr>
 
                             <tr>
-                                <td>VendorName</td>
-                                <td>lisp-case</td>
-                                <td>
-                                    <code>mycompany</code><br>
-                                    <code>cool-nickname</code>
-                                </td>
-                            </tr>
-
-                            <tr>
                                 <td>VendorPrefix</td>
                                 <td>snake_case</td>
                                 <td>
@@ -50,11 +41,29 @@
                             </tr>
 
                             <tr>
+                                <td>VendorName</td>
+                                <td>lisp-case</td>
+                                <td>
+                                    <code>mycompany</code><br>
+                                    <code>cool-nickname</code>
+                                </td>
+                            </tr>
+
+                            <tr>
                                 <td>ModulName</td>
                                 <td>lisp-case</td>
                                 <td>
                                     <code>my-first-module</code><br>
                                     <code>newsletter</code>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>ArchiveName<br><i>(VendorName/ModulName)</i></td>
+                                <td>lisp-case</td>
+                                <td>
+                                    <code>mycompany/my-first-module</code><br>
+                                    <code>cool-nickname/newsletter</code>
                                 </td>
                             </tr>
 
