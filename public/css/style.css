@@ -462,6 +462,7 @@ img.imagePreview {
 
     box-shadow: var(--shadowDefault);
     border-radius: var(--radiusDefault);
+    border: 1px solid #eeeeee;
 }
 
 
