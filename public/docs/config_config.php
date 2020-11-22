@@ -36,7 +36,7 @@
             </aside>
             
             <div class="content">
-                <?php require_once '../inc/contribute_info.php'; ?>
+                <?php require_once '../inc/notice_work_in_progress.php'; ?>
 
                 <main>
                     <section>
