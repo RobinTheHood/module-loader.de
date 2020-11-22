@@ -34,6 +34,7 @@
                     <li><a href="#link_configuration">MMLC config.php von copy auf link umstellen</a></li>
                     <li><a href="#install_module_at_mmlc">Modul im MMLC installieren</a></li>
                     <li><a href="#install_module_at_shop">Modul im Shopbackend installieren</a></li>
+                    <li><a href="#publish_module">Modul veröffentlichen</a></li>
                 </ol>
             </aside>
 
@@ -279,6 +280,15 @@
 
                     <p><i>Dokumentation in Arbeit ...</i></p>
                     !-->
+
+                    <h3 id="publish_module">
+                        Modul veröffentlichen
+                        <a href="#publish_module" class="anchor">#</a>
+                    </h3>
+
+                    <p>Herzlichen Glückwunsch, wenn du es bis hierher geschaft hast. Du hast dein erstes Modul für den MMLC programmiert. Es ist nur sehr schade, wenn keiner etwas davon erfährt. Als nächstes kannst du dir anschauen, wie du dein Modul im MMLC veröffentlichst, so das es bei allen im MMLC erscheint, die den MMLC installiert haben.</p>
+
+                    <p><a href="/docs/publish_module.php">Tutorial: Dein erstes Modul veröffentlichen</a></p>
                 </main>
             </div>
         </div>
