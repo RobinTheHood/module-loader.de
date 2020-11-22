@@ -34,20 +34,24 @@
                             <a target="_blank" href="https://youtu.be/VH4h3a8RCco"><img src="/images/youtube_tutorial.jpg" class="imagePreview" alt="Tutorial: Modul programmieren für den modified eCommerce Shop mit dem MMLC - deutsch"></a>
                         </p>
 
-                        <h3>How Tos</h3>
+                        <h3>Tutorials</h3>
                         <ul>
                             <li><a href="/docs/tutorial.php">Tutorial: Dein erstes Modul mit dem MMLC programmieren</a></li>
-                            <li><a href="/docs/local_dev_environment.php">Tutorial: Lokale Entwicklungsumgebung einrichten</a></li>
-                            <li><a href="/docs/create_module_script.php">Tutorial: Modul erstellen mit createModule.sh</a></li>
                             <li><a href="/docs/publish_module.php">Tutorial: Dein erstes Modul veröffentlichen</a></li>
                         </ul>
 
-                        <h3>References and internals</h3>
+                        <h3>Spezifikationen und Referenzen</h3>
                         <ul>
                             <li><a href="/docs/config_config.php">Konfiguration | config/config.php</a></li>
                             <li><a href="/docs/moduleinfo.php">Die moduleinfo.json Datei</a></li>
                             <li><a href="/docs/module_structure.php">Die Modul Verzeichnisstruktur</a></li>
                             <li><a href="/docs/naming_convention.php">Naming Convention</a></li>
+                        </ul>
+
+                        <h3>Weitere Themen</h3>
+                        <ul>
+                            <li><a href="/docs/local_dev_environment.php">Tutorial: Lokale Entwicklungsumgebung einrichten</a></li>
+                            <li><a href="/docs/create_module_script.php">Tutorial: Modul erstellen mit createModule.sh</a></li>
                         </ul>
                     </section>
 
