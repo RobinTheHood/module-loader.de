@@ -26,7 +26,11 @@ $(document).ready(function(){
     if (this.hash === "") {
       return;
     }
-      
+    
+    if (window.location.pathname !== this.pathname) {
+      return;
+    }
+
     // Prevent default anchor click behavior
     event.preventDefault();
 
