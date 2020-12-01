@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
     <head>
-        <?php require_once 'inc/head.php'; ?>
+        <?php require_once '../views/head.php'; ?>
 
         <title>Impressum - MMLC - Modified Module Loader Client</title>
     </head>
     <body>
         <div class="page-wrapper page-imprint">
             <header>
-                <?php require_once 'inc/navigation2.php'; ?>
+                <?php require_once '../views/navigation.php'; ?>
             </header>
 
             <div class="content">

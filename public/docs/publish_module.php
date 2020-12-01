@@ -3,14 +3,14 @@
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
     <head>
-        <?php require_once '../inc/head.php'; ?>
+        <?php require_once '../../views/head.php'; ?>
 
         <title>Modul veröffentlichen - Developer - MMLC - Modified Module Loader Client</title>
     </head>
     <body>
         <div class="page-wrapper page-docs-publish-module">
             <header>
-                    <?php require_once '../inc/navigation2.php'; ?>
+                    <?php require_once '../../views/navigation.php'; ?>
             </header>
 
             <div class="content">
@@ -214,7 +214,7 @@
                         </p>
 
                         <div class="notice warning">
-                            <strong>Wichtig:</strong> Wenn du in deinem Git-Repository keine Versionsnummern vergibst, wird der MMLS keine Versionen finden, die er an den MMLC ausspielen kann.
+                            <p><strong>Wichtig:</strong> Wenn du in deinem Git-Repository keine Versionsnummern vergibst, wird der MMLS keine Versionen finden, die er an den MMLC ausspielen kann.</p>
                         </div>
                     </section>
                         
@@ -235,7 +235,7 @@
                         </p>
 
                         <div class="notice warning">
-                            <strong>Wichtig:</strong> Du (oder dein Unternehmen) musst den <code>vendorNamen</code> deiner Module verwenden. Weitere Informationen findest du unter <a href="/docs/naming_convention.php">Naming Convention</a>.
+                            <p><strong>Wichtig:</strong> Du (oder dein Unternehmen) musst den <code>vendorNamen</code> deiner Module verwenden. Weitere Informationen findest du unter <a href="/docs/naming_convention.php">Naming Convention</a>.</p>
                         </div>
 
                         <p><img src="/images/Create_MMLS_Account.png" class="imagePreview" alt="MMLS Account erstellen"></p>

@@ -4,7 +4,7 @@
     <!-- Wenn du programmieren kannst und Module mit dem MMLC programmieren -->
     <!-- möchtest, dann melde dich bei uns. -->
     <head>
-        <?php require_once 'inc/head.php'; ?>
+        <?php require_once '../views/head.php'; ?>
         <meta name="description" content="Der MMLC ist eine Software zur Verwaltung von Modulen in deinem modified eCommerce Shop.">
 
         <title>MMLC - Modified Module Loader Client</title>
@@ -12,7 +12,7 @@
     <body>
         <div class="page-wrapper page-index">
             <header>
-                <?php require_once 'inc/navigation2.php'; ?>
+                <?php require_once '../views/navigation.php'; ?>
             </header>
 
             <div class="content">
