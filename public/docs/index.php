@@ -70,7 +70,7 @@
 
                         <h3 id="tutorials">
                             Tutorials
-                            <a href="#content" class="anchor">#</a>
+                            <a href="#tutorials" class="anchor">#</a>
                         </h3>
                         <ul>
                             <li><a href="/docs/tutorial.php">Tutorial: Dein erstes Modul mit dem MMLC programmieren</a></li>

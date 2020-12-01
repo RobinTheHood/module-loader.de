@@ -57,7 +57,8 @@ aside nav li li {
         overflow-y: unset;
     }
 
-    aside nav ul ul {
+    aside nav ul ul,
+    aside nav ol ul {
         display: none;
     }
 }
