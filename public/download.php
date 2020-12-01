@@ -14,19 +14,14 @@ if (checkDownloadAccess()) {
         <title>Download - MMLC - Modified Module Loader Client</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <?php require_once 'inc/navigation.php'; ?>
-            </nav>
-        </header>
+        <div class="page-wrapper page-download">
+            <header>
+                <?php require_once 'inc/navigation2.php'; ?>
+            </header>
 
-        <div class="pageWrapper">
             <div class="content">
-
-                <?php //require_once 'inc/beta_info.php'; ?>
-
                 <main>
-                    <section>
+                    <p>
                         <h2>MMLC Installer Download</h2>
 
                         <form class="" action="" method="post">
@@ -37,16 +32,18 @@ if (checkDownloadAccess()) {
                             <button type="submit">Download mmlc_installer.php (Version 0.6.0 | 11 kB)</button>
                             <small>Info: Die mmlc_installer.php Datei Version 0.6.0 kann alle MMLC Versionen ab 1.14.0 installieren. Zur <a href="/documentation.php#system-requirements">Installationsanleitung</a>.</small>
                         </form>
-                    </section>
+                    </p>
 
-                    <section>
+                    <p>
                         <p>Nach der Installation solltest du folgende Seite sehen:</p>
                         <img src="/images/MMLC_Anmeldung.png" class="imagePreview" alt="Am MMLC anmelden">
-                    </section>
+                    </p>
                 </main>
             </div>
-        </div>
 
-        <?php include '../views/footer.php'; ?>
+            <footer>
+                <?php include '../views/footer.php'; ?>
+            </footer>
+        </div>
     </body>
 </html>

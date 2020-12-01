@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
     <head>
-        <?php
-        require_once 'inc/head.php';
-        ?>
+        <?php require_once 'inc/head.php'; ?>
 
         <title>Datenschutz - MMLC - Modified Module Loader Client</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <?php
-                require_once 'inc/navigation.php';
-                ?>
-            </nav>
-        </header>
+        <div class="page-wrapper page-privacy">
+            <header>
+                <?php require_once 'inc/navigation2.php'; ?>
+            </header>
 
-        <div class="pageWrapper">
             <div class="content">
                 <main>
                     <section>
@@ -201,8 +195,10 @@
                     </section>
                 </main>
             </div>
-        </div>
 
-        <?php include '../views/footer.php'; ?>
+            <footer>
+                <?php include '../views/footer.php'; ?>
+            </footer>
+        </div>
     </body>
 </html>

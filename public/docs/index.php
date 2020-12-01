@@ -8,15 +8,44 @@
         <title>Developer - MMLC - Modified Module Loader Client</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <?php require_once '../inc/navigation.php'; ?>
-            </nav>
-        </header>
+        <div class="page-wrapper page-docs-index">
+            <header>
+                <?php require_once '../inc/navigation2.php'; ?>
+            </header>
 
-        <div class="pageWrapper">
             <div class="content">
-                <?php require_once '../inc/notice_work_in_progress.php'; ?>
+                <?php //require_once '../inc/notice_work_in_progress.php'; ?>
+
+                <aside>
+                    <nav>
+                        <h3>Inhalt</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Tutorials</a>
+                                <ul>
+                                    <li><a href="#">Tutorial: Dein erstes Modul mit dem MMLC programmieren</a></li>
+                                    <li><a href="#">Tutorial: Dein erstes Modul veröffentlichen</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Spezifikationen und Referenzen</a>
+                                <ul>
+                                    <li><a href="#">Konfiguration | config/config.php</a></li>
+                                    <li><a href="#">Die moduleinfo.json Datei</a></li>
+                                    <li><a href="#">Die Modul Verzeichnisstruktur</a></li>
+                                    <li><a href="#">Naming Convention</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Weitere Themen</a>
+                                <ul>
+                                    <li><a href="#">Tutorial: Lokale Entwicklungsumgebung einrichten</a></li>
+                                    <li><a href="#">Tutorial: Modul erstellen mit createModule.sh</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
 
                 <main>
                     <section>
@@ -27,7 +56,9 @@
                         <!-- <img src="../images/Intro_Developer.png"> -->
 
                         <h3>Community / Forum / Chat</h3>
-                        Auf unserem <strong><a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc DE/EN</a></strong> Community Server beantworten wir dir deine Fragen sehr gerne, wenn du zusätzliche Hilfe benötigst. Auf Discord kannst du dich auch mit anderen Entwickelrn und Usern austauschen. Wenn du dich fragst, wieso wir Discord verwenden, findest du <a target="_blank" href="https://discord.com/open-source">hier die Antwort</a> auf deine Frage.
+                        <p>
+                            Auf unserem <strong><a target="_blank" href="https://discord.gg/9NqwJqP">Discord #mmlc DE/EN</a></strong> Community Server beantworten wir dir deine Fragen sehr gerne, wenn du zusätzliche Hilfe benötigst. Auf Discord kannst du dich auch mit anderen Entwickelrn und Usern austauschen. Wenn du dich fragst, wieso wir Discord verwenden, findest du <a target="_blank" href="https://discord.com/open-source">hier die Antwort</a> auf deine Frage.
+                        </p>
 
                         <h3>Video Tutorials</h3>
                         <p>
@@ -72,8 +103,10 @@
                     </section>
                 </main>
             </div>
-        </div>
 
-        <?php include '../../views/footer.php'; ?>
+            <footer>
+                <?php include '../../views/footer.php'; ?>
+            </footer>
+        </div>
     </body>
 </html>

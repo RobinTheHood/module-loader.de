@@ -1,0 +1,59 @@
+aside {
+    line-height: 28px;
+    width: 350px;
+}
+
+aside nav {
+    padding: 0px 30px;
+    position: sticky;
+    top: 20px;
+}
+
+aside nav ul ul {
+    margin-bottom: 20px;
+}
+
+aside nav > ul {
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+aside nav > ul::-webkit-scrollbar {
+    display: none;
+}
+
+aside nav li {
+    list-style: none;
+}
+
+aside nav li a {
+    text-decoration: none;
+}
+
+
+aside nav li a:hover {
+    text-decoration: underline;
+}
+
+aside nav li li {
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    aside {
+        width: 100%;
+    }
+
+    aside nav h3 {
+        margin-top: 20px;
+    }
+
+    aside nav > ul {
+        height: unset;
+        overflow-y: unset;
+    }
+}

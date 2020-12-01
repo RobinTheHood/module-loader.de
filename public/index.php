@@ -10,20 +10,16 @@
         <title>MMLC - Modified Module Loader Client</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <?php require_once 'inc/navigation.php'; ?>
-            </nav>
-        </header>
+        <div class="page-wrapper page-index">
+            <header>
+                <?php require_once 'inc/navigation2.php'; ?>
+            </header>
 
-        <div class="pageWrapper">
             <div class="content">
-                <img id="logo" src="/images/mmlc-logo-transparent.png">
-
-                <?php //require_once 'inc/notice_contribute.php'; ?>
-
                 <main>
-                    <section>
+                    <img class="hero-logo" src="/images/mmlc-logo-transparent.png">
+
+                    <section class="install">
                         <h2>Installiere den MMLC</h2>
                         <p><i>In der folgenden Anleitung musst du <code>www.dein-shop.tld</code> durch deine Shop-Url ersetzen.</i></p>
 
@@ -134,8 +130,11 @@
                     </section>
                 </main>
             </div>
-        </div>
 
-        <?php include '../views/footer.php'; ?>
+
+            <footer>
+                <?php require_once '../views/footer.php'; ?>
+            </footer>
+        </div>
     </body>
 </html>

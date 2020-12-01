@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', 'Helvertica Neue';
+}
+
+.page-wrapper {
+    position: relative;
+}
+
+.content {
+    display: flex;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 20px;
+    min-height: calc(100vh - 70px - 288px)
+}
+
+h1 {
+    margin: 0 0 1em 0;
+}
+
+h2, h3, h4 {
+    margin: 70px 0 1em 0;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 2em;
+}
+
+a {
+    color: #007bff;
+}
+
+a.anchor {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border: 1px solid #cccccc;
+}
+
+td {
+    border: 1px solid #cccccc;
+    padding: 3px 10px 3px 10px;
+}
+
+code {
+    font-size: 14px;
+    padding: 4px;
+    color: #fff;
+    background-color: #333;
+    border-radius: 4px;
+    font-family: monospace, 'Courier New', Courier;
+}
+
+code.block {
+    display: block;
+    padding: 25px;
+    margin-bottom: 2em;
+
+    font-size: 16px;
+    line-height: 1.6;
+
+    white-space: pre-wrap;
+    color: #fff;
+    background-color: #333;
+    border: 1px solid #333;
+}
+
+img.imagePreview {
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+                0 2px 2px rgba(0,0,0,0.12),
+                0 4px 4px rgba(0,0,0,0.12);
+    border-radius: 4px;
+    border: 1px solid #eeeeee;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+
+    .content {
+        display: block;
+        padding-top: 90px;
+        min-height: calc(100vh - 70px - 218px)
+    }
+}
+
+button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    font-size: inherit;
+    cursor: pointer;
+    color: #007bff;
+    background-color: #ffffff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: #007bff;
+}
+
+/**
+ * Notice
+ */
+ .notice {
+    margin-bottom: 2em;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+/*
+ * To do: change colour because it does not work with the purple
+ */
+.notice.info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+/*
+ * To do: change colour because it does not work with the purple
+ */
+.notice.warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+/*
+ * To do: change colour because it does not work with the purple
+ */
+.notice.danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.notice p:last-of-type {
+  margin-bottom: 0;
+}

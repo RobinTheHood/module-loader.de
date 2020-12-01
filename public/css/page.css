@@ -1,0 +1,15 @@
+.page-index .hero-logo {
+    display: block;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.page-index .content,
+.page-download .content,
+.page-imprint .content,
+.page-privacy .content
+{
+    max-width: 718px;
+}

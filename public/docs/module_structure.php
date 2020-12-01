@@ -3,25 +3,29 @@
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
     <head>
-        <meta charset="utf-8">
-        <title>Verzeichnisstruktur - Developer - MMLC - Modified Module Loader Client</title>
-        <meta name="author" content="Robin Wieschendorf">
+        <?php require_once '../inc/head.php'; ?>
 
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="/css/style.css">
+        <title>Verzeichnisstruktur - Developer - MMLC - Modified Module Loader Client</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <?php require_once '../inc/navigation.php'; ?>
-            </nav>
-        </header>
+        <div class="page-wrapper page-docs-module-structure">
+            <header>
+                    <?php require_once '../inc/navigation2.php'; ?>
+            </header>
 
-        <div class="pageWrapper">
             <div class="content">
-                <?php require_once '../inc/notice_work_in_progress.php'; ?>
+                <aside>
+                    <nav>
+                        <h3>Inhalt</h3>
+                        <ul>
+                            <li><a href="#structure">...</a></li>
+                        </ul>
+                    </nav>
+                </aside>
 
                 <main>
+                    <?php //require_once '../inc/notice_work_in_progress.php'; ?>
+
                     <section>
                         <h2>Verzeichnistruktur eines Moduls</h2>
 
@@ -42,8 +46,10 @@
                     </section>
                 </main>
             </div>
-        </div>
 
-        <?php include '../../views/footer.php'; ?>
+            <footer>
+                <?php include '../../views/footer.php'; ?>
+            </footer>
+        </div>
     </body>
 </html>

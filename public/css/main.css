@@ -1,0 +1,16 @@
+main {
+    color: #333333;
+    max-width: 718px;
+    padding: 0px 30px;
+}
+
+main ul,
+main ol {
+    line-height: 28px;
+    margin: 0 0 2em 2em;
+}
+
+main ul li,
+main ol li {
+    margin: 0 0 0.4em 0;
+}

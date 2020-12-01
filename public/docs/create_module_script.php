@@ -8,28 +8,35 @@
         <title>createModule.sh - Developer - MMLC - Modified Module Loader Client</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <?php require_once '../inc/navigation.php'; ?>
-            </nav>
-        </header>
+        <div class="page-wrapper page-docs-local-dev-environement">
+            <header>
+                <?php require_once '../inc/navigation2.php'; ?>
+            </header>
 
-        <div class="pageWrapper">
             <div class="content">
-                <?php require_once '../inc/notice_work_in_progress.php'; ?>
+                <?php //require_once '../inc/notice_work_in_progress.php'; ?>
+
+                <aside>
+                    <nav>
+                        <h3>Inhalt</h3>
+                        <ul>
+                            <li><a href="#structure">...</a></li>
+                        </ul>
+                    </nav>
+                </aside>
 
                 <main>
-                    <section>
-                        <h2>Modul erstellen mit dem createModule.sh</h2>
+                    <h2>Modul erstellen mit dem createModule.sh</h2>
 
-                        <div class="notice info">
-                            <p>Dokumentation in Arbeit ...</p>
-                        </div>
-                    </section>
+                    <div class="notice info">
+                        <p>Dokumentation in Arbeit ...</p>
+                    </div>
                 </main>
             </div>
-        </div>
 
-        <?php include '../../views/footer.php'; ?>
+            <footer>
+                <?php include '../../views/footer.php'; ?>
+            </footer>
+        </div>
     </body>
 </html>

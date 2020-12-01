@@ -8,53 +8,57 @@
         <title>Modul veröffentlichen - Developer - MMLC - Modified Module Loader Client</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <?php require_once '../inc/navigation.php'; ?>
-            </nav>
-        </header>
-
-        <div class="pageWrapper withSidebar">
-            <aside class="sidebar">
-                <h3>Inhalt</h3>
-
-                <ol>
-                    <li><a href="#preconditions">Vorbedingungen</a></li>
-                    <li><a href="#lets_go">Los gehts</a></li>
-                    <li><a href="#git_plattform">Wähle deine Plattform</a></li>
-                    <li>
-                        <a href="#github_public_repository">GitHub - Öffentliches Repository</a>
-                        <ul>
-                            <!-- <li><a href="#git">Eigener Git Server</a></li> -->
-                            <li><a href="#github_public_repository">Neues Repository erstellen</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#github_private_repository">GitHub - Privates Repository</a></li>
-                    <li><a href="#gitlab_public_repository">GitLab - Öffentliches Repository</a></li>
-                    <li><a href="#gitlab_private_repository">GitLab - Privates Repository</a></li>
-                    <li><a href="#tag_version">Versionsnummer vergeben</a></li>
-                    <li><a href="#create_mmls_account">MMLS Accout erstellen</a></li>
-                    <li><a href="#create_mmls_entry">MMLS Eintrag erstellen</a></li>
-                    <li><a href="#update_mmls_entry">MMLS Eintrag aktualisieren</a></li>
-                </ol>
-            </aside>
+        <div class="page-wrapper page-docs-publish-module">
+            <header>
+                    <?php require_once '../inc/navigation2.php'; ?>
+            </header>
 
             <div class="content">
+                <aside>
+                    <nav>
+                        <h3>Inhalt</h3>
 
-                <?php require_once '../inc/notice_work_in_progress.php'; ?>
+                        <ol>
+                            <li><a href="#preconditions">Vorbedingungen</a></li>
+                            <li><a href="#lets_go">Los gehts</a></li>
+                            <li><a href="#git_plattform">Wähle deine Plattform</a></li>
+                            <li>
+                                <a href="#github_public_repository">GitHub - Öffentliches Repository</a>
+                                <ul>
+                                    <!-- <li><a href="#git">Eigener Git Server</a></li> -->
+                                    <li><a href="#github_public_repository">Neues Repository erstellen</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#github_private_repository">GitHub - Privates Repository</a></li>
+                            <li><a href="#gitlab_public_repository">GitLab - Öffentliches Repository</a></li>
+                            <li><a href="#gitlab_private_repository">GitLab - Privates Repository</a></li>
+                            <li><a href="#tag_version">Versionsnummer vergeben</a></li>
+                            <li><a href="#create_mmls_account">MMLS Accout erstellen</a></li>
+                            <li><a href="#create_mmls_entry">MMLS Eintrag erstellen</a></li>
+                            <li><a href="#update_mmls_entry">MMLS Eintrag aktualisieren</a></li>
+                        </ol>
+                    </nav>
+                </aside>
 
                 <main>
                     <section>
                         <h2>Tutorial: Dein erstes Modul veröffentlichen</h2>
                         <p><strong>Bearbeitungszeit: ca. 25 min.</strong></p>
 
+                        <?php //equire_once '../inc/notice_work_in_progress.php'; ?>
+
                         <p>In diesem Tutorial lernst du, wie du dein Modul veröffentlichst. Durch eine Veröffentlichung steht allen MMLC-Nutzern dein Modul zum Download über den MMLC zur Verfügung.</p>
 
                         <div class="notice info">
                             <p><strong>Info:</strong> Natürlich kannst du festlegen, ob ein Modul nur für bestimmte Nutzer sichtbar ist oder ob dein Modul kostenpflichtig erworben werden muss. Was du hierfür zusätzlich machen musst, erfährst du unter <a href="#">XXX</a>.</p>
                         </div>
+                    </section>
 
-                        <h3 id="preconditions">Vorbedingungen</h3>
+                    <section>
+                        <h3 id="preconditions">
+                            Vorbedingungen
+                            <a href="#preconditions" class="anchor">#</a>
+                        </h3>
 
                         <p>Damit du mit diesem Tutorial starten kannst, benötigst du ein Modul, dass du für den MMLC vorbereitet hast. Wenn du noch kein Modul für den MMLC programmiert hast, zeigt dir folgendes Tutorial, wie du das machen kannst. <a href="/docs/tutorial.php">Tutorial: Dein erstes Modul mit dem MMLC programmieren</a>.</p>
 
@@ -63,16 +67,26 @@
                         <p>Zudem benötigst du für dieses Tutorial einige einfache Git-Grundlagen. Du solltest Git-Repositors initialisieren können, Commits in dein lokales Git-Repository machen können und dein Repository per push zu einem entfernten Server (wie GitHub, GitLab, etc.) senden können. Aus diesem Grund musst du Git auf deinem System installiert haben. In diesem Tutorial verwenden wir die Konsole, um Git-Befehle einzugeben und zu nutzen. Du kannst natürlich auch einen grafischen Git-Client deine Wahl verwenden (wie z. B. SourceTree oder GitHub Desktop). In diesem Tutorial nutzen wir jedoch den üblichen Weg über die Konsole.</p>
                         
                         <p>Wenn du dich mit Git noch nicht auskennst, schaue dir ein paar Einsteiger-Tutorials im Internet an. Hier gibt es eine große Anzahl an guten Tutorials, die dir beim Erlernen von Git helfen. Du benötigst nur die gängigen Einsteiger-Themen, um mit diesem Tutorial zu starten.</p>
-
-                        <h3 id="lets_go">Los gehts</h3>
+                    </section>
+                        
+                    <section>
+                        <h3 id="lets_go">
+                            Los gehts
+                            <a href="#lets_go" class="anchor">#</a>
+                        </h3>
 
                         <p>Stelle dir vor, du hast eine Firma mit dem Namen "My Company" und diese Firma möchte ihr neues Modul mit dem Namen "Mein erstes Modul" veröffentlichen. Wenn du noch kein Modul mit dem MMLC entwickelt hast, erfährst du hierzu mehr unter: <a href="/docs/tutorial.php">Tutorial: Dein erstes Modul mit dem MMLC programmieren</a>.</p>
 
                         <div class="notice warning">
                             <p><strong>Wichtig:</strong> Wenn in diesem Tutorial das Root-Verzeichnis von deinem Modified Shop gemeint ist, schreiben wir <code>SHOP_ROOT</code>. In dem Root-Verzeichnis liegt dein <code>ModifiedModuleLoaderClient</code>. Wenn nichts anderes erwähnt wird, werden alle Pfadangaben in diesem Tutorial relativ zu dem Verzeichnis <code>ModifiedModuleLoaderClient</code> angegeben. Zudem verwenden wir in diesem Tutorial als Beispiel das Modul aus dem <a href="/docs/tutorial.php">Tutorial: Dein erstes Modul mit dem MMLC programmieren</a> mit dem <code>archiveName</code> <code>mycompany/my-first-module</code>.</p>
                         </div>
-
-                        <h3 id="git_plattform">Wähle deine Plattform</h3>
+                    </section>
+                        
+                    <section>
+                        <h3 id="git_plattform">
+                            Wähle deine Plattform
+                            <a href="#git_plattform" class="anchor">#</a>
+                        </h3>
 
                         <p>Damit du ein Modul im MMLC veröffentlichen kannst, musst du dein Modul zunächst per Git hosten. Git ist ein sehr praktisches und wichtiges Werkzeug und gehört mittlerweile zur Standardausrüstung fast aller Entwickler. Du kannst eine beliebige Git-Hosting-Plattform verwedenen oder deinen eigenen Git-Server. Wichtig ist, dass du dein Git-Repository so konfigurieren kannst, dass eine externe Software dein Git-Repository clonen darf.</p>
                         
@@ -90,11 +104,15 @@
                         <div class="notice info">
                             <p>Dokumentation in Arbeit ...</p>
                         </div> -->
-
-                        <h3 id="github_public_repository">GitHub - Öffentliches Repository</h3>
+                    </section>
+                        
+                    <section>
+                        <h3 id="github_public_repository">
+                            GitHub - Öffentliches Repository
+                            <a href="#github_public_repository" class="anchor">#</a>
+                        </h3>
 
                         <p>Wenn du bereits ein Account bei GitHub hast, kannst du diesen Account auch für deine Module verwenden, die du im MMLC veröffentlichen möchtest. Wenn du noch keinen Account bei GitHub hast, ist jetzt der Zeitpunkt, an dem du dir einen GitHub-Account erstellen musst, um mit diesem Tutorial weitermachen zu können. Du kannst diesen GitHub-Account auch jederzeit für Projekte verwenden, die du abseits des MMLCs realisierst. Nachdem du dir einen kostenlosen Account bei GitHub angelegt hast, geht's dann hier im Tutorial weiter.</p>
-
 
                         <h4 id="github_public_repository">Neues Repository erstellen</h4>
                         
@@ -126,8 +144,13 @@
 
 
                         <p> Jetzt kannst du mit dem Schritt <a href="#tag_version">Versionsnummer vergeben</a> weitermachen.</p>
-
-                        <h3 id="github_private_repository">GitHub - Privates Repository</h3>
+                    </section>
+                        
+                    <section>
+                        <h3 id="github_private_repository">
+                            GitHub - Privates Repository
+                            <a href="#github_private_repository" class="anchor">#</a>
+                        </h3>
 
                         <p>
                             Bei privaten GitHub Repositories musst du einen AccessKey erstellen, damit der MMLS Zugriff auf deine Repositories erhält. Einer Anleitung, wie du einen AccessKey auf GitHub erstellst erfährst du unter: <a href="https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line">https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line</a>.
@@ -146,8 +169,13 @@
                         <p>
                             Hier ein Beispiel: <strong>https://<code>USER_NAME</code>:<code>TOKEN</code>@github.com/mycompany/my-first-module.git</strong>
                         </p>
-
-                        <h3 id="gitlab_public_repository">GitLab - Öffentliches Repository</h3>
+                    </section>
+                        
+                    <section>
+                        <h3 id="gitlab_public_repository">
+                            GitLab - Öffentliches Repository
+                            <a href="#gitlab_public_repository" class="anchor">#</a>
+                        </h3>
 
                         <div class="notice info">
                             <p>Dokumentation in Arbeit ...</p>
@@ -158,8 +186,13 @@
                         <div class="notice info">
                             <p>Dokumentation in Arbeit ...</p>
                         </div>
-
-                        <h3 id="tag_version">Versionsnummer vergeben</h3>
+                    </section>
+                        
+                    <section>
+                        <h3 id="tag_version">
+                            Versionsnummer vergeben
+                            <a href="#tag_version" class="anchor">#</a>
+                        </h3>
 
                         <p>
                             Es ist wichtig, dass du deinem Modul eine oder mehrere Versionsnummern gibst. Versionen werden über <strong>git tags</strong> verwaltet. Das Format der Versionsnummer muss der <strong>Semantic Versioning (SemVer) Spezifikation</strong> entsprechen. Informationen zu SemVer findest du unter <a href="https://semver.org/lang/de/">semver.org</a>.
@@ -180,8 +213,13 @@
                         <div class="notice warning">
                             <strong>Wichtig:</strong> Wenn du in deinem Git-Repository keine Versionsnummern vergibst, wird der MMLS keine Versionen finden, die er an den MMLC ausspielen kann.
                         </div>
-
-                        <h3 id="create_mmls_account">MMLS Accout erstellen</h3>
+                    </section>
+                        
+                    <section>
+                        <h3 id="create_mmls_account">
+                            MMLS Accout erstellen
+                            <a href="#create_mmls_account" class="anchor">#</a>
+                        </h3>
 
                         <p>Account erstellen auf <a href="https://app.module-loader.de">app.module-loader.de</a></p>
 
@@ -198,8 +236,13 @@
                         </div>
 
                         <p><img src="/images/Create_MMLS_Account.png" class="imagePreview" alt="MMLS Account erstellen"></p>
-
-                        <h3 id="create_mmls_entry">MMLS Eintrag erstellen</h3>
+                    </section>
+                        
+                    <section>
+                        <h3 id="create_mmls_entry">
+                            MMLS Eintrag erstellen
+                            <a href="#create_mmls_entry" class="anchor">#</a>
+                        </h3>
 
                         <p>Nachdem du dir einen Account im MMLS erstellt hast, kannst du dein Modul-Archive zum MMLS hinzufügen. Hierfür musst du die Werte für <code>type</code>, <code>moduleName</code> und <code>source</code> richtig ausfüllen, damit der MMLS und der MMLC dein Modul finden.</p>
 
@@ -222,8 +265,13 @@
                         <p>Nun haben wir alle Daten für unseren neuen Eintrag zusammen. In unserem Beispiel mit dem öffentlichen GitHub-Repository, müssen wir die Eingabe wie im folgendem Screenshot dargestellt ausfüllen.</p>
 
                         <p><img src="/images/MMLS_add_new_github_public_entry.png" class="imagePreview" alt="MMLS mit Daten für ein GitHub Repository"></p>
-
-                        <h3 id="update_mmls_entry">MMLS Eintrag aktualisieren</h3>
+                    </section>
+                        
+                    <section>
+                        <h3 id="update_mmls_entry">
+                            MMLS Eintrag aktualisieren
+                            <a href="#update_mmls_entry" class="anchor">#</a>
+                        </h3>
 
                         <p>Nachdem wir usneren Eintrag vollstänig ausgefüllt haben können wir uns alle nötigen Releases aus unserem Git-Repository holen.</p>
 
@@ -247,8 +295,10 @@
                     </section> -->
                 </main>
             </div>
-        </div>
 
-        <?php include '../../views/footer.php'; ?>
+            <footer>
+                <?php include '../../views/footer.php'; ?>
+            </footer>
+        </div>
     </body>
 </html>
