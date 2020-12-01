@@ -16,7 +16,10 @@
             <div class="content">
                 <aside>
                     <nav>
-                        <h3>Übersicht</h3>
+                        <h3 id="content">
+                            Inhalt
+                            <a href="#content" class="anchor">#</a>
+                        </h3>
                         <ul>
                             <li><a href="#structure">Der Aufbau</a></li>
                             <li><a href="#username">username</a></li>

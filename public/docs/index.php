@@ -18,29 +18,32 @@
 
                 <aside>
                     <nav>
-                        <h3>Inhalt</h3>
+                        <h3 id="content">
+                            Inhalt
+                            <a href="#content" class="anchor">#</a>
+                        </h3>
                         <ul>
                             <li>
-                                <a href="#">Tutorials</a>
+                                <a href="#tutorials">Tutorials</a>
                                 <ul>
-                                    <li><a href="#">Tutorial: Dein erstes Modul mit dem MMLC programmieren</a></li>
-                                    <li><a href="#">Tutorial: Dein erstes Modul veröffentlichen</a></li>
+                                    <li><a href="/docs/tutorial.php">Tutorial: Dein erstes Modul mit dem MMLC programmieren</a></li>
+                                    <li><a href="/docs/publish_module.php">Tutorial: Dein erstes Modul veröffentlichen</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Spezifikationen und Referenzen</a>
+                                <a href="#specs">Spezifikationen und Referenzen</a>
                                 <ul>
-                                    <li><a href="#">Konfiguration | config/config.php</a></li>
-                                    <li><a href="#">Die moduleinfo.json Datei</a></li>
-                                    <li><a href="#">Die Modul Verzeichnisstruktur</a></li>
-                                    <li><a href="#">Naming Convention</a></li>
+                                    <li><a href="/docs/config_config.php">Konfiguration | config/config.php</a></li>
+                                    <li><a href="/docs/moduleinfo.php">Die moduleinfo.json Datei</a></li>
+                                    <li><a href="/docs/module_structure.php">Die Modul Verzeichnisstruktur</a></li>
+                                    <li><a href="/docs/naming_convention.php">Naming Convention</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Weitere Themen</a>
+                                <a href="#more">Weitere Themen</a>
                                 <ul>
-                                    <li><a href="#">Tutorial: Lokale Entwicklungsumgebung einrichten</a></li>
-                                    <li><a href="#">Tutorial: Modul erstellen mit createModule.sh</a></li>
+                                    <li><a href="/docs/local_dev_environment.php">Tutorial: Lokale Entwicklungsumgebung einrichten</a></li>
+                                    <li><a href="/docs/create_module_script.php">Tutorial: Modul erstellen mit createModule.sh</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -65,13 +68,19 @@
                             <a target="_blank" href="https://youtu.be/VH4h3a8RCco"><img src="/images/youtube_tutorial.jpg" class="imagePreview" alt="Tutorial: Modul programmieren für den modified eCommerce Shop mit dem MMLC - deutsch"></a>
                         </p>
 
-                        <h3>Tutorials</h3>
+                        <h3 id="tutorials">
+                            Tutorials
+                            <a href="#content" class="anchor">#</a>
+                        </h3>
                         <ul>
                             <li><a href="/docs/tutorial.php">Tutorial: Dein erstes Modul mit dem MMLC programmieren</a></li>
                             <li><a href="/docs/publish_module.php">Tutorial: Dein erstes Modul veröffentlichen</a></li>
                         </ul>
 
-                        <h3>Spezifikationen und Referenzen</h3>
+                        <h3 id="specs">
+                            Spezifikationen und Referenzen
+                            <a href="#specs" class="anchor">#</a>
+                        </h3>
                         <ul>
                             <li><a href="/docs/config_config.php">Konfiguration | config/config.php</a></li>
                             <li><a href="/docs/moduleinfo.php">Die moduleinfo.json Datei</a></li>
@@ -79,7 +88,10 @@
                             <li><a href="/docs/naming_convention.php">Naming Convention</a></li>
                         </ul>
 
-                        <h3>Weitere Themen</h3>
+                        <h3 id="more">
+                            Weitere Themen
+                            <a href="#more" class="anchor">#</a>
+                        </h3>
                         <ul>
                             <li><a href="/docs/local_dev_environment.php">Tutorial: Lokale Entwicklungsumgebung einrichten</a></li>
                             <li><a href="/docs/create_module_script.php">Tutorial: Modul erstellen mit createModule.sh</a></li>

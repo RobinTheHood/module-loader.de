@@ -16,7 +16,10 @@
             <div class="content">
                 <aside>
                     <nav>
-                        <h3>Inhalt</h3>
+                        <h3 id="content">
+                            Inhalt
+                            <a href="#content" class="anchor">#</a>
+                        </h3>
 
                         <ul>
                             <li><a href="#preconditions">...</a></li>
