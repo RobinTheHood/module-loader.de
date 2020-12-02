@@ -45,10 +45,15 @@ const registerScrollToAnker = () => {
         // Store hash
         var hash = this.hash;
 
+        var offset = 20;
+        if ($(window).width() <= 768) {
+            offset = 100;
+        }
+
         // Using jQuery's animate() method to add smooth page scroll
         // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
         $('html, body').animate({
-            scrollTop: $(hash).offset().top - 20
+            scrollTop: $(hash).offset().top - offset
             }, 800, function(){
         });
 
