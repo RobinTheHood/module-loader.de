@@ -9,7 +9,8 @@ aside nav {
     top: 20px;
 }
 
-aside nav ul ul {
+aside nav ul ul,
+aside nav ol ul {
     margin-bottom: 20px;
 }
 
