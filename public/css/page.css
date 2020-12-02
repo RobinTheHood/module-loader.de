@@ -4,6 +4,8 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+
+    animation: 1s ease-out 0s 1 rotateIn;
 }
 
 .page-index .content,
@@ -13,3 +15,13 @@
 {
     max-width: 718px;
 }
+
+
+@keyframes rotateIn {
+    0% {
+      transform: rotate(365deg);
+    }
+    100% {
+      transform: translateX(0deg);
+    }
+  }
