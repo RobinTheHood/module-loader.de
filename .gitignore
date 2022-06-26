@@ -1,3 +1,4 @@
 config.php
 deploy.sh
 public/modules
+.ddev
