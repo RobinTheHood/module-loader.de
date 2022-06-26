@@ -6,6 +6,7 @@
         '/docs/index.php' => 'Entwickler',
     ];
 
+    $html = '';
     foreach ($menuEntries as $scriptName => $menuName) {
         if ($_SERVER['SCRIPT_NAME'] === $scriptName) {
             $html .= '<li class="active"><a href="' . $scriptName . '">' . $menuName . '</a></li>';
