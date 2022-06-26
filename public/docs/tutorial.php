@@ -62,7 +62,8 @@
                         </h3>
 
                         <ul>
-                            <li>Du hast eine <a href="/docs/local_dev_environment.php">lokale Enwicklungsumgebung</a> aufgesetzt.</li>
+                            <!-- <li>Du hast eine <a href="/docs/local_dev_environment.php">lokale Enwicklungsumgebung</a> aufgesetzt.</li> -->
+                            <li>Du hast eine lokale Enwicklungsumgebung aufgesetzt.</li>
                             <li>Du hast eine modified-shop Version 2.0.3.0 oder höher installiert.</li>
                             <li>Du hast den MMLC 1.15.0 oder höher installiert und kannst Module installieren.</li>
                             <li>Du hast einen Code Editor wie VS Code, Atom etc.</li>
