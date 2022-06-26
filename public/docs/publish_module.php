@@ -67,7 +67,7 @@
 
                         <p>Du musst dich in der Konsole / Eingabeaufforderung durch deine Verzeichnise mit dem Befehl <code>cd</code> navigieren können.</p>
 
-                        <p>Zudem benötigst du für dieses Tutorial einige einfache Git-Grundlagen. Du solltest Git-Repositors initialisieren können, Commits in dein lokales Git-Repository machen können und dein Repository per push zu einem entfernten Server (wie GitHub, GitLab, etc.) senden können. Aus diesem Grund musst du Git auf deinem System installiert haben. In diesem Tutorial verwenden wir die Konsole, um Git-Befehle einzugeben und zu nutzen. Du kannst natürlich auch einen grafischen Git-Client deine Wahl verwenden (wie z. B. SourceTree oder GitHub Desktop). In diesem Tutorial nutzen wir jedoch den üblichen Weg über die Konsole.</p>
+                        <p>Zudem benötigst du für dieses Tutorial einige einfache Git-Grundlagen. Du solltest Git-Repositors initialisieren können, Commits in dein lokales Git-Repository machen können und dein Repository per push zu einem entfernten Server (wie GitHub, GitLab, etc.) senden können. Aus diesem Grund musst du Git auf deinem System installiert haben. In diesem Tutorial verwenden wir die Konsole, um Git-Befehle einzugeben und zu nutzen. Du kannst natürlich auch einen grafischen Git-Client deiner Wahl verwenden (wie z. B. SourceTree oder GitHub Desktop). In diesem Tutorial nutzen wir jedoch den üblichen Weg über die Konsole.</p>
                         
                         <p>Wenn du dich mit Git noch nicht auskennst, schaue dir ein paar Einsteiger-Tutorials im Internet an. Hier gibt es eine große Anzahl an guten Tutorials, die dir beim Erlernen von Git helfen. Du benötigst nur die gängigen Einsteiger-Themen, um mit diesem Tutorial zu starten.</p>
                     </section>
@@ -97,7 +97,7 @@
 
                         <ul>
                             <li><a href="#github_public_repository">GitHub - Öffentliches Repository</a></li>
-                            <li>GitHub - Privates Repository</li>
+                            <li><a href="#github_private_repository">GitHub - Privates Repository</a></li>
                             <li>GitLab - Offentliches Repository</li>
                             <li>GitLab - Privates Repository</li>
                         </ul>
@@ -119,7 +119,7 @@
 
                         <h4 id="github_public_repository">Neues Repository erstellen</h4>
                         
-                        <p>Als nächstes musst du ein öffentliches Git-Repository auf GitHub für dein Modul erstellen. Das Repository kannst du beliebig benennen, es bietet sich jedoch an den technischen <a href="/docs/naming_convention.php">ModulNamen</a> <code>moduleName</code> deines Moduls zu verwenden. Im <a href="/docs/tutorial.php">Tutorial: Dein erstes Modul mit dem MMLC programmieren</a> wurde der <code>moduleName</code> <code>my-first-module</code> verwendet.</p>
+                        <p>Als nächstes musst du ein öffentliches Git-Repository auf GitHub für dein Modul erstellen. Das Repository kannst du beliebig benennen, es bietet sich jedoch an, den technischen <a href="/docs/naming_convention.php">ModulNamen</a> <code>moduleName</code> deines Moduls zu verwenden. Im <a href="/docs/tutorial.php">Tutorial: Dein erstes Modul mit dem MMLC programmieren</a> wurde der <code>moduleName</code> <code>my-first-module</code> verwendet.</p>
 
                         <p>Wähle <strong>Public</strong> als Einstellung für dein Repository aus und lasse alle anderen Optionen unausgewählt. Das erleichert uns die nächsten Schritte. Du kannst die von GitHub vorgeschlagenen Dateien noch später hinzufügen. Wenn du möchtest, kannst du jedoch schon an dieser Stelle eine kurze Beschreibung hinzufügen, was dein Modul kann. Das geht aber auch später und ist erst einmal nicht wichtig. Klicke dann auf <strong>Create repository</strong>.</p>
 
@@ -156,7 +156,7 @@
                         </h3>
 
                         <p>
-                            Bei privaten GitHub Repositories musst du einen AccessKey erstellen, damit der MMLS Zugriff auf deine Repositories erhält. Einer Anleitung, wie du einen AccessKey auf GitHub erstellst erfährst du unter: <a href="https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line">https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line</a>.
+                            Bei privaten GitHub Repositories musst du einen AccessKey erstellen, damit der MMLS Zugriff auf deine Repositories erhält. Einer Anleitung, wie du einen AccessKey auf GitHub erstellst erhällst du unter: <a href="https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line">https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line</a>.
                         </p>
 
                         <p>
