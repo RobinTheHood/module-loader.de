@@ -44,6 +44,14 @@ aside nav li li {
     margin-left: 30px;
 }
 
+aside li.marked {
+    list-style-type: '👉';
+    margin-bottom: 8px;
+    padding-left: 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
 @media screen and (max-width: 768px) {
     aside {
         width: 100%;
