@@ -53,6 +53,22 @@ aside li.marked {
     line-height: 20px;
 }
 
+aside li.book {
+    list-style-type: '📘';
+    margin-bottom: 12px;
+    padding-left: 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+aside li.specs {
+    list-style-type: '🛠';
+    margin-bottom: 12px;
+    padding-left: 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
 aside li.marked:nth-child(odd) {
     list-style-type: '👩‍💻';
 }
