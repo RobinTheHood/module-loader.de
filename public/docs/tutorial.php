@@ -42,17 +42,22 @@
 
                 <main>
                     <section>
-                        <h2>Tutorial: Dein erstes Modul mit dem MMLC programmieren</h2>
+                        <h2>Tutorial: Dein erstes modified eCommerce Shop Modul mit dem MMLC programmieren</h2>
                         <p><strong>Bearbeitungszeit: ca. 25 min.</strong></p>
 
                         <?php //require_once '../inc/notice_work_in_progress.php'; ?>
 
-                        <p>In diesem Tutorial lernst du, wie du per Hand ein eigenes Modul mit der Hilfe des MMLC programmieren kannst. Dazu werden dir alle Schritte gezeigt, die du hierfür kennen solltest. Es ist empfehlenswert, das einmal selber zu machen, um ein generelles Verständnis für die einzelnen Komponenten zu erlangen.</p>
+                        <p>In diesem Tutorial lernst du, wie du per Hand ein eigenes Modul für einen modified eCommerce Shop mit der Hilfe des MMLC programmieren kannst. Dazu werden dir alle Schritte gezeigt, die du hierfür kennen solltest. Es ist empfehlenswert, das einmal selber zu machen, um ein generelles Verständnis für die einzelnen Komponenten zu erlangen.</p>
 
                         <div class="notice info">
                             <p><strong>Info:</strong> Alternativ gibt es die Möglichkeit, sich die meiste Arbeit von einem Script abnehmen zu lassen. Dafür müsstest du lediglich <code>./scripts/createModule.sh mc mycompany my-first-module</code> in die Konsole eingeben. Das Script erzeugt dir alle Dateien mit Inhalt und ein fertiges System-Modul, dass du nach deinen Vorstellungen anpassen kannst. Weitere Informationen hierzu findest du unter <a href="/docs/create_module_script.php">Modul erstellen mit createModule.sh</a>.</p>
 
                             <!-- oder die URL <code class="break">http://YOUR_DOMAIN/ModifiedModuleLoaderClient/?action=createModule&vendorPrefix=mc&vendorName=mycompany&moduleName=my-first-module</code> aufrufen, wenn du im MMLC eingeloggt bist. !-->
+                        </div>
+
+
+                        <div class="notice info">
+                            <p><strong>Info:</strong> Dieses Tutorial kannst du dir auch als Video auf Youtube ansehen: <a target="_blank" href="https://youtu.be/VH4h3a8RCco">Tutorial: Modul programmieren für den modified eCommerce Shop mit dem MMLC - deutsch</a>
                         </div>
                     </section>
 

@@ -46,12 +46,12 @@
 
                 <main>
                     <section>
-                        <h2>Tutorial: Dein erstes Modul veröffentlichen</h2>
+                        <h2>Tutorial: Dein erstes modified eCommerce Shop Modul veröffentlichen</h2>
                         <p><strong>Bearbeitungszeit: ca. 25 min.</strong></p>
 
                         <?php //equire_once '../inc/notice_work_in_progress.php'; ?>
 
-                        <p>In diesem Tutorial lernst du, wie du dein Modul veröffentlichst. Durch eine Veröffentlichung steht allen MMLC-Nutzern dein Modul zum Download über den MMLC zur Verfügung.</p>
+                        <p>In diesem Tutorial lernst du, wie du dein modified eCommerce Shop Modul für den MMLC veröffentlichst. Durch eine Veröffentlichung steht allen MMLC-Nutzern dein Modul zum Download über den MMLC zur Verfügung.</p>
 
                         <div class="notice info">
                             <p><strong>Info:</strong> Natürlich kannst du festlegen, ob ein Modul nur für bestimmte Nutzer sichtbar ist oder ob dein Modul kostenpflichtig erworben werden muss. Was du hierfür zusätzlich machen musst, erfährst du unter <a href="#">XXX</a>.</p>

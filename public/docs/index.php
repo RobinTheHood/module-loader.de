@@ -26,8 +26,8 @@
                             <li>
                                 <a href="#tutorials">Tutorials</a>
                                 <ul>
-                                    <li class="marked"><a href="/docs/tutorial.php">Tutorial: Dein erstes Modul mit dem MMLC programmieren</a></li>
-                                    <li class="marked"><a href="/docs/publish_module.php">Tutorial: Dein erstes Modul veröffentlichen</a></li>
+                                    <li class="marked"><a href="/docs/tutorial.php">Tutorial: Dein erstes modified Modul mit dem MMLC programmieren</a></li>
+                                    <li class="marked"><a href="/docs/publish_module.php">Tutorial: Dein erstes modified Modul veröffentlichen</a></li>
                                 </ul>
                             </li>
                             <li>
@@ -65,6 +65,7 @@
 
                         <h3>Video Tutorials</h3>
                         <p>
+                            <strong>Modul programmieren für den modified eCommerce Shop mit dem MMLC - deutsch</strong>
                             <a target="_blank" href="https://youtu.be/VH4h3a8RCco"><img src="/images/youtube_tutorial.jpg" class="imagePreview" alt="Tutorial: Modul programmieren für den modified eCommerce Shop mit dem MMLC - deutsch"></a>
                         </p>
 
@@ -73,8 +74,8 @@
                             <a href="#tutorials" class="anchor">#</a>
                         </h3>
                         <ul>
-                            <li><a href="/docs/tutorial.php">Tutorial: Dein erstes Modul mit dem MMLC programmieren</a></li>
-                            <li><a href="/docs/publish_module.php">Tutorial: Dein erstes Modul veröffentlichen</a></li>
+                            <li><a href="/docs/tutorial.php">Tutorial: Dein erstes modified Modul mit dem MMLC programmieren</a></li>
+                            <li><a href="/docs/publish_module.php">Tutorial: Dein erstes modified Modul veröffentlichen</a></li>
                         </ul>
 
                         <h3 id="specs">
