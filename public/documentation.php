@@ -207,7 +207,7 @@
                                 <a href="#update-password-manually" class="anchor">#</a>
                             </h4>
 
-                            <p>Es kann passieren, dass du dich nicht mehr an deine Zugangsdaten (Benutzername oder Passwort) erinnerst, die du für den Zugang zum MMLC auf deinem Server benötigst. In diesem Fall kannst du die Zugangsdaten in der <code>config.php</code> des MMLCs aktualisieren. Hiefür musst du dir ein neues Passwort generieren. Das kannst du in der Console / Shell deines Betriebsystems mit folgendem Befehl machen:</p>
+                            <p>Es kann passieren, dass du dich nicht mehr an deine Zugangsdaten (Benutzername oder Passwort) erinnerst, die du für den Zugang zum MMLC auf deinem Server benötigst. In diesem Fall kannst du die Zugangsdaten in der <code>config.php</code> des MMLCs aktualisieren. Hiefür musst du dir ein neues Passwort generieren. Das kannst du in der Console / Shell deines Betriebsystems mit folgendem Befehl oder mit unserem <a href="/password_generator.php">Online-Tool zur Passwort-Hash-Erstellung</a> machen:</p>
 
                             <p><i>Hinweis: Du musst <strong>dein-neues-passwort</strong> durch ein Passwort deiner Wahl ersetzen.</i></p>
 
