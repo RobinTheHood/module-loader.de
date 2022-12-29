@@ -5,7 +5,8 @@
     <head>
         <?php require_once '../../views/head.php'; ?>
 
-        <title>Modul veröffentlichen - Developer - MMLC - Modified Module Loader Client</title>
+        <title>modified eCommerce Shop Modul veröffentlichen - Developer - MMLC - Modified Module Loader Client</title>
+        <meta name="description" content="In diesem Tutorial lernst du, wie du dein modified eCommerce Shop Modul veröffentlichst.">
     </head>
     <body>
         <div class="page-wrapper page-docs-publish-module">

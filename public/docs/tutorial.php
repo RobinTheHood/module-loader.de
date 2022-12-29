@@ -5,7 +5,8 @@
     <head>
         <?php require_once '../../views/head.php'; ?>
 
-        <title>Tutorial - Developer - MMLC - Modified Module Loader Client</title>
+        <title>Dein erstes modified eCommerce Shop Modul prorgrammieren - MMLC - Modified Module Loader Client</title>
+        <meta name="description" content="In diesem Tutorial lernst du, wie du ein eigenes Modul für einen modified eCommerce Shop programmierst.">
     </head>
     <body>
         <div class="page-wrapper page-docs-tutorial">
