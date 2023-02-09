@@ -57,6 +57,10 @@
                         <p>Mit dem MMLC kannst du nicht nur Module leichter installieren, sondern der MMLC kann dir auch deutlich die Arbeit dabei erleichtern, neue Module für die modified eCommerce Shopsoftware zu entwickeln.</p>
 
                         <!-- <img src="../images/Intro_Developer.png"> -->
+                        <h3>modified Entwickler Dokumentation</h3>
+                        <p>
+                            Mit der Anleitung <a href="docs.module-loader.de" target="_blank">"Einstieg in die Modulentwicklung für modified Shops"</a> bietet wir dir zusätzlich eine Dokumentation an, die dir dabei helfen soll, Module für das modified System zu programmieren.
+                        </p>
 
                         <h3>Community / Forum / Chat</h3>
                         <p>
