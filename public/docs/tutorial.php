@@ -59,6 +59,11 @@
                         <div class="notice info">
                             <p><strong>Info:</strong> Dieses Tutorial kannst du dir auch als Video auf Youtube ansehen: <a target="_blank" href="https://youtu.be/VH4h3a8RCco">Tutorial: Modul programmieren für den modified eCommerce Shop mit dem MMLC - deutsch</a>
                         </div>
+
+
+                        <div class="notice info">
+                            <p><strong>Info:</strong> Mit der Anleitung <a href="https://docs.module-loader.de" target="_blank">"Einstieg in die Modulentwicklung für modified Shops"</a> bieten wir dir zusätzlich eine umfangreiche Dokumentation an, die dir dabei helfen soll, Module für das modified System zu programmieren.</a>
+                        </div>
                     </section>
 
                     <section>

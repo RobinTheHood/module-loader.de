@@ -31,6 +31,12 @@
                                 </ul>
                             </li>
                             <li>
+                                <a href="#docs">Dokumentation</a>
+                                <ul>
+                                    <li class="book"><a href="https://docs.module-loader.de" target="_blank">modified Entwickler Dokumentation</a>
+                                </ul>
+                            </li>
+                            <li>
                                 <a href="#specs">Spezifikationen und Referenzen</a>
                                 <ul>
                                     <li class="specs"><a href="/docs/config_config.php">Konfiguration | config/config.php</a></li>
@@ -57,10 +63,6 @@
                         <p>Mit dem MMLC kannst du nicht nur Module leichter installieren, sondern der MMLC kann dir auch deutlich die Arbeit dabei erleichtern, neue Module für die modified eCommerce Shopsoftware zu entwickeln.</p>
 
                         <!-- <img src="../images/Intro_Developer.png"> -->
-                        <h3>modified Entwickler Dokumentation</h3>
-                        <p>
-                            Mit der Anleitung <a href="docs.module-loader.de" target="_blank">"Einstieg in die Modulentwicklung für modified Shops"</a> bietet wir dir zusätzlich eine Dokumentation an, die dir dabei helfen soll, Module für das modified System zu programmieren.
-                        </p>
 
                         <h3>Community / Forum / Chat</h3>
                         <p>
@@ -81,6 +83,11 @@
                             <li><a href="/docs/tutorial.php">Tutorial: Dein erstes modified Modul mit dem MMLC programmieren</a></li>
                             <li><a href="/docs/publish_module.php">Tutorial: Dein erstes modified Modul veröffentlichen</a></li>
                         </ul>
+
+                        <h3 id="docs">modified Entwickler Dokumentation</h3>
+                        <p>
+                            Mit der Anleitung <a href="https://docs.module-loader.de" target="_blank">"Einstieg in die Modulentwicklung für modified Shops"</a> bieten wir dir zusätzlich eine umfangreiche Dokumentation an, die dir dabei helfen soll, Module für das modified System zu programmieren.
+                        </p>
 
                         <h3 id="specs">
                             Spezifikationen und Referenzen
