@@ -53,7 +53,7 @@
 
                     <p><img src="/images/MAMP_Ports.png" class="imagePreview"></p>
 
-                    <p>Unter dem Tab „PHP“ solltest du die neuste Version von PHP auswählen, die dir zur Auswahl steht. Hier solltest du mindestens PHP 7.2 auswählen.</p>
+                    <p>Unter dem Tab „PHP“ solltest du die neuste Version von PHP auswählen, die dir zur Auswahl steht. Hier solltest du mindestens PHP 7.4 auswählen.</p>
 
                     <p>Unter dem Tab „Web-Server“ musst du jetzt das Root-Verzeichnis festlegen, in dem du deinen Shop installierst. Wir wählen hier für dieses Tutorial ein neues Verzeichnis das wir mit dem Namen <code>modified-shop</code> angelegt haben. (der vollständige Pfad lautet dann z. B. <code>/Users/Robin/Documents/modified-shop</code>)</p>
 
