@@ -29,8 +29,8 @@ if (checkDownloadAccess()) {
                             <input type="hidden" name="user" value="beta-user">
                             <input type="hidden" name="password" value="beta-password">
 
-                            <button type="submit">Download mmlc_installer.php (Version 0.6.0 | 11 kB)</button>
-                            <small>Info: Die mmlc_installer.php Datei Version 0.6.0 kann alle MMLC Versionen ab 1.14.0 installieren. Zur <a href="/documentation.php#system-requirements">Installationsanleitung</a>.</small>
+                            <button type="submit">Download mmlc_installer.php (Version 0.6.2 | 11 kB)</button>
+                            <small>Info: Die mmlc_installer.php Datei Version 0.6.2 kann alle MMLC Versionen ab 1.14.0 installieren. Zur <a href="/documentation.php#system-requirements">Installationsanleitung</a>.</small>
                         </form>
                     </p>
 
