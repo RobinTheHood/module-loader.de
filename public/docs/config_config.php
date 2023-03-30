@@ -25,14 +25,15 @@
                             <li><a href="#username">username</a></li>
                             <li><a href="#password">password</a></li>
                             <li><a href="#accessToken">accessToken</a></li>
+                            <li><a href="#adminDir">adminDir</a></li>
                             <li><a href="#modulesLocalDir">modulesLocalDir</a></li>
                             <li><a href="#remoteAddress">remoteAddress</a></li>
                             <li><a href="#installMode">installMode</a></li>
                             <li><a href="#selfUpdate">selfUpdate</a></li>
-                            <li><a href="#exceptionMonitorIp">exceptionMonitorIp</a></li>
+                            <!-- <li><a href="#exceptionMonitorIp">exceptionMonitorIp</a></li> -->
                             <li><a href="#exceptionMonitorDomain">exceptionMonitorDomain</a></li>
-                            <li><a href="#exceptionMonitorMail">exceptionMonitorMail</a></li>
-                            <li><a href="#adminDir">adminDir</a></li>
+                            <!-- <li><a href="#exceptionMonitorMail">exceptionMonitorMail</a></li> -->
+                            <li><a href="#logging">logging</a></li>
                         </ul>
                     </nav>
                 </aside>
@@ -77,7 +78,9 @@
 
                         <p>Wenn du das Passwort ändern möchtest, kannst du das seit Version 1.19.0 auch direkt über die Einstellungen im MMLC machen. Wenn deine Version älter ist, musst du dein Passwort manuell ändern. Wie das geht, beschreibt der folgende Abschnitt.</p>
 
-                        <p>Du kannst ein Password-Hash wie folgt manuell generieren:</p>
+                        <p>Du kannst unseren PasswordHash-Generator verwenden: <a href="/password_generator.php">Online-Tool zur Passwort-Hash-Erstellung</a></p>
+
+                        <p>Du kannst ein Password-Hash manuell generieren:</p>
                         <code class="block">php -r 'echo password_hash("dein-neues-passwort", PASSWORD_DEFAULT) . "\n";'</code>
 
                         <p>Hier ein Beispiel:</p>
@@ -94,6 +97,18 @@
 
                         <p>Hier ein Beispiel:</p>
                         <code class="block">'accessToken' => '...'</code>
+                    </section>
+
+                    <section>
+                        <h4 id="adminDir">
+                            adminDir (ab Version 1.19.0)
+                            <a href="#adminDir" class="anchor">#</a>
+                        </h4>
+
+                        <p>Der MMLC versucht automatisch deinen Admin-Ordner zu erkennen, falls du diesen umbenannt hast. Wenn du möchtest, kannst du dem MMLC auch direkt mitteilen, wie dein Admin-Ordner heißt, dass kann unter Umständen deinen MMLC etwas beschleunigen.</p>
+
+                        <p>Hier ein Beispiel:</p>
+                        <code class="block">'adminDir' => 'admin_123456'</code>
                     </section>
 
                     <section>
@@ -154,6 +169,7 @@
                         <code class="block">'selfUpdate' => 'stable'</code>
                     </section>
 
+                    <?php /*
                     <section>
                         <h4 id="exceptionMonitorIp">
                             exceptionMonitorIp (ab Version 1.18.0)
@@ -169,6 +185,7 @@
                         <p>Hier ein Beispiel:</p>
                         <code class="block">'exceptionMonitorIp' => '127.0.0.1'</code>
                     </section>
+                    */?>
 
                     <section>
                         <h4 id="exceptionMonitorDomain">
@@ -176,16 +193,15 @@
                             <a href="#exceptionMonitorDomain" class="anchor">#</a>
                         </h4>
 
-                        <div class="notice info">
-                            <p>Dokumentation in Arbeit ...</p>
-                        </div>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic enim cum quidem quaerat quisquam aliquid, animi delectus officia inventore exercitationem! Deserunt consequuntur molestiae veritatis vel perspiciatis ipsam dolores est placeat?</p>
+                        <p>Je nach Serverkonfiguration auf dem dein MMLC läuft kann es passieren, dass ein nicht vorhersehbarer PHP Fehler auftritt. Z. B. wenn du den MMLC mit einer veralteten PHP laufen lässt. In diesem Fall wird dir keine aussagefähige Fehlermeldung oder im schlimmsten Fall eine weiße Seite im Browser angezeigt.</p>
+                        
+                        <p>Wenn du mehr Informationen zum Fehler im Browser erhalten möchtest, kannst du in der config.php die/deine Domain eintragen. In dieser Meldung können sensible Daten enthalten sein. Nur wenn der MMLC auf dieser Domain ausgeführt wird, wird dir eine ausführliche Fehlermeldung angezeigt.</p>
 
                         <p>Hier ein Beispiel:</p>
-                        <code class="block">'exceptionMonitorDomain' => 'modified.localhost'</code>
+                        <code class="block">'exceptionMonitorDomain' => 'www.my-domain.org'</code>
                     </section>
 
+                    <?php /*
                     <section>
                         <h4 id="exceptionMonitorMail">
                             exceptionMonitorMail (ab Version 1.18.0)
@@ -201,17 +217,25 @@
                         <p>Hier ein Beispiel:</p>
                         <code class="block">'exceptionMonitorMail' => 'info@module-loader.de'</code>
                     </section>
+                    */?>
 
                     <section>
-                        <h4 id="adminDir">
-                            adminDir (ab Version 1.19.0)
-                            <a href="#adminDir" class="anchor">#</a>
+                        <h4 id="logging">
+                            logging (ab Version 1.21.0)
+                            <a href="#logging" class="anchor">#</a>
                         </h4>
 
-                        <p>Der MMLC versucht automatisch deinen Admin-Ordner zu erkennen, falls du diesen umbenannt hast. Wenn du möchtest, kannst du dem MMLC auch direkt mitteilen, wie dein Admin-Ordner heißt, dass kann unter Umständen deinen MMLC etwas beschleunigen.</p>
+                        <p>Je nach Serverkonfiguration auf dem dein MMLC läuft kann es passieren, dass ein nicht vorhersehbarer PHP Fehler auftritt. Z. B. wenn du den MMLC mit einer veralteten PHP laufen lässt. In diesem Fall wird dir keine aussagefähige Fehlermeldung oder im schlimmsten Fall eine weiße Seite im Browser angezeigt.</p>
+                        
+                        <p>Wenn du mehr Informationen zum Fehler erhalten möchtest, kannst du in der config.php die/deine das Logging aktivieren. Die Logs befinden sich im Root-Verzeichnis deines MMLCs im Unterordner <code>logs/</code></p>
+
+                        <ul>
+                            <li><code>true</code> für <strong>Es werden Logs geschrieben</strong></li>
+                            <li><code>false</code> für <strong>Es werden keine logs geschrieben</strong></li>
+                        </ul>
 
                         <p>Hier ein Beispiel:</p>
-                        <code class="block">'adminDir' => 'admin_123456'</code>
+                        <code class="block">'logging' => 'true'</code>
                     </section>
                 </main>
             </div>
