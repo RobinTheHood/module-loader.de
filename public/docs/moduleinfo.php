@@ -37,6 +37,8 @@
                             <li><a href="#tags">tags</a></li>
                             <li><a href="#require">require</a></li>
                             <li><a href="#modifiedCompatibility">modifiedCompatibility</a></li>
+                            <li><a href="#php">php</a></li>
+                            <li><a href="#mmlc">mmlc</a></li>
                             <li><a href="#autoload">autoload</a></li>
                         </ul>
                     </nav>
