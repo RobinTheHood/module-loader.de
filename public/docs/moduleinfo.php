@@ -141,9 +141,10 @@
                             <a href="#developer" class="anchor">#</a>
                         </h4>
 
-                        <div class="notice info">
-                            <p>Dokumentation in Arbeit ...</p>
-                        </div>
+                        <p>Der Entwickler des Moduls. Z. B. der Name des Autors, des Programmieres oder der Firma.<p>
+
+                        <p>Hier ein Beispiel:</p>
+                        <code class="block">"developer": "Robin Wieschendorf"</code>
                     </section>
 
                     <section>
@@ -152,9 +153,10 @@
                             <a href="#developerWebsite" class="anchor">#</a>
                         </h4>
 
-                        <div class="notice info">
-                            <p>Dokumentation in Arbeit ...</p>
-                        </div>
+                        <p>Die Webseite / Url auf die verlinkt werden soll, wenn man auf den Developer klickt.<p>
+
+                        <p>Hier ein Beispiel:</p>
+                        <code class="block">"developerWebsite": "https://robin-wieschendorf.de"</code>
                     </section>
 
                     <section>
@@ -163,9 +165,10 @@
                             <a href="#website" class="anchor">#</a>
                         </h4>
 
-                        <div class="notice info">
-                            <p>Dokumentation in Arbeit ...</p>
-                        </div>
+                        <p>Die Webseite / Url auf der man sich über das Modul informieren kann.<p>
+
+                        <p>Hier ein Beispiel:</p>
+                        <code class="block">"website": "https://github.com/RobinTheHood/modified-std-module"</code>
                     </section>
 
                     <section>
@@ -186,6 +189,7 @@
                             <li><code>promotion/marketing</code> für <strong>Promotion & Marketing</strong></li>
                             <li><code>productinfos</code> für <strong>Zusatzinformationen & Produkt-Tabs</strong></li>
                             <li><code>shipping</code> für <strong>Versand Module</strong></li>
+                            <li><code>payment</code> für <strong>Zahlungs Module</strong></li>
                             <li><code>library</code> für <strong>Programmcode Bibliotheken</strong></li>
                             <li><code>nocategory</code> für <strong>Sonstige Module</strong></li>
                         </ul>
@@ -212,9 +216,10 @@
                             <a href="#tags" class="anchor">#</a>
                         </h4>
 
-                        <div class="notice info">
-                            <p>Dokumentation in Arbeit ...</p>
-                        </div>
+                        <p>Mit diesem Feld können weitere Suchwörter hinzugefügt werden, die mit dem Modul verknüpft werden. Die Tags müssen mit Komma getrennt werden.<p>
+
+                        <p>Hier ein Beispiel:</p>
+                        <code class="block">"tags": "verstand, shipping, paket"</code>
                     </section>
 
                     <section>
@@ -227,8 +232,8 @@
 
                         <p>Hier ein Beispiel von einem Modul, das von den Modulen <code>composer/autoload ab Version 1.1.0</code> und <code>robinthehood/modified-std-module ab Version 0.1.0</code> abhängig ist.</p>
 <code class="block">"require": {
-"composer/autoload": "^1.1.0",
-"robinthehood/modified-std-module": "^0.1.0"
+    "composer/autoload": "^1.1.0",
+    "robinthehood/modified-std-module": "^0.1.0"
 }</code>
                     </section>
 
@@ -238,17 +243,47 @@
                             <a href="#modifiedCompatibility" class="anchor">#</a>
                         </h4>
 
-                        <div class="notice info">
-                            <p>Dokumentation in Arbeit ...</p>
-                        </div>
+                        <p>In diesem Feld muss eingetragen, mit welcher Version oder mit welchen Versionen von modifed das Modul kompatible ist. Der die Versionen müssen als JsonArray eingetragen werden.</p>
 
                         <p>Hier ein Beispiel:</p>
 <code class="block">"modifiedCompatibility": [
-"2.0.3.0",
-"2.0.4.0",
-"2.0.4.1",
-"2.0.4.2"
+    "2.0.6.0",
+    "2.0.7.0"
+    "2.0.7.1"
+    "2.0.7.2"
 ]</code>
+                    </section>
+
+                    <section>
+                        <h4 id="php">
+                            php
+                            <a href="#php" class="anchor">#</a>
+                        </h4>
+
+                        <p>In diesem Feld kann eingetragen werden, mit welcher PHP Version das Modul kompatible ist. Die Version muss als <a href="https://getcomposer.org/doc/articles/versions.md" target="_blank">Composer-Version-Constraint</a> eingetragen werden.</p>
+
+                        <p>Folgende Operatoren stehen zur Auswahl: <code>^</code> <code>></code> <code>>=</code> <code><</code> <code><=</code> <code>||</code>
+
+                        <p>Hier ein Beispiel:</p>
+<code class="block">"php": {
+    "version": "^7.4 || ^8.0"
+}</code>
+                    </section>
+
+                    <section>
+                        <h4 id="mmlc">
+                            mmlc
+                            <a href="#mmlc" class="anchor">#</a>
+                        </h4>
+
+                        <p>In diesem Feld kann eingetragen werden, mit welcher MMLC Version das Modul kompatible ist. Die Version muss als <a href="https://getcomposer.org/doc/articles/versions.md" target="_blank">Composer-Version-Constraint</a> eingetragen werden.</p>
+
+                        <p>Folgende Operatoren stehen zur Auswahl: <code>^</code> <code>></code> <code>>=</code> <code><</code> <code><=</code> <code>||</code>
+
+                        <p>Hier ein Beispiel:</p>
+<code class="block">"mmlc": {
+    "version": "^1.20.0"
+}</code>
                     </section>
 
                     <section>
@@ -257,16 +292,16 @@
                             <a href="#autoload" class="anchor">#</a>
                         </h4>
 
-                        <div class="notice info">
-                            <p>Dokumentation in Arbeit ...</p>
-                        </div>
+                        <p>
+                            PSR-4 Autload Einstellungen. An dieser Stelle verweisen wir auf die Anleitung von Composer <a href="https://getcomposer.org/doc/04-schema.md#psr-4" target="_blank">PSR-4 Autoload mapping for a PHP autoloader</a>.
+                        </p>
 
                         <p>Hier ein Beispiel:</p>
 <code class="block">"autoload": {
-"psr-4": {
-    "MyNamespace\\": "/vendor-no-composer/mynamespace",
-    "MyCompany\\": "/vendor-no-composer/mycompany"
-}
+    "psr-4": {
+        "MyNamespace\\": "/vendor-no-composer/mynamespace",
+        "MyCompany\\": "/vendor-no-composer/mycompany"
+    }
 }</code>
                     </section>
                 </main>
