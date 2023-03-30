@@ -213,7 +213,7 @@
 
                             <code class="block">php -r 'echo password_hash("dein-neues-passwort", PASSWORD_DEFAULT) . "\n";'</code>
 
-                            <p>Mit diesem Befehl wurde dein Passwort sicher verschlüsselt und unleserlich gemacht (man sagt auch gehashed). Kopiere anschließend diese kryptisch aussehende Zeichenkette (Hash) und ersetze damit in der Datei <code>/ModifiedModuleLoaderClient/config/config.php</code> den alten Hash im Eintrag <code>password => "..."</code>.</p>
+                            <p>Mit diesem Befehl wurde dein Passwort sicher verschlüsselt und unleserlich gemacht (man sagt auch gehashed). Kopiere anschließend diese kryptisch aussehende Zeichenkette (Hash) und ersetze damit in der Datei <code>/ModifiedModuleLoaderClient/config/config.php</code> den alten Hash im Eintrag <code>'password' => '...'</code>.</p>
                         </section>
 
                         <section>
@@ -617,7 +617,7 @@
 
                         <code class="block">php -r 'echo password_hash("dein-neues-passwort", PASSWORD_DEFAULT) . "\n";'</code>
 
-                        <p>Mit diesem Befehl wurde dein Passwort sicher verschlüsselt und unleserlich gemacht (man sagt auch gehashed). Kopiere anschließend diese kryptisch aussehende Zeichenkette (Hash) und ersetze damit in der Datei <code>/ModifiedModuleLoaderClient/config/config.php</code> den alten Hash im Eintrag <code>password => "..."</code>.</p>
+                        <p>Mit diesem Befehl wurde dein Passwort sicher verschlüsselt und unleserlich gemacht (man sagt auch gehashed). Kopiere anschließend diese kryptisch aussehende Zeichenkette (Hash) und ersetze damit in der Datei <code>/ModifiedModuleLoaderClient/config/config.php</code> den alten Hash im Eintrag <code>'password' => '...'</code>.</p>
 
                         <h3 id="module-overview-page">
                             Übersichtsseite der Module

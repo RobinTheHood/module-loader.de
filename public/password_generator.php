@@ -75,7 +75,7 @@
                         <section>
                             <h3>Schritt 2 - Passwort Hash verwenden</h3>
 
-                            <p>Kopiere anschließend diese kryptisch aussehende Zeichenkette (Passwor-Hash) und ersetze damit in der Datei <code>/ModifiedModuleLoaderClient/config/config.php</code> den alten Hash im Eintrag <code>password => "..."</code>.</p>
+                            <p>Kopiere anschließend diese kryptisch aussehende Zeichenkette (Passwor-Hash) und ersetze damit in der Datei <code>/ModifiedModuleLoaderClient/config/config.php</code> den alten Hash im Eintrag <code>'password' => '...'</code>.</p>
                         </section>
                 </main>
             </div>
