@@ -61,6 +61,14 @@ aside li.book {
     line-height: 20px;
 }
 
+aside li.clipboard {
+    list-style-type: '📋';
+    margin-bottom: 12px;
+    padding-left: 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
 aside li.specs {
     list-style-type: '🛠';
     margin-bottom: 12px;

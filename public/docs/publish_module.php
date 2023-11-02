@@ -53,6 +53,13 @@
 
                         <p>In diesem Tutorial lernst du, wie du dein modified eCommerce Shop Modul für den MMLC veröffentlichst. Durch eine Veröffentlichung steht allen MMLC-Nutzern dein Modul zum Download über den MMLC zur Verfügung.</p>
 
+                        <div class="notice warning">
+                            <p>
+                                <strong>Wichtig:</strong>
+                                Bevor du ein Modul im MMLC veröffentlichst, empfehlen wir dir dringend, die <a href="/docs/publish_module_checklist.php">Guidelines - Checkliste - modified Module veröffentlichen im MMLC</a> zu lesen. In dieser Checkliste findest du wichtige Informationen und Hinweise, auf die du unbedingt achten solltest, bevor du dein Modul veröffentlichst.
+                            </p>
+                        </div>
+
                         <div class="notice info">
                             <p><strong>Info:</strong> Natürlich kannst du festlegen, ob ein Modul nur für bestimmte Nutzer sichtbar ist oder ob dein Modul kostenpflichtig erworben werden muss. Was du hierfür zusätzlich machen musst, erfährst du unter <a href="#">XXX</a>.</p>
                         </div>

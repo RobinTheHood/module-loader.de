@@ -37,6 +37,12 @@
                                 </ul>
                             </li>
                             <li>
+                                <a href="#guides">Guidelines</a>
+                                <ul>
+                                    <li class="clipboard"><a href="/docs/publish_module_checklist.php">Checkliste Module veröffentlichen</a></li>
+                                </ul>
+                            </li>
+                            <li>
                                 <a href="#specs">Spezifikationen und Referenzen</a>
                                 <ul>
                                     <li class="specs"><a href="/docs/config_config.php">Konfiguration | config/config.php</a></li>
