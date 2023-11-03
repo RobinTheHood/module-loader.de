@@ -5,9 +5,19 @@ function loadExample($path)
     return loadCodeBlock(__DIR__ . '/../examples/' . $path);
 }
 
+function loadExample2($path)
+{
+    return loadCodeBlock2(__DIR__ . '/../examples/' . $path);
+}
+
 function loadCodeBlock($path)
 {
     return '<code class="block">' . htmlentities(file_get_contents($path)) . '</code>';
+}
+
+function loadCodeBlock2($path)
+{
+    return '<pre><code class="block language-php">' . htmlentities(file_get_contents($path)) . '</code></pre>';
 }
 
 function startDownload()
