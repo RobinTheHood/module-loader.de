@@ -25,7 +25,7 @@
                             <li><a href="#overview">Checkliste in Kürze</a></li>
                             <li><a href="#update-mechanism">Update-Mechanismus integrieren</a></li>
                             <li><a href="#run-tests">Tests durchführen</a></li>
-                            <li><a href="#update-dependencies">Abhängigkeiten in der module.json kontrollieren und aktualisieren</a></li>
+                            <li><a href="#update-dependencies">Abhängigkeiten in der moduleinfo.json kontrollieren und aktualisieren</a></li>
                             <li><a href="#create-changelog">Changelog Eintrag erstellen</a></li>
                             <li><a href="#check-log-files">Fehlermeldungen in Logs kontrollieren und vermeiden</a></li>
                             <li><a href="#create-localization">Lokalisierung und Übersetzungen erstellen</a></li>
@@ -61,7 +61,7 @@
                         <ul style="list-style: none">
                             <li><input type="checkbox"> Update-Mechanismus integrieren</li>
                             <li><input type="checkbox"> Tests durchführen</li>
-                            <li><input type="checkbox"> Abhängigkeiten in der module.json kontrollieren und aktualisieren</li>
+                            <li><input type="checkbox"> Abhängigkeiten in der moduleinfo.json kontrollieren und aktualisieren</li>
                             <li><input type="checkbox"> Changelog Eintrag erstellen</li>
                             <li><input type="checkbox"> Fehlermeldungen in Logs kontrollieren und vermeiden</li>
                             <li><input type="checkbox"> Lokalisierung und Übersetzungen erstellen</li>
