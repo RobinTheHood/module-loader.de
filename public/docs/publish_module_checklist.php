@@ -108,11 +108,11 @@
                         
                     <section>
                         <h3 id="update-dependencies">
-                            Abhängigkeiten in der module.json kontrollieren und aktualisieren
+                            Abhängigkeiten in der moduleinfo.json kontrollieren und aktualisieren
                             <a href="#update-dependencies" class="anchor">#</a>
                         </h3>
 
-                        <p>Aktualisiere deine <code>module.json</code> Datei. Hier solltest du als erstes die folgenden Versionen eintragen, unter denen du das Modul getestet hast.</p>
+                        <p>Aktualisiere deine <code>moduleinfo.json</code> Datei. Hier solltest du als erstes die folgenden Versionen eintragen, unter denen du das Modul getestet hast.</p>
 
                         <ul>
                             <li>MMLC Version</li>
