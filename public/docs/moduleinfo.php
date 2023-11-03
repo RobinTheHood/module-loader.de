@@ -50,7 +50,7 @@
 
                         <?php //require_once '../inc/notice_work_in_progress.php'; ?>
 
-                        <p>Jedes Modul, das mit dem MMLC funktionieren soll brauch eine <code>moduleinfo.json</code> Datei. In dieser Datei werden die wichtigsten Angaben und Einstellungen für den MMLC zum Modul konfiguriert. In diesem Abschnitt werden die Felder und dessen Funktionen in der <code>moduleinfo.json</code> beschrieben.</p>
+                        <p>Jedes Modul, das mit dem MMLC funktionieren soll braucht eine <code>moduleinfo.json</code> Datei. In dieser Datei werden die wichtigsten Angaben und Einstellungen für den MMLC zum Modul konfiguriert. In diesem Abschnitt werden die Felder und dessen Funktionen in der <code>moduleinfo.json</code> beschrieben.</p>
                     </section>
 
                     <section>
