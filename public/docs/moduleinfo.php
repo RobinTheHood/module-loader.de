@@ -21,6 +21,7 @@
                             <a href="#content" class="anchor">#</a>
                         </h3>
                         <ul>
+                            <li><a href="#example">Beispiel</a></li>
                             <li><a href="#structure">Der Aufbau</a></li>
                             <li><a href="#name">name</a></li>
                             <li><a href="#archiveName">archiveName</a></li>
@@ -51,6 +52,16 @@
                         <?php //require_once '../inc/notice_work_in_progress.php'; ?>
 
                         <p>Jedes Modul, das mit dem MMLC funktionieren soll braucht eine <code>moduleinfo.json</code> Datei. In dieser Datei werden die wichtigsten Angaben und Einstellungen für den MMLC zum Modul konfiguriert. In diesem Abschnitt werden die Felder und dessen Funktionen in der <code>moduleinfo.json</code> beschrieben.</p>
+                    </section>
+
+                    <section>
+                        <h3 id="example">
+                            Beispiel
+                            <a href="#example" class="anchor">#</a>
+                        </h3>
+
+                        <p>Eine Vollständige <code>moduleinfo.json</code> könnte wie folgt aussehen.</p>
+                        <code class="block"><?= file_get_contents('../../examples/full-example.json'); ?></code>
                     </section>
 
                     <section>
