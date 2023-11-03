@@ -5,9 +5,9 @@ function loadExample($path)
     return loadCodeBlock(__DIR__ . '/../examples/' . $path);
 }
 
-function loadExample2($path)
+function loadExample2(string $path, string $languageCode): string
 {
-    return loadCodeBlock2(__DIR__ . '/../examples/' . $path);
+    return loadCodeBlock2(__DIR__ . '/../examples/' . $path, $languageCode);
 }
 
 function loadCodeBlock($path)
@@ -15,9 +15,9 @@ function loadCodeBlock($path)
     return '<code class="block">' . htmlentities(file_get_contents($path)) . '</code>';
 }
 
-function loadCodeBlock2($path)
+function loadCodeBlock2(string $path, string $languageCode): string
 {
-    return '<pre><code class="block language-php">' . htmlentities(file_get_contents($path)) . '</code></pre>';
+    return '<pre><code class="block language-' . $languageCode . '">' . htmlentities(file_get_contents($path)) . '</code></pre>';
 }
 
 function startDownload()

@@ -7,6 +7,9 @@
 
         <title>Dein erstes modified eCommerce Shop Modul prorgrammieren - MMLC - Modified Module Loader Client</title>
         <meta name="description" content="In diesem Tutorial lernst du, wie du ein eigenes Modul für einen modified eCommerce Shop programmierst.">
+
+        <script src="/js/highlight.min.js"></script>
+        <link rel="stylesheet" href="/css/github-dark.min.css">
     </head>
     <body>
         <div class="page-wrapper page-docs-tutorial">
@@ -126,7 +129,7 @@
 
                         <p>Bei dem Modul-Namen handelt es sich um den technischen Namen des Moduls. Das ist nicht der Name, der dem User später angezeigt wird. Den Anzeigename legen wir im nächsten Schritt fest. Die Verzeichnisstruktur sollte jetzt folgendermaßen aussehen:</p>
 
-                        <?php echo loadExample('/tutorial_005.txt'); ?>
+                        <?= loadExample2('/tutorial_005.txt', 'plain'); ?>
                     </section>
 
                     <section>
@@ -141,7 +144,7 @@
 
                         <p>Die <code>moduleinfo.json</code> Datei füllen wir mit folgendem Inhalt und vergiss die gescheiften Klammern am Anfang und am Ende nicht:</p>
 
-                        <?php echo loadExample('/tutorial_010.json'); ?>
+                        <?= loadExample2('/tutorial_010.json', 'json'); ?>
 
                         <p>Das Feld <code>name</code> können wir frei wählen. Das ist der Anzeigename für den User im MMLC. Das Feld <code>archiveName</code> muss der Vendor-Ordner-Name und der Modul-Ordner-Name getrennt mit einem Slash-Zeichen sein. In unserem Fall ist das <code>mycompany/my-first-module</code>.</p>
 
@@ -170,7 +173,7 @@
 
                         <p>Wenn bis hierhin alles geklappt hat, ist es eine gute Gelegenheit den aktuellen Zwischenstand mit git zu speichern. Erstelle im Verzeichnis <code>./Modules/mycompany/my-first-module</code> ein neues git-Repository. Das kannst du z. B. über die Konsole machen oder mit einem git-Tool wie SourceTree. Hier das Beispiel mit der Konsole:</p>
 
-                        <?php echo loadExample('/tutorial_015.sh'); ?>
+                        <?= loadExample2('/tutorial_015.sh', 'bash'); ?>
 
                         <div class="notice info">
                             <p><strong>Tipp: </strong> Schau mal auf <a href="https://www.conventionalcommits.org/" target="_blank">https://www.conventionalcommits.org/</a> vorbei. Hier wird dir beschrieben, wie du gute Commit-Messages schreiben kannst. Die Seite erklärt dir auch, wieso wir das Kürzel <code>feat:</code> vor unserer Commit-Message verwendet haben.</p>
@@ -209,7 +212,7 @@
 
                         <p>Mit diesem Wissen nennen wir die neue Datei <code>mc_my_first_module.php</code> und speichern diese in das eben erstellte Verzeichnis <code>.../new_files/admin/includes/modules/system/</code>. Jetzt sollte deine Verzeichnisstruktur folgendermaßen aussehen:</p>
 
-                        <?php echo loadExample('/tutorial_025.txt'); ?>
+                        <?= loadExample2('/tutorial_025.txt', 'plain'); ?>
                     </section>
 
                     <section>
@@ -220,7 +223,7 @@
 
                         <p>In die Datei <code>mc_my_first_module.php</code> schreiben wir folgenden PHP Code:</p>
 
-                        <?php echo loadExample('/tutorial_020.php'); ?>
+                        <?= loadExample2('/tutorial_020.php', 'php'); ?>
 
                         <p>Durch diese Datei wird uns das Module im Shopbackend unter dem Menüpunkt <i>Module > System Module</i> angezeigt. Damit diese Datei mit den wenigen Zeilen Programmcode auskommt, verwenden wir das Library Modul <code>Standard Modul für Modified</code>. Was dieses Modul genau macht und wie du es verwenden kannst ist unter XXX beschrieben. </p>
 
@@ -239,11 +242,11 @@
 
                         <p>Damit wir das Modul <code>Standard Modul für Modified</code> verwenden können, müssen wir es als Abhängigkeit in unserer <code>moduleinfo.json</code> hinzufügen. Auch brauchen wir das <code>Composer Autoload</code> Library Modul. Beide Module fügen wir durch das <code>require</code> Array in unserer <code>moduleinfo.json</code> hinzu.</p>
 
-                        <?php echo loadExample('/tutorial_030.json'); ?>
+                        <?= loadExample2('/tutorial_030.json', 'json'); ?>
 
                         <p>Danach sollte die gesamte <code>moduleinfo.json</code> wie folgt aussehen:</p>
 
-                        <?php echo loadExample('/tutorial_040.json'); ?>
+                        <?= loadExample2('/tutorial_040.json', 'json'); ?>
                     </section>
 
                     <section>
@@ -258,11 +261,11 @@
 
                         <p>Die Sprachdatei bennen wir wieder nach der HookFileName Convention <code>mc_my_first_module.php</code> und speichern diese in das eben erstellte Verzeichnis <code>.../new_files/lang/german/modules/system/</code>. Jetzt sollte deine Verzeichnisstruktur folgendermaßen aussehen:</p>
 
-                        <?php echo loadExample('/tutorial_050.txt'); ?>
+                        <?= loadExample2('/tutorial_050.txt', 'plain'); ?>
 
                         <p>Der Inhalt der Datei sieht wie folgt aus:</p>
 
-                        <?php echo loadExample('/tutorial_060.php'); ?>
+                        <?= loadExample2('/tutorial_060.php', 'php'); ?>
                     </section>
 
                     <section>
@@ -279,7 +282,7 @@
 
                         <p>Deine <code>config.php</code> sollte wie folgt aussehen:</p>
 
-                        <?php echo loadExample('/tutorial_070.php'); ?>
+                        <?= loadExample2('/tutorial_070.php', 'php'); ?>
                     </section>
 
                     <section>
@@ -334,5 +337,6 @@
                 <?php include '../../views/footer.php'; ?>
             </footer>
         </div>
+        <script>hljs.highlightAll();</script>
     </body>
 </html>

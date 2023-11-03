@@ -9,9 +9,9 @@ class mc_my_first_module extends StdModule
         // Weitere Konfigurationen und Funktionen...
         $this->checkForUpdate(true);
     }
-    // Weitere Moduldefinitionen und -funktionen...
 
     // Weitere Moduldefinitionen und -funktionen...
+
     protected function updateSteps()
     {
         $currentVersion = $this->getVersion();
@@ -30,5 +30,4 @@ class mc_my_first_module extends StdModule
 
         return StdModule::UPDATE_NOTHING;
     }
-    // Weitere Moduldefinitionen und -funktionen...
 }

@@ -10,7 +10,6 @@
         
         <script src="/js/highlight.min.js"></script>
         <link rel="stylesheet" href="/css/github-dark.min.css">
-
     </head>
     <body>
         <div class="page-wrapper page-docs-tutorial">
@@ -50,7 +49,7 @@
 
                         <p>Um mit diesem Feature zu beginnen, gib in deiner Modulklasse die aktuelle Version in SemVer (Semantic Versioning) Schreibweise an. Dies ermöglicht es dem System, die aktuelle Version deines Moduls zu verfolgen.</p>
                         
-                        <?= loadExample2('/stdmodule_update_code_01.php'); ?>
+                        <?= loadExample2('/stdmodule_update_code_01.php', 'php'); ?>
                     </section>
 
                     <section>
@@ -59,9 +58,9 @@
                             <a href="#adjust-constructor" class="anchor">#</a>
                         </h3>
 
-                        <p>Im Konstruktor deines Moduls füge die Methode `$this->checkForUpdate(true)` hinzu. Das `true` bewirkt, dass der Update-Button im Admin-Bereich angezeigt wird, wenn ein Update für dein Modul verfügbar ist. Wenn du `false` verwendest, wird lediglich ein Hinweis auf ein verfügbares Update angezeigt.</p>
+                        <p>Im Konstruktor deines Moduls füge die Methode <code>$this->checkForUpdate(true)</code> hinzu. Das <code>true</code> bewirkt, dass der Update-Button im Admin-Bereich angezeigt wird, wenn ein Update für dein Modul verfügbar ist. Wenn du <code>false</code> verwendest, wird lediglich ein Hinweis auf ein verfügbares Update angezeigt.</p>
 
-                        <?= loadExample2('/stdmodule_update_code_02.php'); ?>
+                        <?= loadExample2('/stdmodule_update_code_02.php', 'php'); ?>
                     </section>
 
                     <section>
@@ -74,7 +73,7 @@
 
                         <p>Hier ist ein Beispiel, wie du diese Methode nutzen könntest:</p>
 
-                        <?= loadExample2('/stdmodule_update_code_03.php'); ?>
+                        <?= loadExample2('/stdmodule_update_code_03.php', 'php'); ?>
 
                         <p>Dieses Vorgehen ermöglicht es dir, Updates für dein Modul effizient zu verwalten und sicherzustellen, dass die neueste Version in deinem Shop korrekt installiert wird. Beachte, dass du die Konstante <code>public const VERSION = &#39;1.0.0&#39;</code> und die Update-Schritte in <code>protected function updateSteps()</code> für jede neue Version deines Moduls gemäß den Änderungen in deinem Modul anpassen und ergänzen musst.</p>
                     </section>
@@ -87,7 +86,7 @@
 
                         <p>Hier noch einmal alle nötigen Ändnerungen zusammen in einem Beispiel:</p>
 
-                        <?= loadExample2('/stdmodule_update_code_04.php'); ?>
+                        <?= loadExample2('/stdmodule_update_code_04.php', 'php'); ?>
                     </section>
                 </main>
             </div>
