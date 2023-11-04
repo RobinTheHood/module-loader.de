@@ -13,7 +13,7 @@
 
     "category": "productivity",
     "price": "29.90",
-    "tags": "verstand, shipping, paket",
+    "tags": "versand, shipping, paket",
 
     "require": {
         "composer/autoload": "^1.1.0",
