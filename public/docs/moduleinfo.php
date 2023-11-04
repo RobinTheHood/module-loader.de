@@ -61,7 +61,7 @@
                         </h3>
 
                         <p>Eine Vollständige <code>moduleinfo.json</code> könnte wie folgt aussehen.</p>
-                        <code class="block"><?= file_get_contents('../../examples/full-example.json'); ?></code>
+                        <code class="block"><?= loadExample2('full-example.json', 'json'); ?></code>
                     </section>
 
                     <section>
