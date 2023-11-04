@@ -1,7 +1,7 @@
 {
     "name": "My first Module",
     "archiveName": "mycompany/my-first-module",
-    "sourceDir": "new_files",
+    "sourceDir": "src",
     "version": "auto",
 
     "shortDescription": "",
