@@ -6,6 +6,9 @@
         <?php require_once '../../views/head.php'; ?>
 
         <title>moduleinfo.json - Developer - MMLC - Modified Module Loader Client</title>
+
+        <script src="/js/highlight.min.js"></script>
+        <link rel="stylesheet" href="/css/github-dark.min.css">
     </head>
     <body>
         <div class="page-wrapper page-docs-moduleinfo">
@@ -61,7 +64,7 @@
                         </h3>
 
                         <p>Eine Vollständige <code>moduleinfo.json</code> könnte wie folgt aussehen.</p>
-                        <code class="block"><?= loadExample2('full-example.json', 'json'); ?></code>
+                        <?= loadExample2('moduleinfo_example.json', 'json'); ?>
                     </section>
 
                     <section>
@@ -323,7 +326,7 @@
             <footer>
                 <?php include '../../views/footer.php'; ?>
             </footer>
-
+            <script>hljs.highlightAll();</script>
         </div>
     </body>
 </html>
