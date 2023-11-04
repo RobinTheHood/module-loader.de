@@ -25,7 +25,7 @@
                             <li><a href="#overview">Checkliste in Kürze</a></li>
                             <li><a href="#update-mechanism">Update-Mechanismus integrieren</a></li>
                             <li><a href="#run-tests">Tests durchführen</a></li>
-                            <li><a href="#update-dependencies">Abhängigkeiten in der module.json kontrollieren und aktualisieren</a></li>
+                            <li><a href="#update-dependencies">Abhängigkeiten in der moduleinfo.json kontrollieren und aktualisieren</a></li>
                             <li><a href="#create-changelog">Changelog Eintrag erstellen</a></li>
                             <li><a href="#check-log-files">Fehlermeldungen in Logs kontrollieren und vermeiden</a></li>
                             <li><a href="#create-localization">Lokalisierung und Übersetzungen erstellen</a></li>
@@ -61,7 +61,7 @@
                         <ul style="list-style: none">
                             <li><input type="checkbox"> Update-Mechanismus integrieren</li>
                             <li><input type="checkbox"> Tests durchführen</li>
-                            <li><input type="checkbox"> Abhängigkeiten in der module.json kontrollieren und aktualisieren</li>
+                            <li><input type="checkbox"> Abhängigkeiten in der moduleinfo.json kontrollieren und aktualisieren</li>
                             <li><input type="checkbox"> Changelog Eintrag erstellen</li>
                             <li><input type="checkbox"> Fehlermeldungen in Logs kontrollieren und vermeiden</li>
                             <li><input type="checkbox"> Lokalisierung und Übersetzungen erstellen</li>
@@ -80,7 +80,7 @@
                         
                         <p>Gewährleiste, dass dein Modul mithilfe des MMLC einfach aktualisiert werden kann. Bei Aktualisierungen ist es wichtig zu bedenken, dass nicht nur Quellcode-Dateien über den MMLC aktualisiert werden müssen, sondern sich auch Daten und Einstellungen in der Datenbank ändern können. Es ist entscheidend, dass dein Modul in der Lage ist, diese Anpassungen automatisch vorzunehmen, um einen reibungslosen Übergang für die Nutzer zu gewährleisten.</p>
 
-                        <p>Wenn du das <a href="https://module-loader.de/modules/robinthehood/modified-std-module">Standard Modul für Modified</a> verwendest, stehen dir bereits vorgefertigte Hilfsmethoden zur Verfügung, die dir die Implementierung dieses Mechanismus erheblich erleichtern. Diese Hilfsmethoden sind speziell darauf ausgerichtet, Änderungen in der Datenbank und den Einstellungen nahtlos zu handhaben.</p>
+                        <p>Wenn du das <a href="https://module-loader.de/modules/robinthehood/modified-std-module">Standard Modul für Modified</a> verwendest, stehen dir bereits vorgefertigte Hilfsmethoden zur Verfügung, die dir die Implementierung dieses Mechanismus erheblich erleichtern. Diese Hilfsmethoden sind speziell darauf ausgerichtet, Änderungen in der Datenbank und den Einstellungen nahtlos zu handhaben. In der Anleitung <a href="/docs/module_update_with_std_module.php">Modul-Updates mit dem Modifed Standard Modul implementieren</a> findest du hilfreiche Informationen dazu.</p>
 
                         <p>Ein weiterer wichtiger Schritt ist die Dokumentation im Changelog. Hier solltest du detailliert beschreiben, wie das Modul aktualisiert werden kann. Falls die Aktualisierung nur einen einfachen Klick im Backend auf &quot;Update&quot; erfordert, ergänze diesen Schritt ebenfalls im Changelog.</p>
 
@@ -108,11 +108,11 @@
                         
                     <section>
                         <h3 id="update-dependencies">
-                            Abhängigkeiten in der module.json kontrollieren und aktualisieren
+                            Abhängigkeiten in der moduleinfo.json kontrollieren und aktualisieren
                             <a href="#update-dependencies" class="anchor">#</a>
                         </h3>
 
-                        <p>Aktualisiere deine <code>module.json</code> Datei. Hier solltest du als erstes die folgenden Versionen eintragen, unter denen du das Modul getestet hast.</p>
+                        <p>Aktualisiere deine <code>moduleinfo.json</code> Datei. Hier solltest du als erstes die folgenden Versionen eintragen, unter denen du das Modul getestet hast.</p>
 
                         <ul>
                             <li>MMLC Version</li>

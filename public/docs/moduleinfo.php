@@ -232,7 +232,7 @@
                         <p>Mit diesem Feld können weitere Suchwörter hinzugefügt werden, die mit dem Modul verknüpft werden. Die Tags müssen mit Komma getrennt werden.<p>
 
                         <p>Hier ein Beispiel:</p>
-                        <code class="block">"tags": "verstand, shipping, paket"</code>
+                        <code class="block">"tags": "versand, shipping, paket"</code>
                     </section>
 
                     <section>
