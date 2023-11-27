@@ -245,7 +245,7 @@
                             <a href="#dependencyMode" class="anchor">#</a>
                         </h4>
 
-                        <p>Du kannst zwischen <code>strict</code> und <code>lax</code> wählen. Mit strict werden die Abhänigkeiten von Modulen mit einer Version kleiner als 1.0.0 genauer kontrolliert. Wenn sich einige Module nicht installieren lassen, kannst du es mit lax versuchen. Beachte, dass im Lex-Modus die Wahrscheinlichkeit größer ist, dass verschiedene Module nicht miteinander harmonieren. Default: <code>lax</code></p>
+                        <p>Du kannst zwischen <code>strict</code> und <code>lax</code> wählen. Mit strict werden die Abhänigkeiten von Modulen mit einer Version kleiner als 1.0.0 genauer kontrolliert. Wenn sich einige Module nicht installieren lassen, kannst du es mit lax versuchen. Beachte, dass im Lax-Modus die Wahrscheinlichkeit größer ist, dass verschiedene Module nicht miteinander harmonieren. Default: <code>lax</code></p>
 
                         <ul>
                             <li><code>lax</code> für <strong>Weniger genauere Abhängigkeitsprüfung bei Versionen kleiner 1.0.0</strong></li>
@@ -253,7 +253,7 @@
                         </ul>
         
                         <p>Hier ein Beispiel:</p>
-                        <code class="block">'logging' => 'strict'</code>
+                        <code class="block">'dependencyMode' => 'strict'</code>
                     </section>
                 </main>
             </div>
