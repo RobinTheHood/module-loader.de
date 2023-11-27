@@ -43,6 +43,7 @@
                             <li><a href="#modifiedCompatibility">modifiedCompatibility</a></li>
                             <li><a href="#php">php</a></li>
                             <li><a href="#mmlc">mmlc</a></li>
+                            <li><a href="#date">date</a></li>
                             <li><a href="#autoload">autoload</a></li>
                         </ul>
                     </nav>
@@ -300,6 +301,18 @@
 <code class="block">"mmlc": {
     "version": "^1.20.0"
 }</code>
+                    </section>
+
+                    <section>
+                        <h4 id="date">
+                            date (ab Version 1.22.0)
+                            <a href="#date" class="anchor">#</a>
+                        </h4>
+
+                        <p>Gibt das Datum und Uhrzeit an, seit dem die Modul Version veröffentlicht wurde. Dieser Wert kann lokal gesetzt werden, wird jedoch vom MMLS mit dem Datum des Git Version-Tags überschrieben. Format: <code>YYYY-MM-DD hh:mm:ss</code></p>
+
+                        <p>Hier ein Beispiel:</p>
+<code class="block">"date": "2023-12-24 16:30:21"</code>
                     </section>
 
                     <section>
