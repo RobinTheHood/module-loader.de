@@ -110,7 +110,7 @@
                         <p>Mit diesem Feld kann festgelegt werden, aus welchem Verzeichnis die Dateien aus dem Modul in den Shop kopiert werden sollen.</p>
 
                         <p>Hier ein Beispiel:</p>
-                        <code class="block">"sourceDir": "new_files"</code>
+                        <code class="block">"sourceDir": "src"</code>
                     </section>
 
                     <section>
@@ -249,8 +249,8 @@
 
                         <p>Hier ein Beispiel von einem Modul, das von den Modulen <code>composer/autoload ab Version 1.1.0</code> und <code>robinthehood/modified-std-module ab Version 0.1.0</code> abhängig ist.</p>
 <code class="block">"require": {
-    "composer/autoload": "^1.1.0",
-    "robinthehood/modified-std-module": "^0.1.0"
+    "composer/autoload": "^1.3.0",
+    "robinthehood/modified-std-module": "^0.10.0"
 }</code>
                     </section>
 
@@ -329,8 +329,8 @@
                         <p>Hier ein Beispiel:</p>
 <code class="block">"autoload": {
     "psr-4": {
-        "MyNamespace\\": "/vendor-no-composer/mynamespace",
-        "MyCompany\\": "/vendor-no-composer/mycompany"
+        "MyCompany\\": "/vendor-no-composer/mycompany",
+        "RobinTheHood\\Stripe\\": "src-mmlc"
     }
 }</code>
                     </section>

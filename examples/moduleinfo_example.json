@@ -16,19 +16,22 @@
     "tags": "versand, shipping, paket",
 
     "require": {
-        "composer/autoload": "^1.1.0",
-        "robinthehood/modified-std-module": "^0.1.0"
+        "composer/autoload": "^1.3.0",
+        "robinthehood/modified-std-module": "^0.10.0"
     },
 
     "modifiedCompatibility": [
         "2.0.6.0",
         "2.0.7.0",
         "2.0.7.1",
-        "2.0.7.2"
+        "2.0.7.2",
+        "3.0.0"
     ],
+
     "php": {
         "version": "^7.4 || ^8.0"
     },
+
     "mmlc": {
         "version": "^1.21.0"
     },
