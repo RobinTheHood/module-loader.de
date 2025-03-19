@@ -29,8 +29,8 @@ if (checkDownloadAccess()) {
                             <input type="hidden" name="user" value="beta-user">
                             <input type="hidden" name="password" value="beta-password">
 
-                            <button type="submit">Download (11 kB)</button>
-                            <small style="margin-top: 5px; text-align: center; display: block;">Voraussetzungen: PHP >=7.4, modified 2.0.3.0 bis 3.0.0 - Zur <a href="/documentation.php#system-requirements">Installationsanleitung</a>.</small>
+                            <button type="submit">Download (14 kB)</button>
+                            <small style="margin-top: 5px; text-align: center; display: block;">Installer Version: 0.11.0 - Voraussetzungen: PHP >=7.4, modified 2.0.3.0 bis 3.1.2 - Zur <a href="/documentation.php#system-requirements">Installationsanleitung</a>.</small>
                         </form>
                     </p>
 
